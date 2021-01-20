@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Fountain
+  - PlayerSword
+  - PlayerBow
+  - Shop
+  - Stairs
+  - Enchantment
+  - Enemy
+  - ShopCanvas
+  - PauseUI
+  - EProjectiles
+  - EnchantCanvas
+  - HPText
+  - GoldText
+  - NuggetsText
+  - BarsText
+  - NuggetsDrop
+  - Collideable
+  - Door
+  - Room
+  - GoldDrop
+  - OreArrowText
+  - NormalArrowText
+  - PotionText
+  - WellCanvas
+  - Well
+  - GameManager
+  - StairsCanvas
+  - BossHPUI
+  - UICanvas
+  - DoorTrigger
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Walls
+  - Player
+  - Dropables
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI behind
+    uniqueID: 2922306715
+    locked: 0
+  - name: UI front
+    uniqueID: 234086693
+    locked: 0
+  - name: Enemies
+    uniqueID: 120252013
+    locked: 0
+  - name: Projectiles
+    uniqueID: 1817755649
+    locked: 0
+  - name: New Layer
+    uniqueID: 2372385073
+    locked: 0

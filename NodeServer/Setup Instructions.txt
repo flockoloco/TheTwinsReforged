@@ -1,0 +1,3 @@
+How to setup the local host and its database:
+* Open and run the The Twins database (make sure the database user and password are both called "root")
+* Open the cmd inside the folder and type: Node index.js

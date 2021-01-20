@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--make it rounded-->
+    <corners
+        android:radius="20dp"
+        android:topLeftRadius="20dp"
+        android:topRightRadius="20dp" />
+
+    <gradient
+        android:angle="0"
+        android:endColor="@color/holo_orange_light"
+        android:centerColor="@color/holo_orange_dark"
+        android:startColor="@color/holo_red_dark" />
+
+    <!--create invisible stroke for padding-->
+    <stroke
+        android:width="6dip"
+        android:color="@android:color/transparent"/>
+
+</shape>

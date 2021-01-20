@@ -1,0 +1,1369 @@
+fileFormatVersion: 2
+guid: 1dad8f6654d9b3043a5689a108389a0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1392503130266048442
+    second: tiles_dungeon_v1.1 1_0
+  - first:
+      213: -5723949949818355595
+    second: tiles_dungeon_v1.1 1_1
+  - first:
+      213: -1510285876487345855
+    second: tiles_dungeon_v1.1 1_2
+  - first:
+      213: 2678337759422746337
+    second: tiles_dungeon_v1.1 1_3
+  - first:
+      213: -5287089646549590141
+    second: tiles_dungeon_v1.1 1_4
+  - first:
+      213: -5558021876503672772
+    second: tiles_dungeon_v1.1 1_5
+  - first:
+      213: -2081200496111135259
+    second: tiles_dungeon_v1.1 1_6
+  - first:
+      213: 4101966062041469179
+    second: tiles_dungeon_v1.1 1_7
+  - first:
+      213: -8626961176983384862
+    second: tiles_dungeon_v1.1 1_8
+  - first:
+      213: 3077201509159692401
+    second: tiles_dungeon_v1.1 1_9
+  - first:
+      213: 6638792463587647602
+    second: tiles_dungeon_v1.1 1_10
+  - first:
+      213: 5994498865239559860
+    second: tiles_dungeon_v1.1 1_11
+  - first:
+      213: 3728102108754478021
+    second: tiles_dungeon_v1.1 1_12
+  - first:
+      213: -6717401309868834198
+    second: tiles_dungeon_v1.1 1_13
+  - first:
+      213: -4649683112895258507
+    second: tiles_dungeon_v1.1 1_14
+  - first:
+      213: 8053263512088535176
+    second: tiles_dungeon_v1.1 1_15
+  - first:
+      213: -3215676631074975277
+    second: tiles_dungeon_v1.1 1_16
+  - first:
+      213: 2519250867508717976
+    second: tiles_dungeon_v1.1 1_17
+  - first:
+      213: -2648658452339420310
+    second: tiles_dungeon_v1.1 1_18
+  - first:
+      213: 2421696888205178702
+    second: tiles_dungeon_v1.1 1_19
+  - first:
+      213: -1291339534245687707
+    second: tiles_dungeon_v1.1 1_20
+  - first:
+      213: 8689754642802512155
+    second: tiles_dungeon_v1.1 1_21
+  - first:
+      213: 3454451365525361529
+    second: tiles_dungeon_v1.1 1_22
+  - first:
+      213: 7769325328132114408
+    second: tiles_dungeon_v1.1 1_23
+  - first:
+      213: -5141840031651168722
+    second: tiles_dungeon_v1.1 1_24
+  - first:
+      213: -5549565692373210149
+    second: tiles_dungeon_v1.1 1_25
+  - first:
+      213: -1071964285750132241
+    second: tiles_dungeon_v1.1 1_26
+  - first:
+      213: -1165317611641859126
+    second: tiles_dungeon_v1.1 1_27
+  - first:
+      213: -7799250872848375979
+    second: tiles_dungeon_v1.1 1_28
+  - first:
+      213: -8661503588842919234
+    second: tiles_dungeon_v1.1 1_29
+  - first:
+      213: 5384487860276281114
+    second: tiles_dungeon_v1.1 1_30
+  - first:
+      213: -3228408006711851079
+    second: tiles_dungeon_v1.1 1_31
+  - first:
+      213: 4839593265193243733
+    second: tiles_dungeon_v1.1 1_32
+  - first:
+      213: -4916029119253001509
+    second: tiles_dungeon_v1.1 1_33
+  - first:
+      213: -7435257016013809088
+    second: tiles_dungeon_v1.1 1_34
+  - first:
+      213: 461066907126318642
+    second: tiles_dungeon_v1.1 1_35
+  - first:
+      213: 7520891474228175904
+    second: tiles_dungeon_v1.1 1_36
+  - first:
+      213: -8415231667418271396
+    second: tiles_dungeon_v1.1 1_37
+  - first:
+      213: 5039258138804949619
+    second: tiles_dungeon_v1.1 1_38
+  - first:
+      213: -1314315643680170404
+    second: tiles_dungeon_v1.1 1_39
+  - first:
+      213: 518815030667080402
+    second: tiles_dungeon_v1.1 1_40
+  - first:
+      213: 8935742532071497011
+    second: tiles_dungeon_v1.1 1_41
+  - first:
+      213: -8415531248737906870
+    second: tiles_dungeon_v1.1 1_42
+  - first:
+      213: 7168111244310159605
+    second: tiles_dungeon_v1.1 1_43
+  - first:
+      213: 1082248193551838585
+    second: tiles_dungeon_v1.1 1_44
+  - first:
+      213: 4858647772628198459
+    second: tiles_dungeon_v1.1 1_45
+  - first:
+      213: -1215122019279715551
+    second: tiles_dungeon_v1.1 1_46
+  - first:
+      213: -4978556038023611783
+    second: tiles_dungeon_v1.1 1_47
+  - first:
+      213: -9154146484267199005
+    second: tiles_dungeon_v1.1 1_48
+  - first:
+      213: -8568592338928632274
+    second: tiles_dungeon_v1.1 1_49
+  - first:
+      213: -8759423257981836791
+    second: tiles_dungeon_v1.1 1_50
+  - first:
+      213: 5589274067556578794
+    second: tiles_dungeon_v1.1 1_51
+  - first:
+      213: -2840287344289506802
+    second: tiles_dungeon_v1.1 1_52
+  - first:
+      213: -2245768327767373723
+    second: tiles_dungeon_v1.1 1_53
+  - first:
+      213: -6680347936873882888
+    second: tiles_dungeon_v1.1 1_54
+  - first:
+      213: -2466780599524889258
+    second: tiles_dungeon_v1.1 1_55
+  - first:
+      213: -3555207142367301662
+    second: tiles_dungeon_v1.1 1_56
+  - first:
+      213: 8928042904292737958
+    second: tiles_dungeon_v1.1 1_57
+  - first:
+      213: 175620218844768110
+    second: tiles_dungeon_v1.1 1_58
+  - first:
+      213: 3720713644573555589
+    second: tiles_dungeon_v1.1 1_59
+  - first:
+      213: 2122071757324471462
+    second: tiles_dungeon_v1.1 1_60
+  - first:
+      213: 5093985468928702095
+    second: tiles_dungeon_v1.1 1_61
+  - first:
+      213: -296723476887420511
+    second: tiles_dungeon_v1.1 1_62
+  - first:
+      213: -617630138847779617
+    second: tiles_dungeon_v1.1 1_63
+  - first:
+      213: 2359126150895883560
+    second: tiles_dungeon_v1.1 1_64
+  - first:
+      213: 4130111742485425932
+    second: tiles_dungeon_v1.1 1_65
+  - first:
+      213: 7273475370192106243
+    second: tiles_dungeon_v1.1 1_66
+  - first:
+      213: -617712105690027274
+    second: tiles_dungeon_v1.1 1_67
+  - first:
+      213: 5981275656707495450
+    second: tiles_dungeon_v1.1 1_68
+  - first:
+      213: -2288579404564225304
+    second: tiles_dungeon_v1.1 1_69
+  - first:
+      213: 2114775043851545754
+    second: tiles_dungeon_v1.1 1_70
+  - first:
+      213: 6432175226138036184
+    second: tiles_dungeon_v1.1 1_71
+  - first:
+      213: -1205576007662940349
+    second: tiles_dungeon_v1.1 1_72
+  - first:
+      213: -5769315673677662068
+    second: tiles_dungeon_v1.1 1_73
+  - first:
+      213: -202648041531839814
+    second: tiles_dungeon_v1.1 1_74
+  - first:
+      213: 8736877813757822522
+    second: tiles_dungeon_v1.1 1_75
+  - first:
+      213: -2553488218356078612
+    second: tiles_dungeon_v1.1 1_76
+  - first:
+      213: 5565444860132270284
+    second: tiles_dungeon_v1.1 1_77
+  - first:
+      213: -3303852727795956588
+    second: tiles_dungeon_v1.1 1_78
+  - first:
+      213: 3132735826449305684
+    second: tiles_dungeon_v1.1 1_79
+  - first:
+      213: 6696602337414203161
+    second: tiles_dungeon_v1.1 1_80
+  - first:
+      213: 1191836919430210716
+    second: tiles_dungeon_v1.1 1_81
+  - first:
+      213: 6376531585936640177
+    second: tiles_dungeon_v1.1 1_82
+  - first:
+      213: -2420812467850637731
+    second: tiles_dungeon_v1.1 1_83
+  - first:
+      213: -4895930311331008529
+    second: tiles_dungeon_v1.1 1_84
+  - first:
+      213: -3049170949451741099
+    second: tiles_dungeon_v1.1 1_85
+  - first:
+      213: 4457436529164484481
+    second: tiles_dungeon_v1.1 1_86
+  - first:
+      213: -147383078392469630
+    second: tiles_dungeon_v1.1 1_87
+  - first:
+      213: -6938853640713471042
+    second: tiles_dungeon_v1.1 1_88
+  - first:
+      213: 7188270869235744463
+    second: tiles_dungeon_v1.1 1_89
+  - first:
+      213: -649210610858085464
+    second: tiles_dungeon_v1.1 1_90
+  - first:
+      213: -6945758196433661960
+    second: tiles_dungeon_v1.1 1_91
+  - first:
+      213: 6588181249419899605
+    second: tiles_dungeon_v1.1 1_92
+  - first:
+      213: -7666995933774198712
+    second: tiles_dungeon_v1.1 1_93
+  - first:
+      213: -3754697265646070235
+    second: tiles_dungeon_v1.1 1_94
+  - first:
+      213: 6208346916441649794
+    second: tiles_dungeon_v1.1 1_95
+  - first:
+      213: -1684538849633878768
+    second: tiles_dungeon_v1.1 1_96
+  - first:
+      213: -6361972657471377302
+    second: tiles_dungeon_v1.1 1_97
+  - first:
+      213: 81907556238872931
+    second: tiles_dungeon_v1.1 1_98
+  - first:
+      213: -7596541593533531588
+    second: tiles_dungeon_v1.1 1_99
+  - first:
+      213: 4181996868957530189
+    second: tiles_dungeon_v1.1 1_100
+  - first:
+      213: -3243054460045617428
+    second: tiles_dungeon_v1.1 1_101
+  - first:
+      213: -7131956694367594623
+    second: tiles_dungeon_v1.1 1_102
+  - first:
+      213: 7089529183177239076
+    second: tiles_dungeon_v1.1 1_103
+  - first:
+      213: -8057220422635581828
+    second: tiles_dungeon_v1.1 1_104
+  - first:
+      213: -5513777559949825397
+    second: tiles_dungeon_v1.1 1_105
+  - first:
+      213: -6661429159308096799
+    second: tiles_dungeon_v1.1 1_106
+  - first:
+      213: 4795622318113559366
+    second: tiles_dungeon_v1.1 1_107
+  - first:
+      213: -5480211847798071184
+    second: tiles_dungeon_v1.1 1_108
+  - first:
+      213: 1449704066423695357
+    second: tiles_dungeon_v1.1 1_109
+  - first:
+      213: 3537169397649024947
+    second: tiles_dungeon_v1.1 1_110
+  - first:
+      213: 2508968781268759483
+    second: tiles_dungeon_v1.1 1_111
+  - first:
+      213: -8952169294845015635
+    second: tiles_dungeon_v1.1 1_112
+  - first:
+      213: -448686237371382538
+    second: tiles_dungeon_v1.1 1_113
+  - first:
+      213: -1403550113961034092
+    second: tiles_dungeon_v1.1 1_114
+  - first:
+      213: 2441465686156604528
+    second: tiles_dungeon_v1.1 1_115
+  - first:
+      213: -8527386002525524125
+    second: tiles_dungeon_v1.1 1_116
+  - first:
+      213: 7071111219052214838
+    second: tiles_dungeon_v1.1 1_117
+  - first:
+      213: 1365259322278275009
+    second: tiles_dungeon_v1.1 1_118
+  - first:
+      213: -6036333917424336616
+    second: tiles_dungeon_v1.1 1_119
+  - first:
+      213: 4348670630889885035
+    second: tiles_dungeon_v1.1 1_120
+  - first:
+      213: 7400336341206810645
+    second: tiles_dungeon_v1.1 1_121
+  - first:
+      213: 7725978360499707830
+    second: tiles_dungeon_v1.1 1_122
+  - first:
+      213: -7200386996361898064
+    second: tiles_dungeon_v1.1 1_123
+  - first:
+      213: -4894441170518990572
+    second: tiles_dungeon_v1.1 1_124
+  - first:
+      213: -7526497565041504550
+    second: tiles_dungeon_v1.1 1_125
+  - first:
+      213: 7834227094876134788
+    second: tiles_dungeon_v1.1 1_126
+  - first:
+      213: -1594174393735863039
+    second: tiles_dungeon_v1.1 1_127
+  - first:
+      213: 3275702225315232651
+    second: tiles_dungeon_v1.1 1_128
+  - first:
+      213: -4268515145003262479
+    second: tiles_dungeon_v1.1 1_129
+  - first:
+      213: 2824177323206541927
+    second: tiles_dungeon_v1.1 1_130
+  - first:
+      213: 2433196511300558571
+    second: tiles_dungeon_v1.1 1_131
+  - first:
+      213: 3510871967496529101
+    second: tiles_dungeon_v1.1 1_132
+  - first:
+      213: -5851647422103455062
+    second: tiles_dungeon_v1.1 1_133
+  - first:
+      213: -8142848920489628649
+    second: tiles_dungeon_v1.1 1_134
+  - first:
+      213: 7341990518197709589
+    second: tiles_dungeon_v1.1 1_135
+  - first:
+      213: -7945416968837558928
+    second: tiles_dungeon_v1.1 1_136
+  - first:
+      213: 6555522833690153872
+    second: tiles_dungeon_v1.1 1_137
+  - first:
+      213: 6406446792132534746
+    second: tiles_dungeon_v1.1 1_138
+  - first:
+      213: 546984685021141423
+    second: tiles_dungeon_v1.1 1_139
+  - first:
+      213: -3839505120826726106
+    second: tiles_dungeon_v1.1 1_140
+  - first:
+      213: 4972076759103113247
+    second: tiles_dungeon_v1.1 1_141
+  - first:
+      213: -6797458588878387641
+    second: tiles_dungeon_v1.1 1_142
+  - first:
+      213: 8753463176300455258
+    second: tiles_dungeon_v1.1 1_143
+  - first:
+      213: 4147640543302930239
+    second: tiles_dungeon_v1.1 1_144
+  - first:
+      213: 8108453994014832404
+    second: tiles_dungeon_v1.1 1_145
+  - first:
+      213: -4247926641437676666
+    second: tiles_dungeon_v1.1 1_146
+  - first:
+      213: -4024866471850124110
+    second: tiles_dungeon_v1.1 1_147
+  - first:
+      213: -3581676286623954728
+    second: tiles_dungeon_v1.1 1_148
+  - first:
+      213: -7949184690931997148
+    second: tiles_dungeon_v1.1 1_149
+  - first:
+      213: 8132846034638779371
+    second: tiles_dungeon_v1.1 1_150
+  - first:
+      213: -3894216055176861650
+    second: tiles_dungeon_v1.1 1_151
+  - first:
+      213: -7249067410909622869
+    second: tiles_dungeon_v1.1 1_152
+  - first:
+      213: 5687650975474078930
+    second: tiles_dungeon_v1.1 1_153
+  - first:
+      213: -5758282633040456946
+    second: tiles_dungeon_v1.1 1_154
+  - first:
+      213: 3467531534580935673
+    second: tiles_dungeon_v1.1 1_155
+  - first:
+      213: 1526576388447840202
+    second: tiles_dungeon_v1.1 1_156
+  - first:
+      213: -7395022511678723589
+    second: tiles_dungeon_v1.1 1_157
+  - first:
+      213: -5440843572460344630
+    second: tiles_dungeon_v1.1 1_158
+  - first:
+      213: -5100826012724974878
+    second: tiles_dungeon_v1.1 1_159
+  - first:
+      213: -5837863245971851349
+    second: tiles_dungeon_v1.1 1_160
+  - first:
+      213: 7168676262175739235
+    second: tiles_dungeon_v1.1 1_161
+  - first:
+      213: 7611248854507221734
+    second: tiles_dungeon_v1.1 1_162
+  - first:
+      213: -3418284077401067711
+    second: tiles_dungeon_v1.1 1_163
+  - first:
+      213: 3399118163454155785
+    second: tiles_dungeon_v1.1 1_164
+  - first:
+      213: -5336926291378231932
+    second: tiles_dungeon_v1.1 1_165
+  - first:
+      213: 2035905944741432302
+    second: tiles_dungeon_v1.1 1_166
+  - first:
+      213: 1106335365090907711
+    second: tiles_dungeon_v1.1 1_167
+  - first:
+      213: 2128149646373105222
+    second: tiles_dungeon_v1.1 1_168
+  - first:
+      213: -233140063593208598
+    second: tiles_dungeon_v1.1 1_169
+  - first:
+      213: -5709639078296865428
+    second: tiles_dungeon_v1.1 1_170
+  - first:
+      213: -2681049118543686116
+    second: tiles_dungeon_v1.1 1_171
+  - first:
+      213: 9220686690824251729
+    second: tiles_dungeon_v1.1 1_172
+  - first:
+      213: -3228420791599817306
+    second: tiles_dungeon_v1.1 1_173
+  - first:
+      213: 6170581806921932028
+    second: tiles_dungeon_v1.1 1_174
+  - first:
+      213: -64398199201090397
+    second: tiles_dungeon_v1.1 1_175
+  - first:
+      213: -8998467045046366448
+    second: tiles_dungeon_v1.1 1_176
+  - first:
+      213: 4398380411010749088
+    second: tiles_dungeon_v1.1 1_177
+  - first:
+      213: 3319481056763664664
+    second: tiles_dungeon_v1.1 1_178
+  - first:
+      213: -6571027075054947068
+    second: tiles_dungeon_v1.1 1_179
+  - first:
+      213: 4346063823708819734
+    second: tiles_dungeon_v1.1 1_180
+  - first:
+      213: -2785615843785416720
+    second: tiles_dungeon_v1.1 1_181
+  - first:
+      213: 7261287125986474745
+    second: tiles_dungeon_v1.1 1_182
+  - first:
+      213: -1077618057937717521
+    second: tiles_dungeon_v1.1 1_183
+  - first:
+      213: 4206240696769870185
+    second: tiles_dungeon_v1.1 1_184
+  - first:
+      213: 4458618349940634787
+    second: tiles_dungeon_v1.1 1_185
+  - first:
+      213: 5019579006263564934
+    second: tiles_dungeon_v1.1 1_186
+  - first:
+      213: -1606670331065862391
+    second: tiles_dungeon_v1.1 1_187
+  - first:
+      213: -4736713353816104172
+    second: tiles_dungeon_v1.1 1_188
+  - first:
+      213: -351606926786112416
+    second: tiles_dungeon_v1.1 1_189
+  - first:
+      213: 1530580134562315968
+    second: tiles_dungeon_v1.1 1_190
+  - first:
+      213: 1798544035598025630
+    second: tiles_dungeon_v1.1 1_191
+  - first:
+      213: 8224874493109339290
+    second: tiles_dungeon_v1.1 1_192
+  - first:
+      213: 7665730114162369241
+    second: tiles_dungeon_v1.1 1_193
+  - first:
+      213: 4346938619978628387
+    second: tiles_dungeon_v1.1 1_194
+  - first:
+      213: 3167383337764481539
+    second: tiles_dungeon_v1.1 1_195
+  - first:
+      213: -4798137346391142041
+    second: tiles_dungeon_v1.1 1_196
+  - first:
+      213: -1456643544615803210
+    second: tiles_dungeon_v1.1 1_197
+  - first:
+      213: -1405216848288571028
+    second: tiles_dungeon_v1.1 1_198
+  - first:
+      213: 6159204106326458722
+    second: tiles_dungeon_v1.1 1_199
+  - first:
+      213: 7246631610425198308
+    second: tiles_dungeon_v1.1 1_200
+  - first:
+      213: -4373569709702916783
+    second: tiles_dungeon_v1.1 1_201
+  - first:
+      213: -5404812297488328945
+    second: tiles_dungeon_v1.1 1_202
+  - first:
+      213: -6801503646561413543
+    second: tiles_dungeon_v1.1 1_203
+  - first:
+      213: 2663122580882828679
+    second: tiles_dungeon_v1.1 1_204
+  - first:
+      213: -6231719499658453907
+    second: tiles_dungeon_v1.1 1_205
+  - first:
+      213: -1666718922061240975
+    second: tiles_dungeon_v1.1 1_206
+  - first:
+      213: 5430885360325348984
+    second: tiles_dungeon_v1.1 1_207
+  - first:
+      213: 8407462130045159097
+    second: tiles_dungeon_v1.1 1_208
+  - first:
+      213: -7230205043713309309
+    second: tiles_dungeon_v1.1 1_209
+  - first:
+      213: -4906662782016839568
+    second: tiles_dungeon_v1.1 1_210
+  - first:
+      213: 8619808136620793947
+    second: tiles_dungeon_v1.1 1_211
+  - first:
+      213: -7307834598945392591
+    second: tiles_dungeon_v1.1 1_212
+  - first:
+      213: 1886099994992418875
+    second: tiles_dungeon_v1.1 1_213
+  - first:
+      213: 5653051149405202734
+    second: tiles_dungeon_v1.1 1_214
+  - first:
+      213: 5611191536163066203
+    second: tiles_dungeon_v1.1 1_215
+  - first:
+      213: 3150801271001482127
+    second: tiles_dungeon_v1.1 1_216
+  - first:
+      213: 4277554761674986898
+    second: tiles_dungeon_v1.1 1_217
+  - first:
+      213: -2080646776619664283
+    second: tiles_dungeon_v1.1 1_218
+  - first:
+      213: -6666377099597612320
+    second: tiles_dungeon_v1.1 1_219
+  - first:
+      213: -3893619842556191409
+    second: tiles_dungeon_v1.1 1_220
+  - first:
+      213: -2436142164474275659
+    second: tiles_dungeon_v1.1 1_221
+  - first:
+      213: 3426517754347442527
+    second: tiles_dungeon_v1.1 1_222
+  - first:
+      213: 1681393279965323240
+    second: tiles_dungeon_v1.1 1_223
+  - first:
+      213: -7964441722228839070
+    second: tiles_dungeon_v1.1 1_224
+  - first:
+      213: 2526872865417375578
+    second: tiles_dungeon_v1.1 1_225
+  - first:
+      213: 916495732391572720
+    second: tiles_dungeon_v1.1 1_226
+  - first:
+      213: -7778951504635341718
+    second: tiles_dungeon_v1.1 1_227
+  - first:
+      213: -4852074097859032877
+    second: tiles_dungeon_v1.1 1_228
+  - first:
+      213: -6168099562802598815
+    second: tiles_dungeon_v1.1 1_229
+  - first:
+      213: -7969563994574073960
+    second: tiles_dungeon_v1.1 1_230
+  - first:
+      213: 2369545481802439046
+    second: tiles_dungeon_v1.1 1_231
+  - first:
+      213: -1900463308230869667
+    second: tiles_dungeon_v1.1 1_232
+  - first:
+      213: 8972226338747835155
+    second: tiles_dungeon_v1.1 1_233
+  - first:
+      213: 508732082255386630
+    second: tiles_dungeon_v1.1 1_234
+  - first:
+      213: 8812888316819906556
+    second: tiles_dungeon_v1.1 1_235
+  - first:
+      213: -3061069376867693439
+    second: tiles_dungeon_v1.1 1_236
+  - first:
+      213: -2746394491668574365
+    second: tiles_dungeon_v1.1 1_237
+  - first:
+      213: -7543342549272266623
+    second: tiles_dungeon_v1.1 1_238
+  - first:
+      213: 7437998196878951056
+    second: tiles_dungeon_v1.1 1_239
+  - first:
+      213: 6414269552772294499
+    second: tiles_dungeon_v1.1 1_240
+  - first:
+      213: -4307584423169942956
+    second: tiles_dungeon_v1.1 1_241
+  - first:
+      213: -8663283617834756542
+    second: tiles_dungeon_v1.1 1_242
+  - first:
+      213: -3761047293633323207
+    second: tiles_dungeon_v1.1 1_243
+  - first:
+      213: 3975242588945796240
+    second: tiles_dungeon_v1.1 1_244
+  - first:
+      213: -5369543315647035617
+    second: tiles_dungeon_v1.1 1_245
+  - first:
+      213: -1782438462882225556
+    second: tiles_dungeon_v1.1 1_246
+  - first:
+      213: -8044079626471561853
+    second: tiles_dungeon_v1.1 1_247
+  - first:
+      213: -1728646353903899390
+    second: tiles_dungeon_v1.1 1_248
+  - first:
+      213: 7150321774871860722
+    second: tiles_dungeon_v1.1 1_249
+  - first:
+      213: -1223561186745418973
+    second: tiles_dungeon_v1.1 1_250
+  - first:
+      213: -794280433955237622
+    second: tiles_dungeon_v1.1 1_251
+  - first:
+      213: 3446390914197950259
+    second: tiles_dungeon_v1.1 1_252
+  - first:
+      213: 8003397625538528499
+    second: tiles_dungeon_v1.1 1_253
+  - first:
+      213: -7567131395645742244
+    second: tiles_dungeon_v1.1 1_254
+  - first:
+      213: -8183127322102679974
+    second: tiles_dungeon_v1.1 1_255
+  - first:
+      213: 2178450395248886343
+    second: tiles_dungeon_v1.1 1_256
+  - first:
+      213: -6059680511389011574
+    second: tiles_dungeon_v1.1 1_257
+  - first:
+      213: -12967305834630729
+    second: tiles_dungeon_v1.1 1_258
+  - first:
+      213: -8510092634208274109
+    second: tiles_dungeon_v1.1 1_259
+  - first:
+      213: -3780635922596597919
+    second: tiles_dungeon_v1.1 1_260
+  - first:
+      213: 4443779554009261100
+    second: tiles_dungeon_v1.1 1_261
+  - first:
+      213: 871281436834507268
+    second: tiles_dungeon_v1.1 1_262
+  - first:
+      213: 2653693568684885334
+    second: tiles_dungeon_v1.1 1_263
+  - first:
+      213: -1204101233263571851
+    second: tiles_dungeon_v1.1 1_264
+  - first:
+      213: -1895780606543579127
+    second: tiles_dungeon_v1.1 1_265
+  - first:
+      213: -6313329235208877223
+    second: tiles_dungeon_v1.1 1_266
+  - first:
+      213: 1247491979655634935
+    second: tiles_dungeon_v1.1 1_267
+  - first:
+      213: 8958944897407088082
+    second: tiles_dungeon_v1.1 1_268
+  - first:
+      213: -4505372151792560174
+    second: tiles_dungeon_v1.1 1_269
+  - first:
+      213: -8325107149774420637
+    second: tiles_dungeon_v1.1 1_270
+  - first:
+      213: -2607156102092888714
+    second: tiles_dungeon_v1.1 1_271
+  - first:
+      213: -5941082225065804298
+    second: tiles_dungeon_v1.1 1_272
+  - first:
+      213: 7103917263855434827
+    second: tiles_dungeon_v1.1 1_273
+  - first:
+      213: -6349657408924185563
+    second: tiles_dungeon_v1.1 1_274
+  - first:
+      213: -8575840014011004723
+    second: tiles_dungeon_v1.1 1_275
+  - first:
+      213: -1610638651725686254
+    second: tiles_dungeon_v1.1 1_276
+  - first:
+      213: -4758180617015282894
+    second: tiles_dungeon_v1.1 1_277
+  - first:
+      213: -4033643805352696995
+    second: tiles_dungeon_v1.1 1_278
+  - first:
+      213: 6270264937184430128
+    second: tiles_dungeon_v1.1 1_279
+  - first:
+      213: 3642552166771373899
+    second: tiles_dungeon_v1.1 1_280
+  - first:
+      213: 1195057756256781839
+    second: tiles_dungeon_v1.1 1_281
+  - first:
+      213: 1657090611460545919
+    second: tiles_dungeon_v1.1 1_282
+  - first:
+      213: -3431383032392226178
+    second: tiles_dungeon_v1.1 1_283
+  - first:
+      213: 7952116987416880223
+    second: tiles_dungeon_v1.1 1_284
+  - first:
+      213: -4411747830973147115
+    second: tiles_dungeon_v1.1 1_285
+  - first:
+      213: -4057062762695973028
+    second: tiles_dungeon_v1.1 1_286
+  - first:
+      213: -8747743792740650466
+    second: tiles_dungeon_v1.1 1_287
+  - first:
+      213: 6436906231965602290
+    second: tiles_dungeon_v1.1 1_288
+  - first:
+      213: 7418716087334896912
+    second: tiles_dungeon_v1.1 1_289
+  - first:
+      213: 8818997144888727609
+    second: tiles_dungeon_v1.1 1_290
+  - first:
+      213: -8378703330827745456
+    second: tiles_dungeon_v1.1 1_291
+  - first:
+      213: -3367570794190020617
+    second: tiles_dungeon_v1.1 1_292
+  - first:
+      213: 1358360952393503494
+    second: tiles_dungeon_v1.1 1_293
+  - first:
+      213: -8267840514205213190
+    second: tiles_dungeon_v1.1 1_294
+  - first:
+      213: 4655608652030616882
+    second: tiles_dungeon_v1.1 1_295
+  - first:
+      213: -2926378287799818804
+    second: tiles_dungeon_v1.1 1_296
+  - first:
+      213: 3685489635923937820
+    second: tiles_dungeon_v1.1 1_297
+  - first:
+      213: 7962881669588184428
+    second: tiles_dungeon_v1.1 1_298
+  - first:
+      213: -772146448873989575
+    second: tiles_dungeon_v1.1 1_299
+  - first:
+      213: 3076989833051628664
+    second: tiles_dungeon_v1.1 1_300
+  - first:
+      213: 3194028532272802950
+    second: tiles_dungeon_v1.1 1_301
+  - first:
+      213: 2324490469492940159
+    second: tiles_dungeon_v1.1 1_302
+  - first:
+      213: -4649053068656943511
+    second: tiles_dungeon_v1.1 1_303
+  - first:
+      213: 3369459572017674259
+    second: tiles_dungeon_v1.1 1_304
+  - first:
+      213: 665507029408874828
+    second: tiles_dungeon_v1.1 1_305
+  - first:
+      213: -2744904827406925941
+    second: tiles_dungeon_v1.1 1_306
+  - first:
+      213: -4214494988852782623
+    second: tiles_dungeon_v1.1 1_307
+  - first:
+      213: 3167651828412886131
+    second: tiles_dungeon_v1.1 1_308
+  - first:
+      213: -8481467909757970244
+    second: tiles_dungeon_v1.1 1_309
+  - first:
+      213: 6177075866071874292
+    second: tiles_dungeon_v1.1 1_310
+  - first:
+      213: -1470764846811933729
+    second: tiles_dungeon_v1.1 1_311
+  - first:
+      213: 516853199112197845
+    second: tiles_dungeon_v1.1 1_312
+  - first:
+      213: 2970988189147516034
+    second: tiles_dungeon_v1.1 1_313
+  - first:
+      213: 822565805566149108
+    second: tiles_dungeon_v1.1 1_314
+  - first:
+      213: -24855507477827835
+    second: tiles_dungeon_v1.1 1_315
+  - first:
+      213: 5234005352430309518
+    second: tiles_dungeon_v1.1 1_316
+  - first:
+      213: -4766191497301761508
+    second: tiles_dungeon_v1.1 1_317
+  - first:
+      213: -3211460566356422455
+    second: tiles_dungeon_v1.1 1_318
+  - first:
+      213: -5404565553657472631
+    second: tiles_dungeon_v1.1 1_319
+  - first:
+      213: 2731200121020212252
+    second: tiles_dungeon_v1.1 1_320
+  - first:
+      213: 570875269041482227
+    second: tiles_dungeon_v1.1 1_321
+  - first:
+      213: -7561568382404097526
+    second: tiles_dungeon_v1.1 1_322
+  - first:
+      213: 5257105611733553823
+    second: tiles_dungeon_v1.1 1_323
+  - first:
+      213: -7418309386411526870
+    second: tiles_dungeon_v1.1 1_324
+  - first:
+      213: -3750225391861092278
+    second: tiles_dungeon_v1.1 1_325
+  - first:
+      213: -6003426069594638843
+    second: tiles_dungeon_v1.1 1_326
+  - first:
+      213: 2239808060414420254
+    second: tiles_dungeon_v1.1 1_327
+  - first:
+      213: -8465443523487907564
+    second: tiles_dungeon_v1.1 1_328
+  - first:
+      213: -641972996743318930
+    second: tiles_dungeon_v1.1 1_329
+  - first:
+      213: 4808855626558628788
+    second: tiles_dungeon_v1.1 1_330
+  - first:
+      213: -1187185433698549300
+    second: tiles_dungeon_v1.1 1_331
+  - first:
+      213: 9198151199962327281
+    second: tiles_dungeon_v1.1 1_332
+  - first:
+      213: -4374906121433108590
+    second: tiles_dungeon_v1.1 1_333
+  - first:
+      213: -3233376056358698485
+    second: tiles_dungeon_v1.1 1_334
+  - first:
+      213: -7906694925210668451
+    second: tiles_dungeon_v1.1 1_335
+  - first:
+      213: 5930447038951921478
+    second: tiles_dungeon_v1.1 1_336
+  - first:
+      213: -7742901557174640522
+    second: tiles_dungeon_v1.1 1_337
+  - first:
+      213: 8588743861237161339
+    second: tiles_dungeon_v1.1 1_338
+  - first:
+      213: -6570433182908511754
+    second: tiles_dungeon_v1.1 1_339
+  - first:
+      213: -4383309493242434213
+    second: tiles_dungeon_v1.1 1_340
+  - first:
+      213: 5061764824370651765
+    second: tiles_dungeon_v1.1 1_341
+  - first:
+      213: 4339398319626571961
+    second: tiles_dungeon_v1.1 1_342
+  - first:
+      213: -647967978055547560
+    second: tiles_dungeon_v1.1 1_343
+  - first:
+      213: 763526672340790188
+    second: tiles_dungeon_v1.1 1_344
+  - first:
+      213: -5419544669297763022
+    second: tiles_dungeon_v1.1 1_345
+  - first:
+      213: -5931267840373694102
+    second: tiles_dungeon_v1.1 1_346
+  - first:
+      213: 5625046960024771114
+    second: tiles_dungeon_v1.1 1_347
+  - first:
+      213: 6788256692764825225
+    second: tiles_dungeon_v1.1 1_348
+  - first:
+      213: -882642317443754870
+    second: tiles_dungeon_v1.1 1_349
+  - first:
+      213: -2731041980148057095
+    second: tiles_dungeon_v1.1 1_350
+  - first:
+      213: -7343222140334526270
+    second: tiles_dungeon_v1.1 1_351
+  - first:
+      213: 8301719235471375998
+    second: tiles_dungeon_v1.1 1_352
+  - first:
+      213: -1394968807697735812
+    second: tiles_dungeon_v1.1 1_353
+  - first:
+      213: -2950299165832443296
+    second: tiles_dungeon_v1.1 1_354
+  - first:
+      213: -4912975338846349930
+    second: tiles_dungeon_v1.1 1_0
+  - first:
+      213: -3736789123109200035
+    second: tiles_dungeon_v1.1 1_1
+  - first:
+      213: -2846281106400347892
+    second: tiles_dungeon_v1.1 1_2
+  - first:
+      213: 1464659858273670004
+    second: tiles_dungeon_v1.1 1_3
+  - first:
+      213: 3967715642233504598
+    second: tiles_dungeon_v1.1 1_4
+  - first:
+      213: 6847954842642018502
+    second: tiles_dungeon_v1.1 1_5
+  - first:
+      213: 5374958961782661554
+    second: tiles_dungeon_v1.1 1_6
+  - first:
+      213: 5127787318032213556
+    second: tiles_dungeon_v1.1 1_7
+  - first:
+      213: -2533456633292660958
+    second: tiles_dungeon_v1.1 1_8
+  - first:
+      213: 5989274505187088304
+    second: tiles_dungeon_v1.1 1_9
+  - first:
+      213: -1238883155789761771
+    second: tiles_dungeon_v1.1 1_10
+  - first:
+      213: 7646680946539443908
+    second: tiles_dungeon_v1.1 1_11
+  - first:
+      213: 934691956811596247
+    second: tiles_dungeon_v1.1 1_12
+  - first:
+      213: 4260731447657565421
+    second: tiles_dungeon_v1.1 1_13
+  - first:
+      213: 5328702900708277716
+    second: tiles_dungeon_v1.1 1_14
+  - first:
+      213: -7815903867734308244
+    second: tiles_dungeon_v1.1 1_15
+  - first:
+      213: -4738435565809156549
+    second: tiles_dungeon_v1.1 1_16
+  - first:
+      213: 3122863478585457576
+    second: tiles_dungeon_v1.1 1_17
+  - first:
+      213: -2153156068752146941
+    second: tiles_dungeon_v1.1 1_18
+  - first:
+      213: 1313959919814999259
+    second: tiles_dungeon_v1.1 1_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiles_dungeon_v1.1 1_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 3
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e3d00a6f37e12e0800000000000000
+      internalID: -2153156068752146941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_dungeon_v1.1 1_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc7cadd59f1c3210800000000000000
+      internalID: 1313959919814999259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_dungeon_v1.1 1_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6951fc995fa91dbb0800000000000000
+      internalID: -4912975338846349930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_dungeon_v1.1 1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09f91af96aff78d0800000000000000
+      internalID: -2846281106400347892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_dungeon_v1.1 1_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57046f0f8d17090b0800000000000000
+      internalID: -5723949949818355595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiles_dungeon_v1.1 1_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee88e2700e5b2520800000000000000
+      internalID: 2678337759422746337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

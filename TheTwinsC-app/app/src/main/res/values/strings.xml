@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TheTwins</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="news">News</string>
+    <string name="home">Home</string>
+    <string name="Anvil">Anvil</string>
+    <string name="Inventory">Inventory</string>
+    <string name="Enchantment">Enchantment</string>
+    <string name="Menu">Menu</string>
+    <string name="Shop">Shop</string>
+    <string name="Mine">Mine</string>
+    <string name="Quit">Quit</string>
+    <string name="e_mail">E-mail</string>
+    <string name="gold">Gold</string>
+    <string name="goldValue">111</string>
+</resources>

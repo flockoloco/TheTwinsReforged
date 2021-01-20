@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ShopFragment"
+        android:title="@string/Shop"
+        android:icon="@drawable/ic_shop"/>
+    <item
+        android:id="@+id/InventoryFragment"
+        android:title="@string/Inventory"
+        android:icon="@drawable/ic_backpack"/>
+
+    <item
+        android:id="@+id/Quit"
+        android:title="@string/Quit"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"/>
+
+</menu>
