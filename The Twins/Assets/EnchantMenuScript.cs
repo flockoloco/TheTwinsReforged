@@ -79,7 +79,7 @@ public class EnchantMenuScript : MonoBehaviour
             oldArmorLvlText.text = "Lvl: " + playerstats.equippedArmor.enchantTier;
             newArmorLvlText.text = "Lvl: " + enchanttierplus1;
             
-            armorStatsText.text = "BonusHP \n +" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier].bonusHp + "  ->  +" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier + 1].bonusHp;
+            armorStatsText.text = "Bonus HP \n +" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier].bonusHp + "  ->  +" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier + 1].bonusHp;
 
             armorBuyTextBars.text = "" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier +1].price;
             armorBuyTextOres.text = "" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier +1].price * 3;
@@ -88,7 +88,7 @@ public class EnchantMenuScript : MonoBehaviour
         {
             oldArmorLvlText.text = "Lvl: Max";
             newArmorLvlText.text = "Lvl: N/A";
-            armorStatsText.text = "BonusHP \n +" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier].bonusHp + "  ->  + N/A";
+            armorStatsText.text = "Bonus HP \n +" + EquipmentClass.Enchant[playerstats.equippedArmor.enchantTier].bonusHp + "  ->  + N/A";
 
             armorBuyTextBars.text = "N/A";
             armorBuyTextOres.text = "N/A";

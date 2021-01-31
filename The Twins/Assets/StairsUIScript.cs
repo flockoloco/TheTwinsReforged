@@ -31,6 +31,7 @@ public class StairsUIScript : MonoBehaviour
         transition.SetBool("Start", true);
         stairsMenu.SetActive(false);
         yield return new WaitForSeconds(1f);
+        Debug.Log(player.GetComponent<PlayerStats>().currentLevel + 1);
         gameManager.GetComponent<StartGameScript>().GenLevel(player.GetComponent<PlayerStats>().currentLevel + 1);
         player.GetComponent<PlayerStats>().currentLevel += 1;
         transition.SetBool("Start", false);

@@ -25,4 +25,10 @@ public class RegisterMenu : MonoBehaviour
             popUp.GetComponent<DialogScript>().GiveText("Password inputs must match");
         }
     }
+    public void ClearInputs()
+    {
+        nameInput.text = "";
+        pass1Input.text = "";
+        pass2Input.text = "";
+    }
 }

@@ -60,8 +60,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (gameObject.GetComponent<PlayerStats>().shopOpen == false)
         {
-            if (Input.GetKeyDown(KeyCode.E) && gameObject.GetComponent<PlayerStats>().healthPotions >= 1)
+            if (Input.GetKeyDown(KeyCode.E))
             {
+                if ((gameObject.GetComponent<PlayerStats>().health < gameObject.GetComponent<PlayerStats>().maxHealth) && gameObject.GetComponent<PlayerStats>().healthPotions >= 1)
                 gameObject.GetComponent<PlayerStats>().UseHealthPotion();
             }
             if (Input.GetKeyDown(KeyCode.Alpha1))

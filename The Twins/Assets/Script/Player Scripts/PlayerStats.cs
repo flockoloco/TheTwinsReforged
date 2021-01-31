@@ -44,6 +44,10 @@ public class PlayerStats : MonoBehaviour
         {
             pauseMenu.ResetGame();
         }
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
         if (hit == true)
         {
             animator.SetBool("Hit", true);
@@ -84,6 +88,9 @@ public class PlayerStats : MonoBehaviour
             equippedArmor = EquipmentClass.SwordandArmor[number];
             maxHealth = baseHPAmount + equippedArmor.maxHP + EquipmentClass.Enchant[equippedArmor.enchantTier].bonusHp;
             armor = baseArmorAmount + equippedArmor.armor;
+
+            health += equippedArmor.maxHP + EquipmentClass.Enchant[equippedArmor.enchantTier].bonusHp;
+       
             if (number == 4)
             {
                 Animator animator = gameObject.GetComponent<Animator>();
@@ -126,9 +133,5 @@ public class PlayerStats : MonoBehaviour
     {
         healthPotions -= 1;
         health += maxHealth / 2;
-        if (health > maxHealth)
-        {
-            health = maxHealth;
-        }
     }
 }

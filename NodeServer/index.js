@@ -181,7 +181,7 @@ app.post('/loadRun', (req, res, next) => {
 		})
 		if (result && result.length) {
 			if ((result[0].currentLvl == 0) || (result[0].currentHP <= 0)) {
-				dbcon.query('UPDATE TheTwins.MainGame SET eSwordID = ?, eArmorID = ?, currentLvl = ?, currentHP = ?, oreArrowAmount = ?, normalArrowAmount = ?, potsAmount = ?, gold = ? WHERE UserID_FK_MainGame = ?', [0, 4, 0, 100, 0, 0, 0, 50, data.UserID], function (err, result, fields) {
+				dbcon.query('UPDATE TheTwins.MainGame SET eSwordID = ?, eArmorID = ?, currentLvl = ?, currentHP = ?, oreArrowAmount = ?, normalArrowAmount = ?, potsAmount = ?, gold = ? WHERE UserID_FK_MainGame = ?', [0, 4, 0, 100, 0, 0, 2, 50, data.UserID], function (err, result, fields) {
 					dbcon.on('error', function (err) {
 						console.log('[MYSQL ERROR]', err);
 					})
@@ -197,7 +197,7 @@ app.post('/loadRun', (req, res, next) => {
 			}
 		}
 		else {
-			dbcon.query('INSERT INTO TheTwins.MainGame (UserID_FK_MainGame,eSwordID, eArmorID, currentLvl, currentHP, oreArrowAmount, normalArrowAmount, potsAmount, gold) VALUES (?,?,?,?,?,?,?,?,?)', [data.UserID, 0, 4, 0, 100, 0, 0, 0, 50], function (err, result, fields) {
+			dbcon.query('INSERT INTO TheTwins.MainGame (UserID_FK_MainGame,eSwordID, eArmorID, currentLvl, currentHP, oreArrowAmount, normalArrowAmount, potsAmount, gold) VALUES (?,?,?,?,?,?,?,?,?)', [data.UserID, 0, 4, 0, 100, 0, 0, 2, 50], function (err, result, fields) {
 				dbcon.on('error', function (err) {
 					console.log('[MYSQL ERROR]', err);
 				})

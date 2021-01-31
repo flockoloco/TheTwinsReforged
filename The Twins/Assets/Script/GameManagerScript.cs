@@ -76,8 +76,11 @@ public class GameManagerScript : MonoBehaviour
                 playerInfo.Username = dataReceived.Username;
                 playerInfo.UserID = dataReceived.UserID;
                 logged = true;
-                GameObject.Find("CanvasChanger").GetComponent<UIPopUpScript>().CanvasSwitcher(0);
-                mainMenuCanvas.GetComponent<MainMenuScript>().StartUp();
+               
+
+                LoadRun();
+                GetBarsAndOres();
+                GetEnchants();
 
                 GameObject popUp = Instantiate(popUpPrefab, mainMenuCanvas.transform);
                 popUp.transform.position = new Vector3(popUp.transform.position.x, popUp.transform.position.y - 300, popUp.transform.position.z);
@@ -172,6 +175,10 @@ public class GameManagerScript : MonoBehaviour
     {
         PlayerStatsHolder dataReceived = JsonUtility.FromJson<PlayerStatsHolder>(data);
             statsToUse = dataReceived;
+        GameObject.Find("CanvasChanger").GetComponent<UIPopUpScript>().CanvasSwitcher(0);
+        mainMenuCanvas.GetComponent<MainMenuScript>().StartUp();
+
+
     }
     public void SaveRunInfo()
     {

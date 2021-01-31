@@ -7,9 +7,10 @@ public class LogInMenu : MonoBehaviour
     public TMP_InputField inputPass;
     public TMP_InputField inputName;
 
-    public void Start()
+    public void ClearInputs()
     {
-        
+        inputName.text = "";
+        inputPass.text = "";
     }
     public void Login()
     {
