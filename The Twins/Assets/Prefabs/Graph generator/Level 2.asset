@@ -101,7 +101,7 @@ MonoBehaviour:
   Position: {x: 216.74716, y: 599.7988}
   Name: Boss2
   IndividualRoomTemplates:
-  - {fileID: 2807161754810023863, guid: 426e1af55a374bb4b9d883224fd85a26, type: 3}
+  - {fileID: 2807161754810023863, guid: 5b4f06382254fd247a095a922fea7832, type: 3}
   RoomTemplateSets: []
 --- !u!114 &-4302789914394518375
 MonoBehaviour:
@@ -132,7 +132,7 @@ MonoBehaviour:
   Position: {x: 235.49008, y: 9.2160015}
   Name: Spawn
   IndividualRoomTemplates:
-  - {fileID: 5877759594461415012, guid: 1c4ed1cde7b72b0439d2e790aa3be951, type: 3}
+  - {fileID: 5877759594461415012, guid: 9f1b9c9242206f542861a516698971af, type: 3}
   RoomTemplateSets: []
 --- !u!114 &-1606115916587845909
 MonoBehaviour:
@@ -179,16 +179,16 @@ MonoBehaviour:
   - {fileID: 6336366798538649379, guid: 74ae36e16297da04a82be3e985c6cd47, type: 3}
   CorridorRoomTemplateSets: []
   DefaultIndividualRoomTemplates:
-  - {fileID: 8600251875759139634, guid: 8ea69dcab4956f849b3bdeb5ec5f7de3, type: 3}
-  - {fileID: 4753516775658709897, guid: 11ea98861201bbd498e6976ac7b070d0, type: 3}
-  - {fileID: 1038488521474614701, guid: 0c04d702b909a2e4fbfd0c11d12c82cf, type: 3}
-  - {fileID: 6874096849543655325, guid: bef04d29a05f402429988456f0bf0a44, type: 3}
-  - {fileID: 5175616250331333879, guid: a37a7bb4178211a419ddf46c5d52dbe1, type: 3}
-  - {fileID: 3886127930010019442, guid: 7ad5c5610081e5c4a801625d83540720, type: 3}
-  - {fileID: 8165010944940123651, guid: b72d8d7e7f68b4747ad30678b0bc5cc2, type: 3}
-  - {fileID: 3679136486845873781, guid: 69340881de9d83a41b9a0b31936ed6a0, type: 3}
-  - {fileID: 4331593908503496109, guid: 17a8537b866eb7149a66d8f8e0145289, type: 3}
-  - {fileID: 9121758027560506767, guid: 8d661322e071929429fe8e18420120c2, type: 3}
+  - {fileID: 8600251875759139634, guid: 2494344569d332f44a8712214b7ee752, type: 3}
+  - {fileID: 4753516775658709897, guid: f3cc1a6efcbd7554b80ce45bd346d1ed, type: 3}
+  - {fileID: 1038488521474614701, guid: c23dfb78a0d798143a9d832c2dd50229, type: 3}
+  - {fileID: 6874096849543655325, guid: 51fa34ef7c1f80747bf810cdfaaf2257, type: 3}
+  - {fileID: 5175616250331333879, guid: cd7672c8f1ee4304f8cc5f8607d7b8c3, type: 3}
+  - {fileID: 3886127930010019442, guid: eb9561632fd950245809207e2f63db8d, type: 3}
+  - {fileID: 8165010944940123651, guid: 1a790c37131e0fe4c8dd954df88b00e7, type: 3}
+  - {fileID: 3679136486845873781, guid: fd746e77b13d5d647bf4eca1a7109523, type: 3}
+  - {fileID: 4331593908503496109, guid: 87927859e7a55c34b8ac5ed41e9de137, type: 3}
+  - {fileID: 9121758027560506767, guid: 699de27e92f8362458edfa686cf75789, type: 3}
   DefaultRoomTemplateSets: []
   Rooms:
   - {fileID: 833199301147958147}
@@ -202,7 +202,7 @@ MonoBehaviour:
   - {fileID: 3567411032259743295}
   - {fileID: 8799567816327066804}
   EditorData:
-    PanOffset: {x: 396.4691, y: 171.89595}
+    PanOffset: {x: 394.0817, y: 51.332306}
     Zoom: 0.83773196
   RoomType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Room
   ConnectionType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Connection
@@ -279,7 +279,7 @@ MonoBehaviour:
   Position: {x: 209.0186, y: 661.169}
   Name: EndRoom
   IndividualRoomTemplates:
-  - {fileID: 546500956117125067, guid: 665702b36e94c4a4ab6156d8d528863b, type: 3}
+  - {fileID: 546500956117125067, guid: 33390fbf1e108674e8c7f5be73159bcf, type: 3}
   RoomTemplateSets: []
 --- !u!114 &5042827674017216611
 MonoBehaviour:
@@ -344,5 +344,5 @@ MonoBehaviour:
   Position: {x: 219.37776, y: 515.435}
   Name: Fountain
   IndividualRoomTemplates:
-  - {fileID: 1119717454252754409, guid: 7f7f3693f2aeca84f8b13d9dfd1481ea, type: 3}
+  - {fileID: 1119717454252754409, guid: e18dd6324d315b44ba3af37d8e9fe533, type: 3}
   RoomTemplateSets: []

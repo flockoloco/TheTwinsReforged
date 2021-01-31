@@ -15,7 +15,7 @@ MonoBehaviour:
   Position: {x: 432.36533, y: 275.01886}
   Name: Boss1
   IndividualRoomTemplates:
-  - {fileID: 2807161754810023863, guid: 5b4f06382254fd247a095a922fea7832, type: 3}
+  - {fileID: 8159004105236570786, guid: 802f7168a290e8b498f0c547dd9e2899, type: 3}
   RoomTemplateSets: []
 --- !u!114 &-7626582384544672685
 MonoBehaviour:
@@ -144,8 +144,8 @@ MonoBehaviour:
   - {fileID: -8051428142476789056}
   - {fileID: 8086047110684793075}
   EditorData:
-    PanOffset: {x: 514.4483, y: 507.20306}
-    Zoom: 0.54760844
+    PanOffset: {x: 296.3966, y: 571.2377}
+    Zoom: 0.63649696
   RoomType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Room
   ConnectionType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Connection
 --- !u!114 &1042598373133741528
