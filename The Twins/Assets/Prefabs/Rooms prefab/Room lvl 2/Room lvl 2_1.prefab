@@ -1098,7 +1098,7 @@ CompositeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3680,7 +3680,7 @@ GameObject:
   - component: {fileID: 6665276379011619871}
   - component: {fileID: 2659808060957198768}
   m_Layer: 0
-  m_Name: RoomTemplate1_1
+  m_Name: Room lvl 2_1
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

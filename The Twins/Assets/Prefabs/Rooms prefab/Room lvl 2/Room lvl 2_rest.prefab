@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5489381261863078934}
   - component: {fileID: 3190257748653031272}
   m_Layer: 0
-  m_Name: FountainRoom1
+  m_Name: Room lvl 2_rest
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3819,7 +3819,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 13
-      m_TileSpriteIndex: 11
+      m_TileSpriteIndex: 12
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3989,7 +3989,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 10
+      m_TileSpriteIndex: 11
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4048,12 +4048,12 @@ Tilemap:
     m_Data: {fileID: 8885928633811666841, guid: 96ed06bd16b55f3498e27d9b40fc113a, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 3073682024481918321, guid: 96ed06bd16b55f3498e27d9b40fc113a, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -606750636573020215, guid: 96ed06bd16b55f3498e27d9b40fc113a, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -6868056125497887486, guid: 96ed06bd16b55f3498e27d9b40fc113a, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 6460006201309206174, guid: 96ed06bd16b55f3498e27d9b40fc113a, type: 3}
   - m_RefCount: 1
@@ -4199,7 +4199,7 @@ CompositeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
