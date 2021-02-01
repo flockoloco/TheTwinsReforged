@@ -34,8 +34,8 @@ public class BulletScript : MonoBehaviour
         }
         if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "Door")
         {
-            //if (bounces >= 0)
-            //{
+            if (bounces >= 0)
+            {
                 bounces = bounces - 1;
                 Vector2 a = collision.ClosestPoint(gameObject.transform.position);
                 if (Mathf.Abs(a.x - gameObject.transform.position.x) > Mathf.Abs(a.y - gameObject.transform.position.y))
@@ -48,11 +48,11 @@ public class BulletScript : MonoBehaviour
                     gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(gameObject.GetComponent<Rigidbody2D>().velocity.x * -1, gameObject.GetComponent<Rigidbody2D>().velocity.y);
                 }
                 gameObject.GetComponent<Rigidbody2D>().velocity = gameObject.GetComponent<Rigidbody2D>().velocity * -1;
-            //}
-            /*if (bounces <= 0)
+            }
+            if (bounces <= 0)
             {
                 Destroy(gameObject);
-            }              */
+            }              
         }
     }   
 }
