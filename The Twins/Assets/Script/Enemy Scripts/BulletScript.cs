@@ -33,8 +33,12 @@ public class BulletScript : MonoBehaviour
             Destroy(gameObject);
         }
         if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "Door")
-        {
-            if (bounces >= 0)
+        {  
+            if (bounces <= 0)
+            {
+                Destroy(gameObject);
+            }
+            if (bounces >= 1)
             {
                 bounces = bounces - 1;
                 Vector2 a = collision.ClosestPoint(gameObject.transform.position);
@@ -49,10 +53,7 @@ public class BulletScript : MonoBehaviour
                 }
                 gameObject.GetComponent<Rigidbody2D>().velocity = gameObject.GetComponent<Rigidbody2D>().velocity * -1;
             }
-            if (bounces <= 0)
-            {
-                Destroy(gameObject);
-            }              
+                          
         }
     }   
 }
