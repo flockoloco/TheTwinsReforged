@@ -301,8 +301,8 @@ namespace TheTwins.Model
                     PlayerStatsHolder statstoUse = GameObject.FindWithTag("GameManager").GetComponent<GameManagerScript>().statsToUse; // getting arrow amounts
                     quiver = new List<Arrows>
                     {
-                        new Arrows("NormalArrow", "Normal", 10, 5, statstoUse.normalArrowAmount), 
-                        new Arrows("OreArrow", "Ore", 20, 1, statstoUse.oreArrowAmount) 
+                        new Arrows("NormalArrow", "Normal", 20, 5, statstoUse.normalArrowAmount), 
+                        new Arrows("OreArrow", "Ore", 40, 1, statstoUse.oreArrowAmount) 
                     };
                 }
                 return quiver;

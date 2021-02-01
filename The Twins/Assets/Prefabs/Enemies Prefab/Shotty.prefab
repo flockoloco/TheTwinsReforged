@@ -191,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atkInfos:
   - Name: 3Shotty
-    atkDuration: 3
+    atkDuration: 6
     allBullets:
     - angleDiff: 0
       shotTimer: 0.4

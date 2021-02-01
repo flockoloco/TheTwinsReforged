@@ -191,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atkInfos:
   - Name: MAchinegun
-    atkDuration: 2
+    atkDuration: 4
     allBullets:
     - angleDiff: 0
       shotTimer: 0

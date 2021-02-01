@@ -190,7 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atkInfos:
   - Name: Explosion
-    atkDuration: 1.5
+    atkDuration: 4
     allBullets:
     - angleDiff: 0
       shotTimer: 0

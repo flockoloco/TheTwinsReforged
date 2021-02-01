@@ -19,5 +19,15 @@ public class CheatScript : MonoBehaviour
             Vector3 fountain = GameObject.FindWithTag("Fountain").transform.position;
             GameObject.FindWithTag("Player").transform.position = new Vector3(fountain.x, fountain.y - 2, 0);
         }
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            playerstas = gameObject.GetComponent<PlayerStats>();
+            playerstas.health = playerstas.maxHealth;
+        }
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+             gameObject.GetComponent<PlayerMovement>().PlayerTeleport();
+        }
+
     }
 }

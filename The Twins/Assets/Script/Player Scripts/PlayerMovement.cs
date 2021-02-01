@@ -34,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
     {
         walking,
         dodging,
-        hit,
     }
 
     public State state;
@@ -65,12 +64,12 @@ public class PlayerMovement : MonoBehaviour
                 if ((gameObject.GetComponent<PlayerStats>().health < gameObject.GetComponent<PlayerStats>().maxHealth) && gameObject.GetComponent<PlayerStats>().healthPotions >= 1)
                 gameObject.GetComponent<PlayerStats>().UseHealthPotion();
             }
-            if (Input.GetKeyDown(KeyCode.Alpha1))
+            if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 gameObject.GetComponent<PlayerStats>().selectedArrow = 0;
                 UICanvas.GetComponent<UITextManager>().CheckArrow();
             }
-            else if (Input.GetKeyDown(KeyCode.Alpha2))
+            else if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 gameObject.GetComponent<PlayerStats>().selectedArrow = 1;
                 UICanvas.GetComponent<UITextManager>().CheckArrow();
@@ -118,7 +117,7 @@ public class PlayerMovement : MonoBehaviour
                     dodgeDirection = moveDirection;
                     dodgeSpeed = 40f;
                     state = State.dodging;
-                    dodgeTimer = 2f;
+                    dodgeTimer = 1.5f;
                 }
 
                 break;
@@ -146,9 +145,6 @@ public class PlayerMovement : MonoBehaviour
     {
         switch (state)
         {
-            case State.hit:
-                break;
-
             case State.walking:
                 rb.velocity = moveDirection * moveSpeed;
                 break;

@@ -191,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atkInfos:
   - Name: sniper singleshot
-    atkDuration: 1
+    atkDuration: 2
     allBullets:
     - angleDiff: 0
       shotTimer: 0

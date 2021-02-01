@@ -52,18 +52,7 @@ public class PlayerStats : MonoBehaviour
         {
             animator.SetBool("Hit", true);
             invunerable = true;
-            if (vunerableTimer == 0)
-            {
-                gameObject.GetComponent<PlayerMovement>().state = PlayerMovement.State.hit;
-            }
             vunerableTimer += Time.deltaTime;
-            if (vunerableTimer > 0.25 && vunerableTimer < 0.5)
-            {
-                if (gameObject.GetComponent<PlayerMovement>().state == PlayerMovement.State.hit)
-                {
-                    gameObject.GetComponent<PlayerMovement>().state = PlayerMovement.State.walking;
-                }
-            }
             if (vunerableTimer > 0.5)
             {
                 animator.SetBool("Hit", false);
