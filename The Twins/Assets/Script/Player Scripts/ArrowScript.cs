@@ -35,7 +35,7 @@ public class ArrowScript : MonoBehaviour
 
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity.normalized * 5, ForceMode2D.Impulse); //knocking the target towards the projectiles velocity
         }
-        else
+        else if (collision.tag == "Enemy" && collision.gameObject.GetComponent<StatsHolder>().invunerable == true)
         {
             Destroy(gameObject);
         }
