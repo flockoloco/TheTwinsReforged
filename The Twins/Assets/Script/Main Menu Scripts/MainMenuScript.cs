@@ -12,6 +12,7 @@ public class MainMenuScript : MonoBehaviour
     public GameObject popUpPrefab;
     public GameObject LevelLoader;
     public GameObject continueButton;
+    public GameObject logOutButton;
     public void StartUp()
     {
         gameManager = GameObject.FindWithTag("GameManager");
@@ -28,6 +29,7 @@ public class MainMenuScript : MonoBehaviour
         {
             Debug.Log("yo wtf");
             continueButton.SetActive(false);
+            logOutButton.SetActive(false);
         }
     }
     public void Continue()
