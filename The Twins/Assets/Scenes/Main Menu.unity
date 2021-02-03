@@ -1496,6 +1496,9 @@ MonoBehaviour:
   LevelLoader: {fileID: 1968799350}
   continueButton: {fileID: 1215740490}
   logOutButton: {fileID: 2135100604}
+  newGameButton: {fileID: 2080862427}
+  optionsButton: {fileID: 1046442314}
+  exitButton: {fileID: 1080064569}
 --- !u!1 &327654808
 GameObject:
   m_ObjectHideFlags: 0

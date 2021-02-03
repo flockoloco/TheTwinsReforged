@@ -13,6 +13,9 @@ public class MainMenuScript : MonoBehaviour
     public GameObject LevelLoader;
     public GameObject continueButton;
     public GameObject logOutButton;
+    public GameObject newGameButton;
+    public GameObject optionsButton;
+    public GameObject exitButton;
     public void StartUp()
     {
         gameManager = GameObject.FindWithTag("GameManager");
@@ -28,8 +31,12 @@ public class MainMenuScript : MonoBehaviour
         if (gameManager.GetComponent<GameManagerScript>().statsToUse.currentLvl == 0)
         {
             Debug.Log("yo wtf");
+            exitButton.transform.position = optionsButton.transform.position;
+            optionsButton.transform.position = logOutButton.transform.position;
+            
             continueButton.SetActive(false);
             logOutButton.SetActive(false);
+
         }
     }
     public void Continue()
