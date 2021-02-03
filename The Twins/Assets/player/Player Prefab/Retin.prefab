@@ -532,6 +532,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotatoFrezeto: 0
+  ArrowNormal: {fileID: 21300000, guid: 554bde03e380ace4fa1954f83dee1fde, type: 3}
+  ArrowOre: {fileID: 21300000, guid: 98c781e302418424e8802d6934258959, type: 3}
   bowTimer: 0
   arrowPrefab: {fileID: 2849815800482941593, guid: 570938687f3846846af3e99b3345ea19, type: 3}
   selectedArrow: 0

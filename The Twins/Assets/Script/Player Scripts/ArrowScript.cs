@@ -6,12 +6,31 @@ using TheTwins.Model;
 public class ArrowScript : MonoBehaviour
 {
     private int arrowDamage;
+
+
+    public Sprite ArrowNormal;
+    public Sprite ArrowOre;
+    private PlayerStats playerStats;
+
+
     public void Start()
     {
         arrowDamage = EquipmentClass.Quiver[GameObject.FindWithTag("Player").GetComponent<PlayerStats>().selectedArrow].damage;
-        //mudar sprite;
-        
+        playerStats = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
     }
+
+    private void Update()
+    {
+		if (playerStats.selectedArrow == 1)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = ArrowNormal;
+        }
+        else
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = ArrowOre;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Enemy" && collision.gameObject.GetComponent<StatsHolder>().invunerable == false)

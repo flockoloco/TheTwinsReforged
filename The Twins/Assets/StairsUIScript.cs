@@ -9,6 +9,9 @@ public class StairsUIScript : MonoBehaviour
     private GameManagerScript gameManager;
     public GameObject popUpPrefab;
 
+    public GameObject Panel1;
+    public GameObject Panel2;
+
     public Animator transition;
 
     private void Start()
@@ -60,6 +63,18 @@ public class StairsUIScript : MonoBehaviour
             popUp.GetComponent<DialogScript>().GiveText("Can't save offline");
 
         }
+    }
+
+    public void CancelQuit()
+    {
+        Panel1.gameObject.SetActive(true);
+        Panel2.gameObject.SetActive(false);
+    }
+
+    public void SaveAndQuitQuestion()
+    {
+        Panel1.gameObject.SetActive(false);
+        Panel2.gameObject.SetActive(true);
     }
 
 }

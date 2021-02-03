@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using TheTwins.Model;
 using UnityEngine;
-using TheTwins.Model;
 
 public class BowScript : MonoBehaviour
 {
@@ -16,20 +14,18 @@ public class BowScript : MonoBehaviour
     private Animator bowAnimator;
 
     private Vector2 mouseDirection;
-    
 
     public float bowTimer;
     public GameObject arrowPrefab;
-    public int selectedArrow = 0; //0 = normal 1 = ore arrows
+    public int selectedArrow = 0; //0 = ore arrows 1 = normal 
 
-
-    void Awake()
+    private void Awake()
     {
         cam = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         player = GameObject.FindWithTag("Player");
         bowAnimator = GetComponent<Animator>();
     }
- 
+
     private void Update()
     {
         bowTimer += Time.deltaTime;
@@ -48,7 +44,8 @@ public class BowScript : MonoBehaviour
             }
         }
     }
-    void FixedUpdate()
+
+    private void FixedUpdate()
     {
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         playerPos = player.transform.position;
@@ -58,9 +55,10 @@ public class BowScript : MonoBehaviour
         {
             bowrotatorotato = Mathf.Atan2(mouseDir.y, mouseDir.x) * Mathf.Rad2Deg;
             gameObject.transform.rotation = Quaternion.Euler(0, 0, bowrotatorotato);
-            gameObject.transform.position = new Vector3(finalvector.x/2 + playerPos.x, finalvector.y/2 + playerPos.y - 0.25f, 0);
+            gameObject.transform.position = new Vector3(finalvector.x / 2 + playerPos.x, finalvector.y / 2 + playerPos.y - 0.25f, 0);
         }
     }
+
     public void SpawnArrow()
     {
         Vector2 direction = -UsefulllFs.Dir(mouseDirection, transform.parent.gameObject.transform.position, true);
@@ -68,7 +66,7 @@ public class BowScript : MonoBehaviour
         GameObject arrow = Instantiate(arrowPrefab, transform.position, transform.rotation);
         arrow.GetComponent<Rigidbody2D>().velocity = direction * arrowSpeed;
     }
-    
+
     public void StopBowAnimation()
     {
         bowAnimator.SetBool("Fire", false);

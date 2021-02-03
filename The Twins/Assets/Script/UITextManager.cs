@@ -17,6 +17,8 @@ public class UITextManager : MonoBehaviour
     public GameObject normalArrowUI;
     public GameObject oreArrowUI;
 
+  
+
     public GameObject BossUI;
     void Start()
     {
@@ -52,7 +54,7 @@ public class UITextManager : MonoBehaviour
 
             oreArrowUI.GetComponent<RectTransform>().localPosition = new Vector3(-22f, 93.5f, 0);
             oreArrowUI.GetComponent<RectTransform>().localScale = new Vector3(1.5f,1.5f,1);
-        
+          
         }
         else
         {
@@ -61,7 +63,7 @@ public class UITextManager : MonoBehaviour
 
             oreArrowUI.GetComponent<RectTransform>().localPosition = new Vector3(-52.0999985f, 103.5f, 0);
             oreArrowUI.GetComponent<RectTransform>().localScale = new Vector3(1, 1, 1);
-
+     
         }
     }
     public void EnteredABossRoom(GameObject BossObject)
