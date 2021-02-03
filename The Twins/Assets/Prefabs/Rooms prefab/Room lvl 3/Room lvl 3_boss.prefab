@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5171392801318342901}
   - component: {fileID: 536217942300315958}
   m_Layer: 0
-  m_Name: BossRoom3
+  m_Name: Room lvl 3_boss
   m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,8 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23ef13b3bdbb24544bacd2e1c51daea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemiesInside:
-  - {fileID: 0}
+  enemiesInside: []
   playerInside: 0
   DoorList: []
 --- !u!61 &536217942300315958
