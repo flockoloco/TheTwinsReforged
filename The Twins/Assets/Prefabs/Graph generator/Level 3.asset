@@ -117,20 +117,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   From: {fileID: -4512836621627776407}
   To: {fileID: -1606115916587845909}
---- !u!114 &-3262017696055554199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f692f83df7c1b5468af64edd22287dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  From: {fileID: 3567411032259743295}
-  To: {fileID: 3601983942329018051}
 --- !u!114 &-2105093263561637967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,7 +172,6 @@ MonoBehaviour:
   - {fileID: -8953610614436347969}
   - {fileID: -5033114781019185099}
   - {fileID: -7075961148550240023}
-  - {fileID: -3262017696055554199}
   CorridorIndividualRoomTemplates:
   - {fileID: 5416963717307959135, guid: 0bedb8c3024e8a84ba88787be24f12c8, type: 3}
   - {fileID: 4374557940119921305, guid: ca13119ecde9ec042bca845c04b82e7d, type: 3}
@@ -216,10 +201,9 @@ MonoBehaviour:
   - {fileID: -4359935991497154886}
   - {fileID: 3567411032259743295}
   - {fileID: 8799567816327066804}
-  - {fileID: 3601983942329018051}
   EditorData:
-    PanOffset: {x: 93.45984, y: -458.89957}
-    Zoom: 1.2138501
+    PanOffset: {x: 177.42099, y: 178.27074}
+    Zoom: 0.8851941
   RoomType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Room
   ConnectionType: ProceduralLevelGenerator.Unity.Generators.Common.LevelGraph.Connection
 --- !u!114 &269737026257367962
@@ -296,23 +280,6 @@ MonoBehaviour:
   Name: EndRoom
   IndividualRoomTemplates:
   - {fileID: 546500956117125067, guid: d75471ccd9f2d11499900756c6482bac, type: 3}
-  RoomTemplateSets: []
---- !u!114 &3601983942329018051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8074dc491ddc34f4e83332d9eae76980, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Position: {x: 232.31845, y: 781.4916}
-  Name: Room
-  IndividualRoomTemplates:
-  - {fileID: 1961225449259024768, guid: 76279b785618f0541ace94a36ef7f589, type: 3}
   RoomTemplateSets: []
 --- !u!114 &5042827674017216611
 MonoBehaviour:
