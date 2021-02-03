@@ -16,12 +16,7 @@ public class ArrowScript : MonoBehaviour
     public void Start()
     {
         arrowDamage = EquipmentClass.Quiver[GameObject.FindWithTag("Player").GetComponent<PlayerStats>().selectedArrow].damage;
-        playerStats = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
-    }
-
-    private void Update()
-    {
-		if (playerStats.selectedArrow == 1)
+        if (GameObject.FindWithTag("Player").GetComponent<PlayerStats>().selectedArrow == 1)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = ArrowNormal;
         }
@@ -29,8 +24,8 @@ public class ArrowScript : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = ArrowOre;
         }
+        playerStats = GameObject.FindWithTag("Player").GetComponent<PlayerStats>();
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Enemy" && collision.gameObject.GetComponent<StatsHolder>().invunerable == false)
@@ -39,6 +34,9 @@ public class ArrowScript : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.right * 0; //reseting velocity right before doing the knockback
 
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity.normalized * 5, ForceMode2D.Impulse); //knocking the target towards the projectiles velocity
+        }
+        else
+        {
             Destroy(gameObject);
         }
         if (collision.tag == "Wall")

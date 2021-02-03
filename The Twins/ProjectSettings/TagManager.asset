@@ -35,6 +35,8 @@ TagManager:
   - BossHPUI
   - UICanvas
   - DoorTrigger
+  - Altar
+  - AltarCanvas
   layers:
   - Default
   - TransparentFX
