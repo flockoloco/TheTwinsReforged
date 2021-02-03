@@ -14,6 +14,7 @@ public class StartGameScript : MonoBehaviour
     public GameObject shopCanvas;
     public GameObject enchantCanvas;
     public GameObject stairsCanvas;
+    public GameObject altarCanvas;
 
     //add fountainCanvas if we add a canvas for it
 
@@ -42,6 +43,7 @@ public class StartGameScript : MonoBehaviour
         shopCanvas = GameObject.FindWithTag("ShopCanvas");
         enchantCanvas = GameObject.FindWithTag("EnchantCanvas");
         stairsCanvas = GameObject.FindWithTag("StairsCanvas");
+        altarCanvas = GameObject.FindWithTag("AltarCanvas");
 
         playerStats.nuggets = managerScript.playerCurrency.Ores; //getting both permanent currencies
         playerStats.bars = managerScript.playerCurrency.Bars;
@@ -92,10 +94,6 @@ public class StartGameScript : MonoBehaviour
             Debug.Log("trying to gen a lvl 3");
             var lvl2gen = GameObject.Find("Level3Generator").GetComponent<DungeonGenerator>();
             lvl2gen.Generate();
-        }
-        else if(levelnumber >= 3)
-        {
-            Debug.Log("Fim do jogo , perdeu mas ganhou");
         }
 
         playerStats.shopOpen = false; //making sure camera doesnt get stuck on stairs
