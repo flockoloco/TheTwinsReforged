@@ -1495,7 +1495,6 @@ MonoBehaviour:
   popUpPrefab: {fileID: 4680473325387187772, guid: b6f9f96fd851bd6408b6ed5accc3f028, type: 3}
   LevelLoader: {fileID: 1968799350}
   continueButton: {fileID: 1215740490}
-  logOutButton: {fileID: 2135100604}
 --- !u!1 &327654808
 GameObject:
   m_ObjectHideFlags: 0
@@ -72943,7 +72942,6 @@ MonoBehaviour:
   shopCanvas: {fileID: 0}
   enchantCanvas: {fileID: 0}
   stairsCanvas: {fileID: 0}
-  altarCanvas: {fileID: 0}
 --- !u!1 &1680236735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 189359499334434990, guid: e81fbe11db3f5504cb71510574b88f2a, type: 3}
