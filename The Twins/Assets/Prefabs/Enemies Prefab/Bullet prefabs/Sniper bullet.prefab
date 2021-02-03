@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9114137036598379447}
   - component: {fileID: 320372209428733065}
   - component: {fileID: 2719247020750002081}
+  - component: {fileID: 798626905801004853}
   m_Layer: 0
   m_Name: Sniper bullet
   m_TagString: EProjectiles
@@ -111,7 +112,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 12fc4c35803ce594ea519014af16862e, type: 3}
+  m_Sprite: {fileID: -2346302928887187388, guid: c19c064af5e406348ae7022004ccf9e2, type: 3}
   m_Color: {r: 1, g: 0.33686104, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,3 +136,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounces: 1
+--- !u!95 &798626905801004853
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2487845955760416350}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aff7d227c493b034ba2d5d059ca1d014, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

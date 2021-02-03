@@ -56,8 +56,8 @@ MonoBehaviour:
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
-  m_PointLightInnerAngle: 160
-  m_PointLightOuterAngle: 235
+  m_PointLightInnerAngle: 268.51
+  m_PointLightOuterAngle: 318.64
   m_PointLightInnerRadius: 3
   m_PointLightOuterRadius: 3.5
   m_PointLightDistance: 3
