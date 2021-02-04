@@ -9,6 +9,7 @@ public class Boss1Ai : MonoBehaviour
     private readonly float agroDist = 4;
     private float bulletTimer;
     public Transform FirePoint;
+    public Transform Pivot;
     public bool triggered;
 
     private float currentAttackDuration;
@@ -52,7 +53,8 @@ public class Boss1Ai : MonoBehaviour
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
                     }
-                        rigidbody.rotation = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
+                    Quaternion rotatoBoss = Quaternion.Euler(0, 0, Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg);
+                    Pivot.transform.rotation = rotatoBoss;
                     if (UsefulllFs.Dist(playerPos, transform.position) < agroDist) // movement part
                     {
                         
@@ -73,7 +75,8 @@ public class Boss1Ai : MonoBehaviour
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(1);
                     }
-                    rigidbody.rotation = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
+                    Quaternion rotatoBoss = Quaternion.Euler(0, 0, Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg);
+                    Pivot.transform.rotation = rotatoBoss;
 
                     if (UsefulllFs.Dist(playerPos, transform.position) > agroDist/1.5)//movement part
                     {

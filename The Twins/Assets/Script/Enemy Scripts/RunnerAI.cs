@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class RunnerAI : MonoBehaviour
 {
@@ -40,7 +41,6 @@ public class RunnerAI : MonoBehaviour
             }
             else //attacking cuz hes far away enough
             {
-
                 rigidbody.velocity = new Vector2(0, 0);
 
                 Vector2 direction = -playerDir;
