@@ -276,10 +276,10 @@ namespace TheTwins.Model
                     EnchantTierHolder enchantTier = new EnchantTierHolder();
                     enchantTier = GameObject.FindWithTag("GameManager").GetComponent<GameManagerScript>().enchantTierHolder; //busca da database
 
-                    swordandArmor.Add(new SwordAndArmor("Wooden sword", 15, 1.5f, 0, enchantTier.e0tier, 0));
-                    swordandArmor.Add(new SwordAndArmor("Iron sword", 25, 2f, 20, enchantTier.e1tier, 1));
-                    swordandArmor.Add(new SwordAndArmor("Gold sword", 20, 1f, 40, enchantTier.e2tier, 2));
-                    swordandArmor.Add(new SwordAndArmor("Diamond sword", 35, 1f, 100, enchantTier.e3tier, 3));
+                    swordandArmor.Add(new SwordAndArmor("Wooden sword", 15, 1.1f, 0, enchantTier.e0tier, 0));
+                    swordandArmor.Add(new SwordAndArmor("Iron sword", 20, 0.9f, 20, enchantTier.e1tier, 1));
+                    swordandArmor.Add(new SwordAndArmor("Gold sword", 25, 0.7f, 40, enchantTier.e2tier, 2));
+                    swordandArmor.Add(new SwordAndArmor("Diamond sword", 35, 0.5f, 100, enchantTier.e3tier, 3));
 
                     swordandArmor.Add(new SwordAndArmor("Wooden armor", 0, 0, 0, enchantTier.e4tier, 4));
                     swordandArmor.Add(new SwordAndArmor("Iron armor", 0, 20, 20, enchantTier.e5tier, 5));
@@ -301,8 +301,8 @@ namespace TheTwins.Model
                     PlayerStatsHolder statstoUse = GameObject.FindWithTag("GameManager").GetComponent<GameManagerScript>().statsToUse; // getting arrow amounts
                     quiver = new List<Arrows>
                     {
-                        new Arrows("NormalArrow", "Normal", 20, 5, statstoUse.normalArrowAmount), 
-                        new Arrows("OreArrow", "Ore", 40, 1, statstoUse.oreArrowAmount) 
+                        new Arrows("NormalArrow", "Normal", 40, 5, statstoUse.normalArrowAmount), 
+                        new Arrows("OreArrow", "Ore", 20, 1, statstoUse.oreArrowAmount) 
                     };
                 }
                 return quiver;
