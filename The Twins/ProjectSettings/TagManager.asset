@@ -37,6 +37,8 @@ TagManager:
   - DoorTrigger
   - Altar
   - AltarCanvas
+  - NpcCanvas
+  - Npc
   layers:
   - Default
   - TransparentFX

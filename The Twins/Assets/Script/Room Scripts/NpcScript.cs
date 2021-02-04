@@ -1,19 +1,19 @@
 ﻿using UnityEngine;
 
-public class StairsScript : MonoBehaviour
+public class NpcScript : MonoBehaviour
 {
     public bool playerInside;
     private bool used = false;
     private GameObject player;
     private PlayerMovement playerMovement;
-    public GameObject StairsCanvas;
+    public GameObject NpcCanvas;
     private bool readyToDisable = false;
 
     private void Start()
     {
-        StairsCanvas = GameObject.FindWithTag("GameManager").GetComponent<StartGameScript>().stairsCanvas;
+        NpcCanvas = GameObject.FindWithTag("GameManager").GetComponent<StartGameScript>().npcCanvas;
         player = GameObject.FindWithTag("Player");
-        playerMovement = player.GetComponent<PlayerMovement>(); 
+        playerMovement = player.GetComponent<PlayerMovement>();
     }
 
     private void Update()
@@ -32,7 +32,7 @@ public class StairsScript : MonoBehaviour
     }
     public void Deinteract()
     {
-        StairsCanvas.SetActive(false);
+        NpcCanvas.SetActive(false);
     }
     public void Interact()
     {
@@ -40,16 +40,8 @@ public class StairsScript : MonoBehaviour
         {
             used = true;
 
-            StairsCanvas.SetActive(true);
-            Debug.Log("activating panel");
-            StairsCanvas.GetComponent<StairsUIScript>().Activate();
-            Debug.Log("setting active");
-
-
-
-            //GEN LVL USING CURRENT LVL
-
-
+            NpcCanvas.SetActive(true);
+            NpcCanvas.GetComponent<AltarandTutorialUIScript>().Activate();
         }
     }
 }

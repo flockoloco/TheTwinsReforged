@@ -15,6 +15,7 @@ public class StartGameScript : MonoBehaviour
     public GameObject enchantCanvas;
     public GameObject stairsCanvas;
     public GameObject altarCanvas;
+    public GameObject npcCanvas;
 
     //add fountainCanvas if we add a canvas for it
 
@@ -44,7 +45,7 @@ public class StartGameScript : MonoBehaviour
         enchantCanvas = GameObject.FindWithTag("EnchantCanvas");
         stairsCanvas = GameObject.FindWithTag("StairsCanvas");
         altarCanvas = GameObject.FindWithTag("AltarCanvas");
-
+        npcCanvas = GameObject.FindWithTag("NpcCanvas");
 
         playerStats.nuggets = managerScript.playerCurrency.Ores; //getting both permanent currencies
         playerStats.bars = managerScript.playerCurrency.Bars;
@@ -73,28 +74,34 @@ public class StartGameScript : MonoBehaviour
     public void GenLevel(int levelnumber)
     {
         player.transform.position = new Vector3(10000, 0, 0); //making sure the player isnt inside a room when generating
-
-        if (levelnumber == 0) //selecting lvl to gen
+        
+        if ( levelnumber == 0)//selecting lvl to gen
+        {
+            Debug.Log("trying to gen a lvl 0");
+            var lvl0gen = GameObject.Find("tutorialGenerator").GetComponent<DungeonGenerator>();
+            lvl0gen.Generate();
+        }
+        else if (levelnumber == 1) 
         {
 
             Debug.Log("trying to gen a lvl 1");
-            var lvl0gen = GameObject.Find("Level1Generator").GetComponent<DungeonGenerator>();
-            lvl0gen.Generate();
-        }
-        else if (levelnumber == 1)
-        {
-
-            Debug.Log("trying to gen a lvl 2");
-            var lvl1gen = GameObject.Find("Level2Generator").GetComponent<DungeonGenerator>();
+            var lvl1gen = GameObject.Find("Level1Generator").GetComponent<DungeonGenerator>();
             lvl1gen.Generate();
-
         }
         else if (levelnumber == 2)
         {
 
-            Debug.Log("trying to gen a lvl 3");
-            var lvl2gen = GameObject.Find("Level3Generator").GetComponent<DungeonGenerator>();
+            Debug.Log("trying to gen a lvl 2");
+            var lvl2gen = GameObject.Find("Level2Generator").GetComponent<DungeonGenerator>();
             lvl2gen.Generate();
+
+        }
+        else if (levelnumber == 3)
+        {
+
+            Debug.Log("trying to gen a lvl 3");
+            var lvl3gen = GameObject.Find("Level3Generator").GetComponent<DungeonGenerator>();
+            lvl3gen.Generate();
         }
 
         playerStats.shopOpen = false; //making sure camera doesnt get stuck on stairs

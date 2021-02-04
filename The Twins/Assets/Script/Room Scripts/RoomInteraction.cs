@@ -53,6 +53,10 @@ public class RoomInteraction : MonoBehaviour
             {
                 gameObject.GetComponent<AltarScript>().playerInside = true;
             }
+            else if (gameObject.tag == "Npc")
+            {
+                gameObject.GetComponent<NpcScript>().playerInside = true;
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -85,6 +89,10 @@ public class RoomInteraction : MonoBehaviour
             else if (gameObject.tag == "Altar")
             {
                 gameObject.GetComponent<AltarScript>().playerInside = false;
+            }
+            else if (gameObject.tag == "Npc")
+            {
+                gameObject.GetComponent<NpcScript>().playerInside = false;
             }
         }
     }

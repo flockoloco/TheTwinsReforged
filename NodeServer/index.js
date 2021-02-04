@@ -7,10 +7,10 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 dbcon = mysql.createConnection({
-	host: 'localhost',
-	user: 'root',
-	password: 'root',
-	database: 'TheTwins'
+	host: 'hostingmysql335.amen.pt',
+	user: 'TheTwinsGeneral',
+	password: 'MnpJ8sK1%?a',
+	database: 'thetwins'
 });
 
 dbcon.connect(function (err) {

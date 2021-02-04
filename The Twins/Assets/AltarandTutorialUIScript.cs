@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class AltarUIScript : MonoBehaviour
+public class AltarandTutorialUIScript : MonoBehaviour
 {
     public GameObject player;
     public GameObject altarMenu;
@@ -34,5 +34,9 @@ public class AltarUIScript : MonoBehaviour
         gameManager.GetComponent<GameManagerScript>().logged = false;
         SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1f;
+    }
+    public void SkipTutorial()
+    {
+        player.transform.position = new Vector3(GameObject.Find("StairsPrefab").transform.position.x, GameObject.Find("StairsPrefab").transform.position.y - 3, 0);
     }
 }

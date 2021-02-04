@@ -7,6 +7,8 @@ public class DropableScript : MonoBehaviour
     public int thisValue;
     public GameObject player;
 
+    public float despawnTimer = 20;
+
     public void Value(int value)
     {
         thisValue = value;
@@ -36,6 +38,10 @@ public class DropableScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        despawnTimer -= Time.deltaTime;
+        if (despawnTimer < 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

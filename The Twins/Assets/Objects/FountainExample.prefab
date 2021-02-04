@@ -237,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   normalSprite: {fileID: 3205863410076588849, guid: 8f9a9836e5f5cb743a2768875d2b4f91, type: 3}
-  glowSprite: {fileID: 3205863410076588849, guid: 8f9a9836e5f5cb743a2768875d2b4f91, type: 3}
+  glowSprite: {fileID: 21300000, guid: bd3010a2e7c6188449a5bbd90286859d, type: 3}
   spriteRenderer: {fileID: 7758780687407827850}
   ableToInteract: 1
 --- !u!114 &1993491639593689115

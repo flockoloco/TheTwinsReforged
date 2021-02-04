@@ -41,7 +41,7 @@ public class AltarScript : MonoBehaviour
             used = true;
 
             AltarCanvas.SetActive(true);
-            AltarCanvas.GetComponent<AltarUIScript>().Activate();
+            AltarCanvas.GetComponent<AltarandTutorialUIScript>().Activate();
         }
     }
 }
