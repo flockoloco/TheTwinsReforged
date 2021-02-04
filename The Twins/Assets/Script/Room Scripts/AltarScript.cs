@@ -39,6 +39,8 @@ public class AltarScript : MonoBehaviour
         if (used == false)
         {
             used = true;
+            GameObject.FindWithTag("Player").GetComponent<PlayerStats>().shopOpen = true;
+            GameObject.FindWithTag("MainCamera").GetComponent<cameramovement>().SetUpWayPoint(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3, -10));
 
             AltarCanvas.SetActive(true);
             AltarCanvas.GetComponent<AltarandTutorialUIScript>().Activate();

@@ -16,6 +16,8 @@ public class StartGameScript : MonoBehaviour
     public GameObject stairsCanvas;
     public GameObject altarCanvas;
     public GameObject npcCanvas;
+    public GameObject fountainCanvas;
+
 
     //add fountainCanvas if we add a canvas for it
 
@@ -46,6 +48,7 @@ public class StartGameScript : MonoBehaviour
         stairsCanvas = GameObject.FindWithTag("StairsCanvas");
         altarCanvas = GameObject.FindWithTag("AltarCanvas");
         npcCanvas = GameObject.FindWithTag("NpcCanvas");
+        fountainCanvas = GameObject.FindWithTag("FountainCanvas");
 
         playerStats.nuggets = managerScript.playerCurrency.Ores; //getting both permanent currencies
         playerStats.bars = managerScript.playerCurrency.Bars;

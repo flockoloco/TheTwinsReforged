@@ -21,6 +21,7 @@ public class StairsScript : MonoBehaviour
         if (playerInside && Input.GetKey(KeyCode.E))
         {
             readyToDisable = true;
+
             Interact();
         }
         if (playerInside == false && readyToDisable)
@@ -41,6 +42,8 @@ public class StairsScript : MonoBehaviour
             used = true;
 
             StairsCanvas.SetActive(true);
+            GameObject.FindWithTag("Player").GetComponent<PlayerStats>().shopOpen = true;
+            GameObject.FindWithTag("MainCamera").GetComponent<cameramovement>().SetUpWayPoint(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3, -10));
             Debug.Log("activating panel");
             StairsCanvas.GetComponent<StairsUIScript>().Activate();
             Debug.Log("setting active");

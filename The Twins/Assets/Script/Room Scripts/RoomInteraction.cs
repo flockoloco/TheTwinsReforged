@@ -19,19 +19,14 @@ public class RoomInteraction : MonoBehaviour
     {
         if (collision.tag == "Player" && ableToInteract == true)
         {
-            GameObject.FindWithTag("Player").GetComponent<PlayerStats>().shopOpen = true;
-
-
-
-
-            GameObject.FindWithTag("MainCamera").GetComponent<cameramovement>().SetUpWayPoint(new Vector3(gameObject.transform.position.x,gameObject.transform.position.y + 3,-10));
-
 
             ableToInteract = false;
             spriteRenderer.sprite = glowSprite;
             if (gameObject.tag == "Shop")
             {
                 gameObject.GetComponent<ShopScript>().playerInside = true;
+                GameObject.FindWithTag("Player").GetComponent<PlayerStats>().shopOpen = true;
+                GameObject.FindWithTag("MainCamera").GetComponent<cameramovement>().SetUpWayPoint(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3, -10));
             }
             else if (gameObject.tag == "Fountain")
             {
@@ -44,10 +39,14 @@ public class RoomInteraction : MonoBehaviour
             else if (gameObject.tag == "Enchantment")
             {
                 gameObject.GetComponent<EnchantsScript>().playerInside = true;
+                GameObject.FindWithTag("Player").GetComponent<PlayerStats>().shopOpen = true;
+                GameObject.FindWithTag("MainCamera").GetComponent<cameramovement>().SetUpWayPoint(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3, -10));
             }
             else if (gameObject.tag == "Well")
             {
                 gameObject.GetComponent<WellScript>().playerInside = true;
+                GameObject.FindWithTag("Player").GetComponent<PlayerStats>().shopOpen = true;
+                GameObject.FindWithTag("MainCamera").GetComponent<cameramovement>().SetUpWayPoint(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3, -10));
             }
             else if (gameObject.tag == "Altar")
             {

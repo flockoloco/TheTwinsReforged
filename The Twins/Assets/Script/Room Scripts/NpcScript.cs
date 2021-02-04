@@ -38,6 +38,8 @@ public class NpcScript : MonoBehaviour
     {
         if (used == false)
         {
+            GameObject.FindWithTag("Player").GetComponent<PlayerStats>().shopOpen = true;
+            GameObject.FindWithTag("MainCamera").GetComponent<cameramovement>().SetUpWayPoint(new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3, -10));
             used = true;
 
             NpcCanvas.SetActive(true);

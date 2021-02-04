@@ -39,6 +39,7 @@ TagManager:
   - AltarCanvas
   - NpcCanvas
   - Npc
+  - FountainCanvas
   layers:
   - Default
   - TransparentFX

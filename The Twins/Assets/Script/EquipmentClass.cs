@@ -276,10 +276,10 @@ namespace TheTwins.Model
                     EnchantTierHolder enchantTier = new EnchantTierHolder();
                     enchantTier = GameObject.FindWithTag("GameManager").GetComponent<GameManagerScript>().enchantTierHolder; //busca da database
 
-                    swordandArmor.Add(new SwordAndArmor("Wooden sword", 15, 1.1f, 0, enchantTier.e0tier, 0));
-                    swordandArmor.Add(new SwordAndArmor("Iron sword", 20, 0.9f, 20, enchantTier.e1tier, 1));
-                    swordandArmor.Add(new SwordAndArmor("Gold sword", 25, 0.7f, 40, enchantTier.e2tier, 2));
-                    swordandArmor.Add(new SwordAndArmor("Diamond sword", 35, 0.5f, 100, enchantTier.e3tier, 3));
+                    swordandArmor.Add(new SwordAndArmor("Wooden sword", 15, 1f, 0, enchantTier.e0tier, 0));
+                    swordandArmor.Add(new SwordAndArmor("Iron sword", 20, 1f, 20, enchantTier.e1tier, 1));
+                    swordandArmor.Add(new SwordAndArmor("Gold sword", 25, 0.8f, 40, enchantTier.e2tier, 2));
+                    swordandArmor.Add(new SwordAndArmor("Diamond sword", 35, 0.6f, 100, enchantTier.e3tier, 3));
 
                     swordandArmor.Add(new SwordAndArmor("Wooden armor", 0, 0, 0, enchantTier.e4tier, 4));
                     swordandArmor.Add(new SwordAndArmor("Iron armor", 0, 20, 20, enchantTier.e5tier, 5));
