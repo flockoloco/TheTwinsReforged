@@ -83721,6 +83721,92 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1438232300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438232302}
+  - component: {fileID: 1438232301}
+  m_Layer: 0
+  m_Name: A* pathfinding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1438232301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438232300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAAAAIexC54MkegIAAB0FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWxjTG4txYI6SEfE9rJxRfZWrAGIXkkOUAy/PeuZBu79IR4u/v09u3KX4RLU0Fhld5ozp4UA/J9RNyZfBv1wUc4072SW/4JXc47Z7Z0SdTnvFHLFeKhKzPqCFbz4ofcC5ccIFhLvlP6uGZ7WCpjDcI7KgxgSCvrqiVCXyNyxp9x6koueIrm7vSJpzQYXfFYgLSgB6nzSRKl0zSeTdfjIGnLxrPJLE3j+RyxeUswDifBNI7iRRKvx2Hk2WpZCHqsgLnWetJwEbdEYRz7RIlttzmuxUIJwU2rmdhL5T1Z0srU2DEmME7RAy80nEwRKIHvS+s6Gpa/7HYGbGuRppcV12hmw0t+qsbhIzWHRtsHFbW7KZolXlVD+vRffBz68E6r42N3bxi4O2zJi8MbvRTU2MEIhvBqIN1bdKLiQHMB7yXIZ7XRqpYMg1bXrrQ2EK36v7fWliUUhx5vpN6BddV73k28mzeO++qbPy8FP+YOmcQNsBXKG+63BDSO5hfq9TtkWgZEnYg/Bn7T/XDZ2sAD18ZiqG1SOnW5qrVLJWtvmWumtkulJXi41VyBpMJeXpHG3k/wLja49i7yQN2zai9vY91ruSvxcJ8fBHehV3W6zcqU6vQEpnypreASetEu8Iw+LZWUzYINPenKtrXe0WJQtq85+3ezCACL5tMwyWdRPsvTYhywfDGlyTRNGNBFkhO/elxin1S8NkJbe3BqsieXuGbd12a00bTyy840PW3451ENLOdyp7aFBpAvDcNNOGi8BJ8lWzOOBm3BWi79vMlXRoQqDsCyG1HmO12fraZZz5KRin8o65CMLP3nJSNXcv0LUEsDBBQAAAgIAAAAIewCnrG1bQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSamqKkbmxoVmSqVGSaZJlsq5BSpKFcaKZsaVZSmqihVmSUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAAIexC54MkegIAAB0FAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAAIewCnrG1bQAAAHgAAAAJACQAAAAAAAAAAAAAAMcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAfwMAAAAA
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 1
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+--- !u!4 &1438232302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438232300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.1608, y: 8.436441, z: -27.984707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1447393720
 GameObject:
   m_ObjectHideFlags: 0
@@ -88866,6 +88952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lvl0: {fileID: 0}
+  lvl: {fileID: 0}
 --- !u!4 &1621131021
 Transform:
   m_ObjectHideFlags: 0
