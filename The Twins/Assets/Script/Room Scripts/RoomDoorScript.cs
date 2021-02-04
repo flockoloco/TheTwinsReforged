@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class RoomDoorScript : MonoBehaviour
 {
@@ -45,28 +46,33 @@ public class RoomDoorScript : MonoBehaviour
         {
             Debug.Log(enemiesInside.Count);
             foreach (GameObject enemy in enemiesInside)
-            {
+            { 
                 if (enemy.name.Contains("Normal")|| enemy.name.Contains("MachineGun"))
                 {
                     enemy.GetComponent<NormalAI>().triggered = true;
+                    enemy.GetComponent<AIDestinationSetter>().enabled = true;
                 }
                 else if (enemy.name.Contains("Tank"))
                 {
                     enemy.GetComponent<TankAI>().triggered = true;
+                    enemy.GetComponent<AIDestinationSetter>().enabled = true;
                 }
                 else if (enemy.name.Contains("Shotty"))
                 {
                     enemy.GetComponent<ShottyAI>().triggered = true;
+                    enemy.GetComponent<AIDestinationSetter>().enabled = true;
                 }
                 else if (enemy.name.Contains("Runner"))
                 {
                     enemy.GetComponent<RunnerAI>().triggered = true;
+                    enemy.GetComponent<AIDestinationSetter>().enabled = true;
                 }
                 else if (enemy.name.Contains("Boss"))
                 {
                     if (enemy.name == "Boss1")
                     {
                         enemy.GetComponent<Boss1Ai>().triggered = true;
+                        enemy.GetComponent<AIDestinationSetter>().enabled = true;
                     }
                     if (enemy.name == "Boss2")
                     {

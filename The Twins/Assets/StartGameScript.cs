@@ -112,10 +112,6 @@ public class StartGameScript : MonoBehaviour
 
         //RUN FOREST RUNNNNNNNNNNNNNNNN!
         GameObject.Find("GameKickStarter").GetComponent<GameKIckStarter>().Invoke("JustDoIt", 0.1f);
+        
     }
-
-
-  
-
-
 }

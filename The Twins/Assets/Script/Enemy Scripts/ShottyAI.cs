@@ -30,7 +30,7 @@ public class ShottyAI : MonoBehaviour
 
             Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
 
-            rigidbodya.velocity = new Vector2(-playerDir.x, -playerDir.y) * stats.moveSpeed;
+            //rigidbodya.velocity = new Vector2(-playerDir.x, -playerDir.y) * stats.moveSpeed;
 
             Vector2 direction = -playerDir;
             rigidbodya.rotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;

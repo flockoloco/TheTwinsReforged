@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameKIckStarter : MonoBehaviour
 {
     public GameObject lvl0;
+    public GameObject lvl;
 
     // Start is called before the first frame update
     public void Start()
@@ -20,6 +21,7 @@ public class GameKIckStarter : MonoBehaviour
 
     void JustDoIt()
     {
+        //fix das portas
         lvl0 = GameObject.Find("Generated Level");
         foreach (Transform child in lvl0.transform)
         {
@@ -40,6 +42,6 @@ public class GameKIckStarter : MonoBehaviour
                 }
             }
         }
-
+        AstarPath.active.Scan();
     }
 }

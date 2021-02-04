@@ -73,7 +73,7 @@ public class NormalAI : MonoBehaviour
 
             Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
 
-            rigidbody.velocity = new Vector2(-playerDir.x, -playerDir.y) * stats.moveSpeed;
+            //rigidbody.velocity = new Vector2(-playerDir.x, -playerDir.y) * stats.moveSpeed;
 
             Vector2 direction = -playerDir;
             rigidbody.rotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
