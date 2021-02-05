@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 4175082037356272683}
   - component: {fileID: 4181627003213835331}
   - component: {fileID: 8376911285388138567}
+  - component: {fileID: 5065498148876282456}
   m_Layer: 0
   m_Name: EndingAltar
   m_TagString: Altar
@@ -222,7 +223,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.5054007
+  m_Radius: 2.0397599
 --- !u!114 &4181627003213835331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,3 +260,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5065498148876282456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872235095375109717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471dcaf219a56974787d038ddc7992ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInside: 0
+  AltarCanvas: {fileID: 0}

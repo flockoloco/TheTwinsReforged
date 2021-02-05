@@ -30,6 +30,8 @@ public class AtkPatterns : MonoBehaviour
     {
         if (UpdateCheck == true)
         {
+            Debug.Log("ayaayayayyaayya");
+            //Debug.Break();
             if (gameObject.GetComponent<StatsHolder>().enemyID == 5)
             {
                 animator.SetBool("attack", true);
@@ -48,6 +50,7 @@ public class AtkPatterns : MonoBehaviour
             }
             else if (gameObject.GetComponent<StatsHolder>().enemyID == 4)
             {
+
                 animator.SetBool("attack2", true);
             }
             else if (gameObject.GetComponent<StatsHolder>().enemyID == 6)
@@ -104,6 +107,8 @@ public class AtkPatterns : MonoBehaviour
             }
             else if (gameObject.GetComponent<StatsHolder>().enemyID == 4)
             {
+                Debug.Log("oyoyoyoyoyoyoyyo");
+                //Debug.Break();
                 animator.SetBool("attack2", false);
             }
             else if (gameObject.GetComponent<StatsHolder>().enemyID == 6)
