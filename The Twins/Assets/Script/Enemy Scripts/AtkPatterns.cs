@@ -10,6 +10,8 @@ public class AtkPatterns : MonoBehaviour
     public float baseTimer;
     public int currentAtkIndex;
 
+    public GameObject firePoint;
+
     public float Attack(int indexdoataque)
     {
         currentAtkIndex = indexdoataque;
@@ -31,7 +33,7 @@ public class AtkPatterns : MonoBehaviour
             {
                 if (baseTimer >= bullet.shotTimer && bullet.fired == false)
                 {
-                    EnemyFire(bullet.bulletPrefab, gameObject.transform.Find("FirePoint").transform, bullet.angleDiff, bullet.accuracy, bullet.randomSpeed);
+                    EnemyFire(bullet.bulletPrefab, firePoint.transform, bullet.angleDiff, bullet.accuracy, bullet.randomSpeed);
                     bullet.fired = true;
                 }
             }
