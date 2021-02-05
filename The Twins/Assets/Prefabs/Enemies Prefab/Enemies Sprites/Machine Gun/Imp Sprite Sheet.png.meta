@@ -1,0 +1,5425 @@
+fileFormatVersion: 2
+guid: 0d70c312ce51a824695558bba728221a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7021294630956641602
+    second: Imp Sprite Sheet_0
+  - first:
+      213: 5971677691513566005
+    second: Imp Sprite Sheet_1
+  - first:
+      213: 9152423973795712107
+    second: Imp Sprite Sheet_2
+  - first:
+      213: -4303437075756346585
+    second: Imp Sprite Sheet_3
+  - first:
+      213: -6834534244677126249
+    second: Imp Sprite Sheet_4
+  - first:
+      213: -4631332355939174100
+    second: Imp Sprite Sheet_5
+  - first:
+      213: 2559073871556193069
+    second: Imp Sprite Sheet_6
+  - first:
+      213: 3327920378395661321
+    second: Imp Sprite Sheet_7
+  - first:
+      213: 6591182423979453482
+    second: Imp Sprite Sheet_8
+  - first:
+      213: 6117253617616554438
+    second: Imp Sprite Sheet_9
+  - first:
+      213: 3695083227574673442
+    second: Imp Sprite Sheet_10
+  - first:
+      213: 9095370414285492293
+    second: Imp Sprite Sheet_11
+  - first:
+      213: -2549088637370218189
+    second: Imp Sprite Sheet_12
+  - first:
+      213: -4981869168354988654
+    second: Imp Sprite Sheet_13
+  - first:
+      213: -1114102729240293016
+    second: Imp Sprite Sheet_14
+  - first:
+      213: -4566726218091123327
+    second: Imp Sprite Sheet_15
+  - first:
+      213: -6461749295843137663
+    second: Imp Sprite Sheet_16
+  - first:
+      213: 4605925824525252523
+    second: Imp Sprite Sheet_17
+  - first:
+      213: 822080299581969200
+    second: Imp Sprite Sheet_18
+  - first:
+      213: -7687979924162972223
+    second: Imp Sprite Sheet_19
+  - first:
+      213: 5815465024552843527
+    second: Imp Sprite Sheet_20
+  - first:
+      213: -3093500364217615976
+    second: Imp Sprite Sheet_21
+  - first:
+      213: 7146271980508046259
+    second: Imp Sprite Sheet_22
+  - first:
+      213: 3084167260208388475
+    second: Imp Sprite Sheet_23
+  - first:
+      213: -678282037672765964
+    second: Imp Sprite Sheet_24
+  - first:
+      213: 6917543249801233796
+    second: Imp Sprite Sheet_25
+  - first:
+      213: 7785506631664847917
+    second: Imp Sprite Sheet_26
+  - first:
+      213: -1074009178923171056
+    second: Imp Sprite Sheet_27
+  - first:
+      213: -3871228409934178121
+    second: Imp Sprite Sheet_28
+  - first:
+      213: -3342262907629554450
+    second: Imp Sprite Sheet_29
+  - first:
+      213: 6399323660450090918
+    second: Imp Sprite Sheet_30
+  - first:
+      213: 3483542119605871135
+    second: Imp Sprite Sheet_31
+  - first:
+      213: 5256776862375074738
+    second: Imp Sprite Sheet_32
+  - first:
+      213: 3829870408328581606
+    second: Imp Sprite Sheet_33
+  - first:
+      213: -4567651919298045073
+    second: Imp Sprite Sheet_34
+  - first:
+      213: 4858444893887966754
+    second: Imp Sprite Sheet_35
+  - first:
+      213: 349423989964397893
+    second: Imp Sprite Sheet_36
+  - first:
+      213: -650850377368004069
+    second: Imp Sprite Sheet_37
+  - first:
+      213: -1041050545479752391
+    second: Imp Sprite Sheet_38
+  - first:
+      213: -3803979400497922343
+    second: Imp Sprite Sheet_39
+  - first:
+      213: 3371627859376957050
+    second: Imp Sprite Sheet_40
+  - first:
+      213: -3700183294463154650
+    second: Imp Sprite Sheet_41
+  - first:
+      213: -7776175830413122528
+    second: Imp Sprite Sheet_42
+  - first:
+      213: -849575147430391290
+    second: Imp Sprite Sheet_43
+  - first:
+      213: -4662546823774023677
+    second: Imp Sprite Sheet_44
+  - first:
+      213: -2143358964275748111
+    second: Imp Sprite Sheet_45
+  - first:
+      213: -52948197992090251
+    second: Imp Sprite Sheet_46
+  - first:
+      213: -3955934358525847082
+    second: Imp Sprite Sheet_47
+  - first:
+      213: -3267268341729050927
+    second: Imp Sprite Sheet_48
+  - first:
+      213: 6015250911928504873
+    second: Imp Sprite Sheet_49
+  - first:
+      213: -7733473722192663148
+    second: Imp Sprite Sheet_50
+  - first:
+      213: 7159575296342961036
+    second: Imp Sprite Sheet_51
+  - first:
+      213: 1750769831183858808
+    second: Imp Sprite Sheet_52
+  - first:
+      213: 7014634417467823104
+    second: Imp Sprite Sheet_53
+  - first:
+      213: -3520037285322877892
+    second: Imp Sprite Sheet_54
+  - first:
+      213: -3315827861055641536
+    second: Imp Sprite Sheet_55
+  - first:
+      213: 3574230294595610358
+    second: Imp Sprite Sheet_56
+  - first:
+      213: -2977134422441006127
+    second: Imp Sprite Sheet_57
+  - first:
+      213: -1669697114704650523
+    second: Imp Sprite Sheet_58
+  - first:
+      213: -2101279757016366961
+    second: Imp Sprite Sheet_59
+  - first:
+      213: 4778254834851712368
+    second: Imp Sprite Sheet_60
+  - first:
+      213: -6321666208280337480
+    second: Imp Sprite Sheet_61
+  - first:
+      213: -2821956095238515948
+    second: Imp Sprite Sheet_62
+  - first:
+      213: 797935890718540056
+    second: Imp Sprite Sheet_63
+  - first:
+      213: -8685422581219065813
+    second: Imp Sprite Sheet_64
+  - first:
+      213: 4039162124556050907
+    second: Imp Sprite Sheet_65
+  - first:
+      213: 8876667343608327801
+    second: Imp Sprite Sheet_66
+  - first:
+      213: -5853879336591147235
+    second: Imp Sprite Sheet_67
+  - first:
+      213: -4045299116892395237
+    second: Imp Sprite Sheet_68
+  - first:
+      213: -6901393009167646366
+    second: Imp Sprite Sheet_69
+  - first:
+      213: -6043232591540817223
+    second: Imp Sprite Sheet_70
+  - first:
+      213: 8189984240483847992
+    second: Imp Sprite Sheet_71
+  - first:
+      213: 8254268204827221283
+    second: Imp Sprite Sheet_72
+  - first:
+      213: 7888090384287898980
+    second: Imp Sprite Sheet_73
+  - first:
+      213: -5184084771102406395
+    second: Imp Sprite Sheet_74
+  - first:
+      213: -6949609504782674380
+    second: Imp Sprite Sheet_75
+  - first:
+      213: -472323922770789236
+    second: Imp Sprite Sheet_76
+  - first:
+      213: -6987801245173279757
+    second: Imp Sprite Sheet_77
+  - first:
+      213: -2305689767654602864
+    second: Imp Sprite Sheet_78
+  - first:
+      213: -2020321861453324994
+    second: Imp Sprite Sheet_79
+  - first:
+      213: -8782109890637175539
+    second: Imp Sprite Sheet_80
+  - first:
+      213: 5705823072371852043
+    second: Imp Sprite Sheet_81
+  - first:
+      213: -5924481704510110952
+    second: Imp Sprite Sheet_82
+  - first:
+      213: 2768581617430298104
+    second: Imp Sprite Sheet_83
+  - first:
+      213: 2729042795733493901
+    second: Imp Sprite Sheet_84
+  - first:
+      213: 8926829188974683099
+    second: Imp Sprite Sheet_85
+  - first:
+      213: -60175413791663971
+    second: Imp Sprite Sheet_86
+  - first:
+      213: 2686063519375999975
+    second: Imp Sprite Sheet_87
+  - first:
+      213: -56874448024731865
+    second: Imp Sprite Sheet_88
+  - first:
+      213: 4241809802130473494
+    second: Imp Sprite Sheet_89
+  - first:
+      213: 5008931402563942922
+    second: Imp Sprite Sheet_90
+  - first:
+      213: 123757028524761649
+    second: Imp Sprite Sheet_91
+  - first:
+      213: -5768440837204418484
+    second: Imp Sprite Sheet_92
+  - first:
+      213: 3574227109117374058
+    second: Imp Sprite Sheet_93
+  - first:
+      213: 7004572151501693698
+    second: Imp Sprite Sheet_94
+  - first:
+      213: 5758653923024441328
+    second: Imp Sprite Sheet_95
+  - first:
+      213: -7134820383846394621
+    second: Imp Sprite Sheet_96
+  - first:
+      213: 4399671168855876904
+    second: Imp Sprite Sheet_97
+  - first:
+      213: -5335902323599355926
+    second: Imp Sprite Sheet_98
+  - first:
+      213: 4863895577533510491
+    second: Imp Sprite Sheet_99
+  - first:
+      213: 5680219240851551970
+    second: Imp Sprite Sheet_100
+  - first:
+      213: 7537512477760120496
+    second: Imp Sprite Sheet_101
+  - first:
+      213: -1948271094294203222
+    second: Imp Sprite Sheet_102
+  - first:
+      213: 1661632244565973574
+    second: Imp Sprite Sheet_103
+  - first:
+      213: 7249689890691526759
+    second: Imp Sprite Sheet_104
+  - first:
+      213: -1059431824861936136
+    second: Imp Sprite Sheet_105
+  - first:
+      213: 5712928875227674463
+    second: Imp Sprite Sheet_106
+  - first:
+      213: -3654425871544715961
+    second: Imp Sprite Sheet_107
+  - first:
+      213: 3136949413430889075
+    second: Imp Sprite Sheet_108
+  - first:
+      213: -38508109350333004
+    second: Imp Sprite Sheet_109
+  - first:
+      213: -2987220193080233724
+    second: Imp Sprite Sheet_110
+  - first:
+      213: -7974091940563684548
+    second: Imp Sprite Sheet_111
+  - first:
+      213: 5875902799523327022
+    second: Imp Sprite Sheet_112
+  - first:
+      213: 1301549400651947304
+    second: Imp Sprite Sheet_113
+  - first:
+      213: 6476887009771160604
+    second: Imp Sprite Sheet_114
+  - first:
+      213: 6172454824631630686
+    second: Imp Sprite Sheet_115
+  - first:
+      213: -7666334031012494025
+    second: Imp Sprite Sheet_116
+  - first:
+      213: 7581281611093939883
+    second: Imp Sprite Sheet_117
+  - first:
+      213: 6371802921517462741
+    second: Imp Sprite Sheet_118
+  - first:
+      213: -5578687909423826346
+    second: Imp Sprite Sheet_119
+  - first:
+      213: -2957814867301590993
+    second: Imp Sprite Sheet_120
+  - first:
+      213: -5269457616365348713
+    second: Imp Sprite Sheet_121
+  - first:
+      213: 8535181240554571856
+    second: Imp Sprite Sheet_122
+  - first:
+      213: 585752561105176514
+    second: Imp Sprite Sheet_123
+  - first:
+      213: 959578762233537599
+    second: Imp Sprite Sheet_124
+  - first:
+      213: 6215479440980689687
+    second: Imp Sprite Sheet_125
+  - first:
+      213: 6518586158879561069
+    second: Imp Sprite Sheet_126
+  - first:
+      213: -3723854926847621094
+    second: Imp Sprite Sheet_127
+  - first:
+      213: 2660057622207461035
+    second: Imp Sprite Sheet_128
+  - first:
+      213: -939190954166691049
+    second: Imp Sprite Sheet_129
+  - first:
+      213: -2851730891820100137
+    second: Imp Sprite Sheet_130
+  - first:
+      213: 5571430594512254830
+    second: Imp Sprite Sheet_131
+  - first:
+      213: 1411385371314907692
+    second: Imp Sprite Sheet_132
+  - first:
+      213: 2863128773813883459
+    second: Imp Sprite Sheet_133
+  - first:
+      213: 3249752403261775203
+    second: Imp Sprite Sheet_134
+  - first:
+      213: 4035954558135868456
+    second: Imp Sprite Sheet_135
+  - first:
+      213: -2820741603534252780
+    second: Imp Sprite Sheet_136
+  - first:
+      213: -5087999125829362597
+    second: Imp Sprite Sheet_137
+  - first:
+      213: -8202361561127120914
+    second: Imp Sprite Sheet_138
+  - first:
+      213: -633041565985524085
+    second: Imp Sprite Sheet_139
+  - first:
+      213: -1884667283207826000
+    second: Imp Sprite Sheet_140
+  - first:
+      213: 8754684341038698950
+    second: Imp Sprite Sheet_141
+  - first:
+      213: -8623134615399392586
+    second: Imp Sprite Sheet_142
+  - first:
+      213: 5216185048649224503
+    second: Imp Sprite Sheet_143
+  - first:
+      213: 3188546935045051979
+    second: Imp Sprite Sheet_144
+  - first:
+      213: -8546064729453974441
+    second: Imp Sprite Sheet_145
+  - first:
+      213: -5591265334636365249
+    second: Imp Sprite Sheet_146
+  - first:
+      213: -6799244255097349016
+    second: Imp Sprite Sheet_147
+  - first:
+      213: 2607385379152113785
+    second: Imp Sprite Sheet_148
+  - first:
+      213: -9125339559130568809
+    second: Imp Sprite Sheet_149
+  - first:
+      213: -3983550597383730874
+    second: Imp Sprite Sheet_150
+  - first:
+      213: 7007974068443435891
+    second: Imp Sprite Sheet_151
+  - first:
+      213: -8142856559014260219
+    second: Imp Sprite Sheet_152
+  - first:
+      213: -7971171842646879083
+    second: Imp Sprite Sheet_153
+  - first:
+      213: 3803964222119909340
+    second: Imp Sprite Sheet_154
+  - first:
+      213: -6325825303233328271
+    second: Imp Sprite Sheet_155
+  - first:
+      213: -2083436459859508585
+    second: Imp Sprite Sheet_156
+  - first:
+      213: 2593284915675682848
+    second: Imp Sprite Sheet_157
+  - first:
+      213: -4869403641033268260
+    second: Imp Sprite Sheet_158
+  - first:
+      213: -7702703019458680064
+    second: Imp Sprite Sheet_159
+  - first:
+      213: 5237600621472507096
+    second: Imp Sprite Sheet_160
+  - first:
+      213: -5277772926075391742
+    second: Imp Sprite Sheet_161
+  - first:
+      213: 3733407219342615812
+    second: Imp Sprite Sheet_162
+  - first:
+      213: 6827652396141373934
+    second: Imp Sprite Sheet_163
+  - first:
+      213: 450387392146844577
+    second: Imp Sprite Sheet_164
+  - first:
+      213: -7136473036119362488
+    second: Imp Sprite Sheet_165
+  - first:
+      213: -6545873894387159143
+    second: Imp Sprite Sheet_166
+  - first:
+      213: 5758537789661108044
+    second: Imp Sprite Sheet_167
+  - first:
+      213: 3286914273211895675
+    second: Imp Sprite Sheet_168
+  - first:
+      213: -3410194351445681685
+    second: Imp Sprite Sheet_169
+  - first:
+      213: -774809071466592191
+    second: Imp Sprite Sheet_170
+  - first:
+      213: 6986575689669110981
+    second: Imp Sprite Sheet_171
+  - first:
+      213: 8249499238385372100
+    second: Imp Sprite Sheet_172
+  - first:
+      213: -8794147107474337412
+    second: Imp Sprite Sheet_173
+  - first:
+      213: 32456891870277311
+    second: Imp Sprite Sheet_174
+  - first:
+      213: -4556855555073280693
+    second: Imp Sprite Sheet_175
+  - first:
+      213: 5162206662104572445
+    second: Imp Sprite Sheet_176
+  - first:
+      213: -349886989874563067
+    second: Imp Sprite Sheet_177
+  - first:
+      213: 4460320232360120296
+    second: Imp Sprite Sheet_178
+  - first:
+      213: 3681599770561941320
+    second: Imp Sprite Sheet_179
+  - first:
+      213: -8231123270169311515
+    second: Imp Sprite Sheet_180
+  - first:
+      213: 109821204718118726
+    second: Imp Sprite Sheet_181
+  - first:
+      213: -5260769366101730895
+    second: Imp Sprite Sheet_182
+  - first:
+      213: -545410075947459003
+    second: Imp Sprite Sheet_183
+  - first:
+      213: -2614425602166475828
+    second: Imp Sprite Sheet_184
+  - first:
+      213: -5149199757138824929
+    second: Imp Sprite Sheet_185
+  - first:
+      213: 1103742161823841011
+    second: Imp Sprite Sheet_186
+  - first:
+      213: 1186391761948021346
+    second: Imp Sprite Sheet_187
+  - first:
+      213: 7755580106341873511
+    second: Imp Sprite Sheet_188
+  - first:
+      213: -3868599241874185174
+    second: Imp Sprite Sheet_189
+  - first:
+      213: -8026385789748120933
+    second: Imp Sprite Sheet_190
+  - first:
+      213: -137678359022733348
+    second: Imp Sprite Sheet_191
+  - first:
+      213: 8060483390171096478
+    second: Imp Sprite Sheet_192
+  - first:
+      213: 2963227396398775254
+    second: Imp Sprite Sheet_193
+  - first:
+      213: 4742082380864748417
+    second: Imp Sprite Sheet_194
+  - first:
+      213: 10072808022908542
+    second: Imp Sprite Sheet_195
+  - first:
+      213: -8497789726086963451
+    second: Imp Sprite Sheet_196
+  - first:
+      213: 5122436258281435655
+    second: Imp Sprite Sheet_197
+  - first:
+      213: 923829346061335314
+    second: Imp Sprite Sheet_198
+  - first:
+      213: -8407554614932288938
+    second: Imp Sprite Sheet_199
+  - first:
+      213: 2715839137361816080
+    second: Imp Sprite Sheet_200
+  - first:
+      213: -5020321303522552468
+    second: Imp Sprite Sheet_201
+  - first:
+      213: 2789470779153062590
+    second: Imp Sprite Sheet_202
+  - first:
+      213: 2600793376573283283
+    second: Imp Sprite Sheet_203
+  - first:
+      213: 6768373529156646225
+    second: Imp Sprite Sheet_204
+  - first:
+      213: -6488918870412743685
+    second: Imp Sprite Sheet_205
+  - first:
+      213: -6099113660550515975
+    second: Imp Sprite Sheet_206
+  - first:
+      213: -3280174566716947402
+    second: Imp Sprite Sheet_207
+  - first:
+      213: -3040482538765836753
+    second: Imp Sprite Sheet_208
+  - first:
+      213: 5247088672970958292
+    second: Imp Sprite Sheet_209
+  - first:
+      213: 13395733362526394
+    second: Imp Sprite Sheet_210
+  - first:
+      213: -6955077781692347595
+    second: Imp Sprite Sheet_211
+  - first:
+      213: 940096152643094432
+    second: Imp Sprite Sheet_212
+  - first:
+      213: -563828773884558269
+    second: Imp Sprite Sheet_213
+  - first:
+      213: 7181767655092112163
+    second: Imp Sprite Sheet_214
+  - first:
+      213: 2004608573142225690
+    second: Imp Sprite Sheet_215
+  - first:
+      213: 417675504536504113
+    second: Imp Sprite Sheet_216
+  - first:
+      213: 2124433330015908493
+    second: Imp Sprite Sheet_217
+  - first:
+      213: 6649241742740614814
+    second: Imp Sprite Sheet_218
+  - first:
+      213: 5036482573801227580
+    second: Imp Sprite Sheet_219
+  - first:
+      213: 2187487289470759944
+    second: Imp Sprite Sheet_220
+  - first:
+      213: -4530072049342860059
+    second: Imp Sprite Sheet_221
+  - first:
+      213: 4737040343013360185
+    second: Imp Sprite Sheet_222
+  - first:
+      213: -7729781021282993505
+    second: Imp Sprite Sheet_223
+  - first:
+      213: -5364956650705954981
+    second: Imp Sprite Sheet_224
+  - first:
+      213: -8459387730900176142
+    second: Imp Sprite Sheet_225
+  - first:
+      213: -4382210402504303951
+    second: Imp Sprite Sheet_226
+  - first:
+      213: -8005261819596826258
+    second: Imp Sprite Sheet_227
+  - first:
+      213: 2829323658390766772
+    second: Imp Sprite Sheet_228
+  - first:
+      213: -7457321802370777188
+    second: Imp Sprite Sheet_229
+  - first:
+      213: 5046596883263868959
+    second: Imp Sprite Sheet_230
+  - first:
+      213: 2574234548403997016
+    second: Imp Sprite Sheet_231
+  - first:
+      213: -5863427953546878208
+    second: Imp Sprite Sheet_232
+  - first:
+      213: -7754709769706785001
+    second: Imp Sprite Sheet_233
+  - first:
+      213: 397043289941055528
+    second: Imp Sprite Sheet_234
+  - first:
+      213: 2593509137688818728
+    second: Imp Sprite Sheet_235
+  - first:
+      213: -666389219105283604
+    second: Imp Sprite Sheet_236
+  - first:
+      213: 9132250186655592246
+    second: Imp Sprite Sheet_237
+  - first:
+      213: -1671514628307509295
+    second: Imp Sprite Sheet_238
+  - first:
+      213: 1827311597884871138
+    second: Imp Sprite Sheet_239
+  - first:
+      213: -5999732389164735221
+    second: Imp Sprite Sheet_240
+  - first:
+      213: 2540229619122615070
+    second: Imp Sprite Sheet_241
+  - first:
+      213: 399714789388644471
+    second: Imp Sprite Sheet_242
+  - first:
+      213: -4666638607606247019
+    second: Imp Sprite Sheet_243
+  - first:
+      213: 1096225777430186355
+    second: Imp Sprite Sheet_244
+  - first:
+      213: 3514072100720168838
+    second: Imp Sprite Sheet_245
+  - first:
+      213: 4334614595750230836
+    second: Imp Sprite Sheet_246
+  - first:
+      213: -6685297116665312755
+    second: Imp Sprite Sheet_247
+  - first:
+      213: -5262598917685940852
+    second: Imp Sprite Sheet_248
+  - first:
+      213: -7521868356352480978
+    second: Imp Sprite Sheet_249
+  - first:
+      213: 2014000345708525007
+    second: Imp Sprite Sheet_250
+  - first:
+      213: 1095303456079026574
+    second: Imp Sprite Sheet_251
+  - first:
+      213: -721698604417041399
+    second: Imp Sprite Sheet_252
+  - first:
+      213: 6316185939234288572
+    second: Imp Sprite Sheet_253
+  - first:
+      213: 929966099431603772
+    second: Imp Sprite Sheet_254
+  - first:
+      213: -6005118042105730342
+    second: Imp Sprite Sheet_255
+  - first:
+      213: -7022546929851020036
+    second: Imp Sprite Sheet_256
+  - first:
+      213: 7901126333099207991
+    second: Imp Sprite Sheet_257
+  - first:
+      213: 8243952368077113682
+    second: Imp Sprite Sheet_258
+  - first:
+      213: -1642814684282588037
+    second: Imp Sprite Sheet_259
+  - first:
+      213: -4369468294297149556
+    second: Imp Sprite Sheet_260
+  - first:
+      213: -1141023242504539496
+    second: Imp Sprite Sheet_261
+  - first:
+      213: 8660855875715509200
+    second: Imp Sprite Sheet_262
+  - first:
+      213: 7004378423268534339
+    second: Imp Sprite Sheet_263
+  - first:
+      213: 7202131097548271522
+    second: Imp Sprite Sheet_264
+  - first:
+      213: 6702158485261481090
+    second: Imp Sprite Sheet_265
+  - first:
+      213: 8966108337283216815
+    second: Imp Sprite Sheet_266
+  - first:
+      213: 4640062152002000191
+    second: Imp Sprite Sheet_267
+  - first:
+      213: -222744013722700714
+    second: Imp Sprite Sheet_268
+  - first:
+      213: 7227146510945868093
+    second: Imp Sprite Sheet_269
+  - first:
+      213: 4173518004933711006
+    second: Imp Sprite Sheet_270
+  - first:
+      213: -8553249272556602400
+    second: Imp Sprite Sheet_271
+  - first:
+      213: 5067669479915211083
+    second: Imp Sprite Sheet_272
+  - first:
+      213: 329204130199962766
+    second: Imp Sprite Sheet_273
+  - first:
+      213: -2083572447084679053
+    second: Imp Sprite Sheet_274
+  - first:
+      213: -2889207932524718548
+    second: Imp Sprite Sheet_275
+  - first:
+      213: 4346023103259118328
+    second: Imp Sprite Sheet_276
+  - first:
+      213: -634404826341833302
+    second: Imp Sprite Sheet_277
+  - first:
+      213: 1823066732277599931
+    second: Imp Sprite Sheet_278
+  - first:
+      213: 5374806598313006622
+    second: Imp Sprite Sheet_279
+  - first:
+      213: 471608437625139626
+    second: Imp Sprite Sheet_280
+  - first:
+      213: 4857494819401076000
+    second: Imp Sprite Sheet_281
+  - first:
+      213: 2100734361395949276
+    second: Imp Sprite Sheet_282
+  - first:
+      213: -33734364047326281
+    second: Imp Sprite Sheet_283
+  - first:
+      213: -4891149150251692807
+    second: Imp Sprite Sheet_284
+  - first:
+      213: -7603517951398638530
+    second: Imp Sprite Sheet_285
+  - first:
+      213: 3795496352513285166
+    second: Imp Sprite Sheet_286
+  - first:
+      213: 6248645793273122763
+    second: Imp Sprite Sheet_287
+  - first:
+      213: -277470069800091691
+    second: Imp Sprite Sheet_288
+  - first:
+      213: 4250701322390910629
+    second: Imp Sprite Sheet_289
+  - first:
+      213: -5047144550494723550
+    second: Imp Sprite Sheet_290
+  - first:
+      213: 2277882686832458555
+    second: Imp Sprite Sheet_291
+  - first:
+      213: -6481512851398361195
+    second: Imp Sprite Sheet_292
+  - first:
+      213: -176546549299516879
+    second: Imp Sprite Sheet_293
+  - first:
+      213: -4906166471496013289
+    second: Imp Sprite Sheet_294
+  - first:
+      213: -4176458032594355023
+    second: Imp Sprite Sheet_295
+  - first:
+      213: -1776952705009241894
+    second: Imp Sprite Sheet_296
+  - first:
+      213: -3592515630927400384
+    second: Imp Sprite Sheet_297
+  - first:
+      213: -7749813890936615711
+    second: Imp Sprite Sheet_298
+  - first:
+      213: -1457438656668350037
+    second: Imp Sprite Sheet_299
+  - first:
+      213: -3116933268184696763
+    second: Imp Sprite Sheet_300
+  - first:
+      213: -7649453316457366019
+    second: Imp Sprite Sheet_301
+  - first:
+      213: 6819381179848993597
+    second: Imp Sprite Sheet_302
+  - first:
+      213: -6996609443796744957
+    second: Imp Sprite Sheet_303
+  - first:
+      213: 5230401305231201355
+    second: Imp Sprite Sheet_304
+  - first:
+      213: 1099733705333883011
+    second: Imp Sprite Sheet_305
+  - first:
+      213: 3445687786613705837
+    second: Imp Sprite Sheet_306
+  - first:
+      213: 8720742091754480770
+    second: Imp Sprite Sheet_307
+  - first:
+      213: 8648568419722382437
+    second: Imp Sprite Sheet_308
+  - first:
+      213: 6747042606645288606
+    second: Imp Sprite Sheet_309
+  - first:
+      213: 9185733558717165536
+    second: Imp Sprite Sheet_310
+  - first:
+      213: -1203495297004646165
+    second: Imp Sprite Sheet_311
+  - first:
+      213: -5782053847583848484
+    second: Imp Sprite Sheet_312
+  - first:
+      213: 7684180277605688696
+    second: Imp Sprite Sheet_313
+  - first:
+      213: -5724669578588282100
+    second: Imp Sprite Sheet_314
+  - first:
+      213: 6912870045824774154
+    second: Imp Sprite Sheet_315
+  - first:
+      213: -6613482834759757084
+    second: Imp Sprite Sheet_316
+  - first:
+      213: 5635472499466684773
+    second: Imp Sprite Sheet_317
+  - first:
+      213: 6231000107392760855
+    second: Imp Sprite Sheet_318
+  - first:
+      213: 2888148340739806174
+    second: Imp Sprite Sheet_319
+  - first:
+      213: -5411171407627685200
+    second: Imp Sprite Sheet_320
+  - first:
+      213: -7169224319835933803
+    second: Imp Sprite Sheet_321
+  - first:
+      213: -6859135559294641526
+    second: Imp Sprite Sheet_322
+  - first:
+      213: -8197540458845358063
+    second: Imp Sprite Sheet_323
+  - first:
+      213: 6690989217226831808
+    second: Imp Sprite Sheet_324
+  - first:
+      213: -1886781143476030043
+    second: Imp Sprite Sheet_325
+  - first:
+      213: -6077500012463583493
+    second: Imp Sprite Sheet_326
+  - first:
+      213: 6107642073020402793
+    second: Imp Sprite Sheet_327
+  - first:
+      213: 7567442270790545175
+    second: Imp Sprite Sheet_328
+  - first:
+      213: 8704052955935792006
+    second: Imp Sprite Sheet_329
+  - first:
+      213: -4074269858912630380
+    second: Imp Sprite Sheet_330
+  - first:
+      213: 1096275548232721827
+    second: Imp Sprite Sheet_331
+  - first:
+      213: -2247204887561161925
+    second: Imp Sprite Sheet_332
+  - first:
+      213: 1135277676972042804
+    second: Imp Sprite Sheet_333
+  - first:
+      213: -6476314705403730017
+    second: Imp Sprite Sheet_334
+  - first:
+      213: -3700081388283595714
+    second: Imp Sprite Sheet_335
+  - first:
+      213: 7912042519830483443
+    second: Imp Sprite Sheet_336
+  - first:
+      213: 8645437797825947856
+    second: Imp Sprite Sheet_337
+  - first:
+      213: 5059415784496398724
+    second: Imp Sprite Sheet_338
+  - first:
+      213: 5301051976467487092
+    second: Imp Sprite Sheet_339
+  - first:
+      213: -8772034215898060527
+    second: Imp Sprite Sheet_340
+  - first:
+      213: -1762339048334455125
+    second: Imp Sprite Sheet_341
+  - first:
+      213: -694396349279673351
+    second: Imp Sprite Sheet_342
+  - first:
+      213: -4961556525180263938
+    second: Imp Sprite Sheet_343
+  - first:
+      213: 7416377221131521990
+    second: Imp Sprite Sheet_344
+  - first:
+      213: -3684225327843562034
+    second: Imp Sprite Sheet_345
+  - first:
+      213: 8031901990458444230
+    second: Imp Sprite Sheet_346
+  - first:
+      213: 3183188832304519874
+    second: Imp Sprite Sheet_347
+  - first:
+      213: 5317707572037529639
+    second: Imp Sprite Sheet_348
+  - first:
+      213: 7234533134704593959
+    second: Imp Sprite Sheet_349
+  - first:
+      213: -1308468993602425181
+    second: Imp Sprite Sheet_350
+  - first:
+      213: 962345032051998092
+    second: Imp Sprite Sheet_351
+  - first:
+      213: 2392518360722935931
+    second: Imp Sprite Sheet_352
+  - first:
+      213: -7485751532741266963
+    second: Imp Sprite Sheet_353
+  - first:
+      213: -7133784273876306235
+    second: Imp Sprite Sheet_354
+  - first:
+      213: -2009777234296356384
+    second: Imp Sprite Sheet_355
+  - first:
+      213: -6713574879819454031
+    second: Imp Sprite Sheet_356
+  - first:
+      213: -1782524459299223882
+    second: Imp Sprite Sheet_357
+  - first:
+      213: 1141914677398740187
+    second: Imp Sprite Sheet_358
+  - first:
+      213: 3682340420312855351
+    second: Imp Sprite Sheet_359
+  - first:
+      213: -7851211764960566690
+    second: Imp Sprite Sheet_360
+  - first:
+      213: 6090969227560850342
+    second: Imp Sprite Sheet_361
+  - first:
+      213: -3160272195693624798
+    second: Imp Sprite Sheet_362
+  - first:
+      213: -3439102415941239219
+    second: Imp Sprite Sheet_363
+  - first:
+      213: 6097602977628489808
+    second: Imp Sprite Sheet_364
+  - first:
+      213: 4274996273966917104
+    second: Imp Sprite Sheet_365
+  - first:
+      213: -9182217554575881307
+    second: Imp Sprite Sheet_366
+  - first:
+      213: 5734855028575431468
+    second: Imp Sprite Sheet_367
+  - first:
+      213: 5226329079163625481
+    second: Imp Sprite Sheet_368
+  - first:
+      213: 5005199665023059006
+    second: Imp Sprite Sheet_369
+  - first:
+      213: -4148360783146436175
+    second: Imp Sprite Sheet_370
+  - first:
+      213: 8166048303394472413
+    second: Imp Sprite Sheet_371
+  - first:
+      213: 6767369431421512005
+    second: Imp Sprite Sheet_372
+  - first:
+      213: -2380468745305217734
+    second: Imp Sprite Sheet_373
+  - first:
+      213: -8883800079163148838
+    second: Imp Sprite Sheet_374
+  - first:
+      213: 1690462277264353146
+    second: Imp Sprite Sheet_375
+  - first:
+      213: -8297710632420433745
+    second: Imp Sprite Sheet_376
+  - first:
+      213: -3617386591242777728
+    second: Imp Sprite Sheet_377
+  - first:
+      213: 7403352555288170072
+    second: Imp Sprite Sheet_378
+  - first:
+      213: -8153566649820635120
+    second: Imp Sprite Sheet_379
+  - first:
+      213: 3857707318008025705
+    second: Imp Sprite Sheet_380
+  - first:
+      213: 3517121892285950711
+    second: Imp Sprite Sheet_381
+  - first:
+      213: 6991051474156519193
+    second: Imp Sprite Sheet_382
+  - first:
+      213: -6701016819138737539
+    second: Imp Sprite Sheet_383
+  - first:
+      213: 3463213869243694297
+    second: Imp Sprite Sheet_384
+  - first:
+      213: 4506691319684073182
+    second: Imp Sprite Sheet_385
+  - first:
+      213: -315775140306595689
+    second: Imp Sprite Sheet_386
+  - first:
+      213: 8064265158282394872
+    second: Imp Sprite Sheet_387
+  - first:
+      213: 8176232998225387698
+    second: Imp Sprite Sheet_388
+  - first:
+      213: -1843966954691020027
+    second: Imp Sprite Sheet_389
+  - first:
+      213: -7501892000227116020
+    second: Imp Sprite Sheet_390
+  - first:
+      213: 6165215123616034743
+    second: Imp Sprite Sheet_391
+  - first:
+      213: -650815035562091529
+    second: Imp Sprite Sheet_392
+  - first:
+      213: -7558138662529912672
+    second: Imp Sprite Sheet_393
+  - first:
+      213: 914635982322507019
+    second: Imp Sprite Sheet_394
+  - first:
+      213: -8501739339227524721
+    second: Imp Sprite Sheet_395
+  - first:
+      213: -3890157568736816823
+    second: Imp Sprite Sheet_396
+  - first:
+      213: 378458086835104095
+    second: Imp Sprite Sheet_397
+  - first:
+      213: 3029266389453658723
+    second: Imp Sprite Sheet_398
+  - first:
+      213: 739645165040548089
+    second: Imp Sprite Sheet_399
+  - first:
+      213: -8007595956579341369
+    second: Imp Sprite Sheet_400
+  - first:
+      213: 5227527629213382953
+    second: Imp Sprite Sheet_401
+  - first:
+      213: -7838774036793595524
+    second: Imp Sprite Sheet_402
+  - first:
+      213: -129174760097549424
+    second: Imp Sprite Sheet_403
+  - first:
+      213: 6359837158896844840
+    second: Imp Sprite Sheet_404
+  - first:
+      213: 7710132962416236381
+    second: Imp Sprite Sheet_405
+  - first:
+      213: 8200519384383661385
+    second: Imp Sprite Sheet_406
+  - first:
+      213: 1836491685000472442
+    second: Imp Sprite Sheet_407
+  - first:
+      213: 3891767173937551376
+    second: Imp Sprite Sheet_408
+  - first:
+      213: -5621956171330614702
+    second: Imp Sprite Sheet_409
+  - first:
+      213: -1675326798895686131
+    second: Imp Sprite Sheet_410
+  - first:
+      213: -425586784219789738
+    second: Imp Sprite Sheet_411
+  - first:
+      213: -5346051508308830108
+    second: Imp Sprite Sheet_412
+  - first:
+      213: 8360501535101938894
+    second: Imp Sprite Sheet_413
+  - first:
+      213: 2574883551142025532
+    second: Imp Sprite Sheet_414
+  - first:
+      213: -5707167285070094016
+    second: Imp Sprite Sheet_415
+  - first:
+      213: 5367495546429326623
+    second: Imp Sprite Sheet_416
+  - first:
+      213: 8750162100534805338
+    second: Imp Sprite Sheet_417
+  - first:
+      213: -8135434110233208997
+    second: Imp Sprite Sheet_418
+  - first:
+      213: 5932683034262318976
+    second: Imp Sprite Sheet_419
+  - first:
+      213: -4022933052380722158
+    second: Imp Sprite Sheet_420
+  - first:
+      213: -4050358016120670952
+    second: Imp Sprite Sheet_421
+  - first:
+      213: 8100450614255343975
+    second: Imp Sprite Sheet_422
+  - first:
+      213: -7961011656612474915
+    second: Imp Sprite Sheet_423
+  - first:
+      213: -7024620984883073913
+    second: Imp Sprite Sheet_424
+  - first:
+      213: 2614340699382585325
+    second: Imp Sprite Sheet_425
+  - first:
+      213: -149971713308630934
+    second: Imp Sprite Sheet_426
+  - first:
+      213: -8705709227620461244
+    second: Imp Sprite Sheet_427
+  - first:
+      213: -8748687351979208265
+    second: Imp Sprite Sheet_428
+  - first:
+      213: -7571305258349705205
+    second: Imp Sprite Sheet_429
+  - first:
+      213: -5112419892518470216
+    second: Imp Sprite Sheet_430
+  - first:
+      213: 1911291699049771669
+    second: Imp Sprite Sheet_431
+  - first:
+      213: -4727712676181555444
+    second: Imp Sprite Sheet_432
+  - first:
+      213: -79447414868061999
+    second: Imp Sprite Sheet_433
+  - first:
+      213: 3408758760408270857
+    second: Imp Sprite Sheet_434
+  - first:
+      213: -7534228797455915836
+    second: Imp Sprite Sheet_435
+  - first:
+      213: 1320532358081338134
+    second: Imp Sprite Sheet_436
+  - first:
+      213: -1184032387207443072
+    second: Imp Sprite Sheet_437
+  - first:
+      213: 1564345912050283007
+    second: Imp Sprite Sheet_438
+  - first:
+      213: 1082355553979224411
+    second: Imp Sprite Sheet_439
+  - first:
+      213: 3220574901975533690
+    second: Imp Sprite Sheet_440
+  - first:
+      213: -2961502279088379272
+    second: Imp Sprite Sheet_441
+  - first:
+      213: 6615815438155976413
+    second: Imp Sprite Sheet_442
+  - first:
+      213: 7245317770079201878
+    second: Imp Sprite Sheet_443
+  - first:
+      213: -1187827189348650291
+    second: Imp Sprite Sheet_444
+  - first:
+      213: -4045402890362254819
+    second: Imp Sprite Sheet_445
+  - first:
+      213: -6056507063103051975
+    second: Imp Sprite Sheet_446
+  - first:
+      213: -8141578999258471825
+    second: Imp Sprite Sheet_447
+  - first:
+      213: -5716048436923371226
+    second: Imp Sprite Sheet_448
+  - first:
+      213: -7049075784483784853
+    second: Imp Sprite Sheet_449
+  - first:
+      213: 5771329192101087555
+    second: Imp Sprite Sheet_450
+  - first:
+      213: 1626096121947642980
+    second: Imp Sprite Sheet_451
+  - first:
+      213: -2965911178336436877
+    second: Imp Sprite Sheet_452
+  - first:
+      213: -5115338422705789292
+    second: Imp Sprite Sheet_453
+  - first:
+      213: -2824458702514752497
+    second: Imp Sprite Sheet_454
+  - first:
+      213: -2275590604894421550
+    second: Imp Sprite Sheet_455
+  - first:
+      213: 8906173391143092394
+    second: Imp Sprite Sheet_456
+  - first:
+      213: 7093498596778974661
+    second: Imp Sprite Sheet_457
+  - first:
+      213: -9084468829706009795
+    second: Imp Sprite Sheet_458
+  - first:
+      213: -6818375673674153412
+    second: Imp Sprite Sheet_459
+  - first:
+      213: -477899841850618881
+    second: Imp Sprite Sheet_460
+  - first:
+      213: 9196330452806914612
+    second: Imp Sprite Sheet_461
+  - first:
+      213: -6770092504382331730
+    second: Imp Sprite Sheet_462
+  - first:
+      213: 2315963152089813229
+    second: Imp Sprite Sheet_463
+  - first:
+      213: -1109653225006956834
+    second: Imp Sprite Sheet_464
+  - first:
+      213: -3245684718270938474
+    second: Imp Sprite Sheet_465
+  - first:
+      213: 8210024888569114403
+    second: Imp Sprite Sheet_466
+  - first:
+      213: 7202098594619222482
+    second: Imp Sprite Sheet_467
+  - first:
+      213: 8123533616918647776
+    second: Imp Sprite Sheet_468
+  - first:
+      213: -2266522715938966576
+    second: Imp Sprite Sheet_469
+  - first:
+      213: 6356455539585766100
+    second: Imp Sprite Sheet_470
+  - first:
+      213: 5451934955473401644
+    second: Imp Sprite Sheet_471
+  - first:
+      213: 2538795658214011697
+    second: Imp Sprite Sheet_472
+  - first:
+      213: -2576612390921450038
+    second: Imp Sprite Sheet_473
+  - first:
+      213: -5751573886735431851
+    second: Imp Sprite Sheet_474
+  - first:
+      213: 3302457201901242811
+    second: Imp Sprite Sheet_475
+  - first:
+      213: -4895722279890387701
+    second: Imp Sprite Sheet_476
+  - first:
+      213: 6498967332940078889
+    second: Imp Sprite Sheet_477
+  - first:
+      213: -8950914854833934621
+    second: Imp Sprite Sheet_478
+  - first:
+      213: 4450720486332960246
+    second: Imp Sprite Sheet_479
+  - first:
+      213: -2033657750123692702
+    second: Imp Sprite Sheet_480
+  - first:
+      213: 5294049486333554010
+    second: Imp Sprite Sheet_481
+  - first:
+      213: 6295145856936442638
+    second: Imp Sprite Sheet_482
+  - first:
+      213: -6109643526963535917
+    second: Imp Sprite Sheet_483
+  - first:
+      213: -3405252513215401168
+    second: Imp Sprite Sheet_484
+  - first:
+      213: -2275453223187345059
+    second: Imp Sprite Sheet_485
+  - first:
+      213: -330270508724063451
+    second: Imp Sprite Sheet_486
+  - first:
+      213: 6242020750788390982
+    second: Imp Sprite Sheet_487
+  - first:
+      213: -4947261477866241242
+    second: Imp Sprite Sheet_488
+  - first:
+      213: -8014442051608360130
+    second: Imp Sprite Sheet_489
+  - first:
+      213: 2474527076022470586
+    second: Imp Sprite Sheet_490
+  - first:
+      213: 4882705789217506637
+    second: Imp Sprite Sheet_491
+  - first:
+      213: -4040294016877299955
+    second: Imp Sprite Sheet_492
+  - first:
+      213: 9012658870672557606
+    second: Imp Sprite Sheet_493
+  - first:
+      213: -7097665160257335462
+    second: Imp Sprite Sheet_494
+  - first:
+      213: -3077897628740526648
+    second: Imp Sprite Sheet_495
+  - first:
+      213: -810118205157713090
+    second: Imp Sprite Sheet_496
+  - first:
+      213: -5863524262267244190
+    second: Imp Sprite Sheet_497
+  - first:
+      213: 5240353909759512241
+    second: Imp Sprite Sheet_498
+  - first:
+      213: 6768648567701091691
+    second: Imp Sprite Sheet_499
+  - first:
+      213: -6280754072927012765
+    second: Imp Sprite Sheet_500
+  - first:
+      213: 3415297325472902553
+    second: Imp Sprite Sheet_501
+  - first:
+      213: 7148051368873176923
+    second: Imp Sprite Sheet_502
+  - first:
+      213: 7789988397719926168
+    second: Imp Sprite Sheet_503
+  - first:
+      213: 1331706271885049389
+    second: Imp Sprite Sheet_504
+  - first:
+      213: 24732754547832778
+    second: Imp Sprite Sheet_505
+  - first:
+      213: 2347030879272422885
+    second: Imp Sprite Sheet_506
+  - first:
+      213: 251457668862246677
+    second: Imp Sprite Sheet_507
+  - first:
+      213: 5983494198671288525
+    second: Imp Sprite Sheet_508
+  - first:
+      213: -7532051367090334458
+    second: Imp Sprite Sheet_509
+  - first:
+      213: 8273085734718314187
+    second: Imp Sprite Sheet_510
+  - first:
+      213: -4550541252337727282
+    second: Imp Sprite Sheet_511
+  - first:
+      213: 2957500939074289840
+    second: Imp Sprite Sheet_512
+  - first:
+      213: -7312139050131690966
+    second: Imp Sprite Sheet_513
+  - first:
+      213: 5087034636759489128
+    second: Imp Sprite Sheet_514
+  - first:
+      213: -4722878944248267880
+    second: Imp Sprite Sheet_515
+  - first:
+      213: -4064130650710731691
+    second: Imp Sprite Sheet_516
+  - first:
+      213: 7994532083540416389
+    second: Imp Sprite Sheet_517
+  - first:
+      213: -2594516891473788215
+    second: Imp Sprite Sheet_518
+  - first:
+      213: 8470621405160497489
+    second: Imp Sprite Sheet_519
+  - first:
+      213: 7102319954733253244
+    second: Imp Sprite Sheet_520
+  - first:
+      213: -3398356037654640777
+    second: Imp Sprite Sheet_521
+  - first:
+      213: 3682835475291306235
+    second: Imp Sprite Sheet_522
+  - first:
+      213: 9074891351898215302
+    second: Imp Sprite Sheet_523
+  - first:
+      213: 6530335605657591049
+    second: Imp Sprite Sheet_524
+  - first:
+      213: 732213134997706023
+    second: Imp Sprite Sheet_525
+  - first:
+      213: 5873644657049898010
+    second: Imp Sprite Sheet_526
+  - first:
+      213: 6390093246989815950
+    second: Imp Sprite Sheet_527
+  - first:
+      213: 311329288697358739
+    second: Imp Sprite Sheet_528
+  - first:
+      213: -625474287998483489
+    second: Imp Sprite Sheet_529
+  - first:
+      213: -1525035457133849030
+    second: Imp Sprite Sheet_530
+  - first:
+      213: -7729536885601451503
+    second: Imp Sprite Sheet_531
+  - first:
+      213: -3703630002790839885
+    second: Imp Sprite Sheet_532
+  - first:
+      213: 3116893744828864056
+    second: Imp Sprite Sheet_533
+  - first:
+      213: -1641311828328246793
+    second: Imp Sprite Sheet_534
+  - first:
+      213: -2811979402959060545
+    second: Imp Sprite Sheet_535
+  - first:
+      213: -5330781545093761685
+    second: Imp Sprite Sheet_536
+  - first:
+      213: 1190371885171653821
+    second: Imp Sprite Sheet_537
+  - first:
+      213: -14635292023413435
+    second: Imp Sprite Sheet_538
+  - first:
+      213: 766176488809849451
+    second: Imp Sprite Sheet_539
+  - first:
+      213: -1649735291386742556
+    second: Imp Sprite Sheet_540
+  - first:
+      213: -6201341676406298440
+    second: Imp Sprite Sheet_541
+  - first:
+      213: -7340597937949017617
+    second: Imp Sprite Sheet_542
+  - first:
+      213: -1663274480299359566
+    second: Imp Sprite Sheet_543
+  - first:
+      213: 6359510027399758129
+    second: Imp Sprite Sheet_544
+  - first:
+      213: -3961294149662094630
+    second: Imp Sprite Sheet_545
+  - first:
+      213: 9174941633991499439
+    second: Imp Sprite Sheet_546
+  - first:
+      213: 1498779326610790429
+    second: Imp Sprite Sheet_547
+  - first:
+      213: 5688718987665067620
+    second: Imp Sprite Sheet_548
+  - first:
+      213: -7290179624517839250
+    second: Imp Sprite Sheet_549
+  - first:
+      213: 1147535940079195444
+    second: Imp Sprite Sheet_550
+  - first:
+      213: -3905906522916989970
+    second: Imp Sprite Sheet_551
+  - first:
+      213: 59384998667974636
+    second: Imp Sprite Sheet_552
+  - first:
+      213: -5896261473115344954
+    second: Imp Sprite Sheet_553
+  - first:
+      213: -9217598176065973496
+    second: Imp Sprite Sheet_554
+  - first:
+      213: 746708235925062313
+    second: Imp Sprite Sheet_555
+  - first:
+      213: 590870437506078519
+    second: Imp Sprite Sheet_556
+  - first:
+      213: -5933937614329700068
+    second: Imp Sprite Sheet_557
+  - first:
+      213: 40390728208073699
+    second: Imp Sprite Sheet_558
+  - first:
+      213: 2430907023412718673
+    second: Imp Sprite Sheet_559
+  - first:
+      213: -5320871331970695552
+    second: Imp Sprite Sheet_560
+  - first:
+      213: 7685682584251161140
+    second: Imp Sprite Sheet_561
+  - first:
+      213: 7879018084747323922
+    second: Imp Sprite Sheet_562
+  - first:
+      213: 873661371151936200
+    second: Imp Sprite Sheet_563
+  - first:
+      213: 2000709337303628555
+    second: Imp Sprite Sheet_564
+  - first:
+      213: -8970671199405717674
+    second: Imp Sprite Sheet_565
+  - first:
+      213: 4801371006075699108
+    second: Imp Sprite Sheet_566
+  - first:
+      213: 8813420582477945368
+    second: Imp Sprite Sheet_567
+  - first:
+      213: -2777570759805158301
+    second: Imp Sprite Sheet_568
+  - first:
+      213: 2538390247372538573
+    second: Imp Sprite Sheet_569
+  - first:
+      213: -2612192810281257210
+    second: Imp Sprite Sheet_570
+  - first:
+      213: 3277395242133425315
+    second: Imp Sprite Sheet_571
+  - first:
+      213: 336367703214570852
+    second: Imp Sprite Sheet_572
+  - first:
+      213: -8337844367360575792
+    second: Imp Sprite Sheet_573
+  - first:
+      213: 176741094584987144
+    second: Imp Sprite Sheet_574
+  - first:
+      213: 8916304992479044555
+    second: Imp Sprite Sheet_575
+  - first:
+      213: 4640845691879896263
+    second: Imp Sprite Sheet_576
+  - first:
+      213: -5223441306803756390
+    second: Imp Sprite Sheet_577
+  - first:
+      213: -9088758530969166335
+    second: Imp Sprite Sheet_578
+  - first:
+      213: 6132422336292960851
+    second: Imp Sprite Sheet_579
+  - first:
+      213: -731975782891737964
+    second: Imp Sprite Sheet_580
+  - first:
+      213: -2949826593319763065
+    second: Imp Sprite Sheet_581
+  - first:
+      213: -3762747026585413035
+    second: Imp Sprite Sheet_582
+  - first:
+      213: 3402046157770000735
+    second: Imp Sprite Sheet_583
+  - first:
+      213: 8669372719622975050
+    second: Imp Sprite Sheet_584
+  - first:
+      213: 6084306496316971321
+    second: Imp Sprite Sheet_585
+  - first:
+      213: -4931357275868276087
+    second: Imp Sprite Sheet_586
+  - first:
+      213: -557877039295300082
+    second: Imp Sprite Sheet_587
+  - first:
+      213: 8786051663104721400
+    second: Imp Sprite Sheet_588
+  - first:
+      213: 2648622464590583392
+    second: Imp Sprite Sheet_589
+  - first:
+      213: 158408019411581488
+    second: Imp Sprite Sheet_590
+  - first:
+      213: 2484814431331628642
+    second: Imp Sprite Sheet_591
+  - first:
+      213: -5014874491701037153
+    second: Imp Sprite Sheet_592
+  - first:
+      213: 7931739484883611540
+    second: Imp Sprite Sheet_593
+  - first:
+      213: 6802912694955746903
+    second: Imp Sprite Sheet_594
+  - first:
+      213: 8515781241653257269
+    second: Imp Sprite Sheet_595
+  - first:
+      213: -6167761498506914429
+    second: Imp Sprite Sheet_596
+  - first:
+      213: -6792758589863668246
+    second: Imp Sprite Sheet_597
+  - first:
+      213: -1443282716540269749
+    second: Imp Sprite Sheet_598
+  - first:
+      213: 362433672532314576
+    second: Imp Sprite Sheet_599
+  - first:
+      213: -6414271868732528661
+    second: Imp Sprite Sheet_600
+  - first:
+      213: -8920868483112786809
+    second: Imp Sprite Sheet_601
+  - first:
+      213: 8556319178056353745
+    second: Imp Sprite Sheet_602
+  - first:
+      213: 2498359059215557330
+    second: Imp Sprite Sheet_603
+  - first:
+      213: -7978502626840507117
+    second: Imp Sprite Sheet_604
+  - first:
+      213: 8330769723365883273
+    second: Imp Sprite Sheet_605
+  - first:
+      213: -6878137749847880911
+    second: Imp Sprite Sheet_606
+  - first:
+      213: -95560335260794542
+    second: Imp Sprite Sheet_607
+  - first:
+      213: 5932456817765493502
+    second: Imp Sprite Sheet_608
+  - first:
+      213: 285232540406650642
+    second: Imp Sprite Sheet_609
+  - first:
+      213: -7839328210299907057
+    second: Imp Sprite Sheet_610
+  - first:
+      213: 293644376128079805
+    second: Imp Sprite Sheet_611
+  - first:
+      213: -3902169894083757217
+    second: Imp Sprite Sheet_612
+  - first:
+      213: 5002497138289714670
+    second: Imp Sprite Sheet_613
+  - first:
+      213: -7043240364691736666
+    second: Imp Sprite Sheet_614
+  - first:
+      213: -1441473763281451133
+    second: Imp Sprite Sheet_615
+  - first:
+      213: 2538272948014895521
+    second: Imp Sprite Sheet_616
+  - first:
+      213: 5313704969868883595
+    second: Imp Sprite Sheet_617
+  - first:
+      213: -8827844730378586849
+    second: Imp Sprite Sheet_618
+  - first:
+      213: -8045256091167374049
+    second: Imp Sprite Sheet_619
+  - first:
+      213: 6865187381156558786
+    second: Imp Sprite Sheet_620
+  - first:
+      213: 2052457927670553193
+    second: Imp Sprite Sheet_621
+  - first:
+      213: 2749035923620425325
+    second: Imp Sprite Sheet_622
+  - first:
+      213: -5075228581084715016
+    second: Imp Sprite Sheet_623
+  - first:
+      213: -2286702800860692667
+    second: Imp Sprite Sheet_624
+  - first:
+      213: -34883066879209559
+    second: Imp Sprite Sheet_625
+  - first:
+      213: 4885937223294422577
+    second: Imp Sprite Sheet_626
+  - first:
+      213: 8961526953842364176
+    second: Imp Sprite Sheet_627
+  - first:
+      213: -151220742333830896
+    second: Imp Sprite Sheet_628
+  - first:
+      213: -8501572190927448633
+    second: Imp Sprite Sheet_629
+  - first:
+      213: -4286890328536736909
+    second: Imp Sprite Sheet_630
+  - first:
+      213: -606580998337713870
+    second: Imp Sprite Sheet_631
+  - first:
+      213: -2851789096974881895
+    second: Imp Sprite Sheet_632
+  - first:
+      213: -3960697038795867913
+    second: Imp Sprite Sheet_633
+  - first:
+      213: -209452579928320927
+    second: Imp Sprite Sheet_634
+  - first:
+      213: -7206576848238530925
+    second: Imp Sprite Sheet_635
+  - first:
+      213: -6166023270579311533
+    second: Imp Sprite Sheet_636
+  - first:
+      213: -5938656845924940865
+    second: Imp Sprite Sheet_637
+  - first:
+      213: 8297952813915842975
+    second: Imp Sprite Sheet_638
+  - first:
+      213: -5518093594114538184
+    second: Imp Sprite Sheet_639
+  - first:
+      213: -6564451420951153886
+    second: Imp Sprite Sheet_640
+  - first:
+      213: -1369337758066167760
+    second: Imp Sprite Sheet_641
+  - first:
+      213: -1260769596042856148
+    second: Imp Sprite Sheet_642
+  - first:
+      213: -7434393556764651363
+    second: Imp Sprite Sheet_643
+  - first:
+      213: -4695646478412299285
+    second: Imp Sprite Sheet_644
+  - first:
+      213: 3340585983760617543
+    second: Imp Sprite Sheet_645
+  - first:
+      213: -3515779928508362355
+    second: Imp Sprite Sheet_646
+  - first:
+      213: -6846186905366291405
+    second: Imp Sprite Sheet_647
+  - first:
+      213: -485707065387936041
+    second: Imp Sprite Sheet_648
+  - first:
+      213: 3846025366857391609
+    second: Imp Sprite Sheet_649
+  - first:
+      213: -9101498370310060184
+    second: Imp Sprite Sheet_650
+  - first:
+      213: 3910941675164961829
+    second: Imp Sprite Sheet_651
+  - first:
+      213: 4048457346402634917
+    second: Imp Sprite Sheet_652
+  - first:
+      213: -7470745513475558943
+    second: Imp Sprite Sheet_653
+  - first:
+      213: -4531638467173768483
+    second: Imp Sprite Sheet_654
+  - first:
+      213: 6139344544773224110
+    second: Imp Sprite Sheet_655
+  - first:
+      213: 1050589044375174395
+    second: Imp Sprite Sheet_656
+  - first:
+      213: 1119923018546637143
+    second: Imp Sprite Sheet_657
+  - first:
+      213: 8643847454842393268
+    second: Imp Sprite Sheet_658
+  - first:
+      213: -5555050281355583915
+    second: Imp Sprite Sheet_659
+  - first:
+      213: -5132526071466503377
+    second: Imp Sprite Sheet_660
+  - first:
+      213: 3837304918847038504
+    second: Imp Sprite Sheet_661
+  - first:
+      213: 601605005406299285
+    second: Imp Sprite Sheet_662
+  - first:
+      213: -26231959010751926
+    second: Imp Sprite Sheet_663
+  - first:
+      213: 8470394545907119850
+    second: Imp Sprite Sheet_664
+  - first:
+      213: -6980900500932061185
+    second: Imp Sprite Sheet_665
+  - first:
+      213: -8090738194609100998
+    second: Imp Sprite Sheet_666
+  - first:
+      213: -5893094222608414861
+    second: Imp Sprite Sheet_667
+  - first:
+      213: 7077084822415863548
+    second: Imp Sprite Sheet_668
+  - first:
+      213: -6586846945104367671
+    second: Imp Sprite Sheet_669
+  - first:
+      213: 166326752654180174
+    second: Imp Sprite Sheet_670
+  - first:
+      213: 3623306964385266367
+    second: Imp Sprite Sheet_671
+  - first:
+      213: 6310219947206651554
+    second: Imp Sprite Sheet_672
+  - first:
+      213: -2239114114915176376
+    second: Imp Sprite Sheet_673
+  - first:
+      213: -3179114718604303213
+    second: Imp Sprite Sheet_674
+  - first:
+      213: -7592665657446848544
+    second: Imp Sprite Sheet_675
+  - first:
+      213: -3787317765218434350
+    second: Imp Sprite Sheet_676
+  - first:
+      213: -3407479376088892560
+    second: Imp Sprite Sheet_677
+  - first:
+      213: 2196407655043640856
+    second: Imp Sprite Sheet_678
+  - first:
+      213: 3439489343014349899
+    second: Imp Sprite Sheet_679
+  - first:
+      213: 5599487004507307087
+    second: Imp Sprite Sheet_680
+  - first:
+      213: -8229239862333472862
+    second: Imp Sprite Sheet_681
+  - first:
+      213: 6677131357344739254
+    second: Imp Sprite Sheet_682
+  - first:
+      213: -7358914190755760865
+    second: Imp Sprite Sheet_683
+  - first:
+      213: 6387750050388336781
+    second: Imp Sprite Sheet_684
+  - first:
+      213: 3152396572747541202
+    second: Imp Sprite Sheet_685
+  - first:
+      213: -3374218536371090568
+    second: Imp Sprite Sheet_686
+  - first:
+      213: 471132676241647664
+    second: Imp Sprite Sheet_687
+  - first:
+      213: 4800905571464290138
+    second: Imp Sprite Sheet_688
+  - first:
+      213: 3412449593609594149
+    second: Imp Sprite Sheet_689
+  - first:
+      213: -8298716714490510757
+    second: Imp Sprite Sheet_690
+  - first:
+      213: -6841116761997317720
+    second: Imp Sprite Sheet_691
+  - first:
+      213: -4561542680444113251
+    second: Imp Sprite Sheet_692
+  - first:
+      213: 7025473291469600063
+    second: Imp Sprite Sheet_693
+  - first:
+      213: -7234591480843495629
+    second: Imp Sprite Sheet_694
+  - first:
+      213: 5460568414599623635
+    second: Imp Sprite Sheet_695
+  - first:
+      213: -405521033533571792
+    second: Imp Sprite Sheet_696
+  - first:
+      213: -1680073944364561735
+    second: Imp Sprite Sheet_697
+  - first:
+      213: -3867633400131422256
+    second: Imp Sprite Sheet_698
+  - first:
+      213: 2083706526924536035
+    second: Imp Sprite Sheet_699
+  - first:
+      213: -6957134934261162335
+    second: Imp Sprite Sheet_700
+  - first:
+      213: -8718436012989531474
+    second: Imp Sprite Sheet_701
+  - first:
+      213: -7225240674369938688
+    second: Imp Sprite Sheet_702
+  - first:
+      213: 3987711197761023675
+    second: Imp Sprite Sheet_703
+  - first:
+      213: 6519378930372376816
+    second: Imp Sprite Sheet_704
+  - first:
+      213: 406983347538908120
+    second: Imp Sprite Sheet_705
+  - first:
+      213: -8895384432341828565
+    second: Imp Sprite Sheet_706
+  - first:
+      213: 1119877659018971423
+    second: Imp Sprite Sheet_707
+  - first:
+      213: -9034657613499314667
+    second: Imp Sprite Sheet_708
+  - first:
+      213: 7710105611310236760
+    second: Imp Sprite Sheet_709
+  - first:
+      213: -71747311295435132
+    second: Imp Sprite Sheet_710
+  - first:
+      213: -3716618674126165302
+    second: Imp Sprite Sheet_711
+  - first:
+      213: 2778142149702265890
+    second: Imp Sprite Sheet_712
+  - first:
+      213: 5238930750173604881
+    second: Imp Sprite Sheet_713
+  - first:
+      213: 7667881130170974918
+    second: Imp Sprite Sheet_714
+  - first:
+      213: 6955529659073948053
+    second: Imp Sprite Sheet_715
+  - first:
+      213: -6393624780429054548
+    second: Imp Sprite Sheet_716
+  - first:
+      213: -8167558486090566758
+    second: Imp Sprite Sheet_717
+  - first:
+      213: -6797711795425690697
+    second: Imp Sprite Sheet_718
+  - first:
+      213: -5720115848905860124
+    second: Imp Sprite Sheet_719
+  - first:
+      213: -1451825883695166467
+    second: Imp Sprite Sheet_720
+  - first:
+      213: 7739541058953587723
+    second: Imp Sprite Sheet_721
+  - first:
+      213: 1845011752773628874
+    second: Imp Sprite Sheet_722
+  - first:
+      213: 6955099723763549081
+    second: Imp Sprite Sheet_723
+  - first:
+      213: -3367764050904465494
+    second: Imp Sprite Sheet_724
+  - first:
+      213: 21246802187711556
+    second: Imp Sprite Sheet_725
+  - first:
+      213: 601612146016559164
+    second: Imp Sprite Sheet_726
+  - first:
+      213: 4537404924286399887
+    second: Imp Sprite Sheet_727
+  - first:
+      213: 5673976703476548097
+    second: Imp Sprite Sheet_728
+  - first:
+      213: -4276017645092472665
+    second: Imp Sprite Sheet_729
+  - first:
+      213: -166006787994749049
+    second: Imp Sprite Sheet_730
+  - first:
+      213: -6059997899373931776
+    second: Imp Sprite Sheet_731
+  - first:
+      213: 8473798883903127690
+    second: Imp Sprite Sheet_732
+  - first:
+      213: 2126218797233225317
+    second: Imp Sprite Sheet_733
+  - first:
+      213: -165929296823934027
+    second: Imp Sprite Sheet_734
+  - first:
+      213: 614006987532524387
+    second: Imp Sprite Sheet_735
+  - first:
+      213: 2257743929303279103
+    second: Imp Sprite Sheet_736
+  - first:
+      213: -368378325978322537
+    second: Imp Sprite Sheet_737
+  - first:
+      213: 36030754816828684
+    second: Imp Sprite Sheet_738
+  - first:
+      213: -7602307893306681588
+    second: Imp Sprite Sheet_739
+  - first:
+      213: 3310569371459346286
+    second: Imp Sprite Sheet_740
+  - first:
+      213: 4862491201094515740
+    second: Imp Sprite Sheet_741
+  - first:
+      213: 7514956935225569299
+    second: Imp Sprite Sheet_742
+  - first:
+      213: -2920422269121139012
+    second: Imp Sprite Sheet_743
+  - first:
+      213: -504087874090598940
+    second: Imp Sprite Sheet_744
+  - first:
+      213: -1581600146839592386
+    second: Imp Sprite Sheet_745
+  - first:
+      213: -2985480847247169414
+    second: Imp Sprite Sheet_746
+  - first:
+      213: 588643255896507751
+    second: Imp Sprite Sheet_747
+  - first:
+      213: -7589533514171721421
+    second: Imp Sprite Sheet_748
+  - first:
+      213: 5441073751438960929
+    second: Imp Sprite Sheet_749
+  - first:
+      213: 921648491158664850
+    second: Imp Sprite Sheet_750
+  - first:
+      213: -8711945427408156583
+    second: Imp Sprite Sheet_751
+  - first:
+      213: 6629632002976894857
+    second: Imp Sprite Sheet_752
+  - first:
+      213: 2161516908309297766
+    second: Imp Sprite Sheet_753
+  - first:
+      213: 2408402649781816278
+    second: Imp Sprite Sheet_754
+  - first:
+      213: -6542883850321566462
+    second: Imp Sprite Sheet_755
+  - first:
+      213: -2569712808240386918
+    second: Imp Sprite Sheet_756
+  - first:
+      213: -9047815656197953357
+    second: Imp Sprite Sheet_757
+  - first:
+      213: -5191321013674047977
+    second: Imp Sprite Sheet_758
+  - first:
+      213: 802520022799706531
+    second: Imp Sprite Sheet_759
+  - first:
+      213: -1849013050197692445
+    second: Imp Sprite Sheet_760
+  - first:
+      213: 872714361111438482
+    second: Imp Sprite Sheet_761
+  - first:
+      213: 1971967664280748623
+    second: Imp Sprite Sheet_762
+  - first:
+      213: 1807598244892876118
+    second: Imp Sprite Sheet_763
+  - first:
+      213: 535029704325816025
+    second: Imp Sprite Sheet_764
+  - first:
+      213: 1759569470039870679
+    second: Imp Sprite Sheet_765
+  - first:
+      213: 6210674271639622816
+    second: Imp Sprite Sheet_766
+  - first:
+      213: -6355084109552389150
+    second: Imp Sprite Sheet_767
+  - first:
+      213: -5615084593326525599
+    second: Imp Sprite Sheet_768
+  - first:
+      213: 8639500820467202929
+    second: Imp Sprite Sheet_769
+  - first:
+      213: 4989232279901969531
+    second: Imp Sprite Sheet_770
+  - first:
+      213: 610252033238302333
+    second: Imp Sprite Sheet_771
+  - first:
+      213: 6593091308740905661
+    second: Imp Sprite Sheet_772
+  - first:
+      213: -3483643377582965569
+    second: Imp Sprite Sheet_773
+  - first:
+      213: -8546201091199866569
+    second: Imp Sprite Sheet_774
+  - first:
+      213: -1609532465071514179
+    second: Imp Sprite Sheet_775
+  - first:
+      213: -8196743021737085207
+    second: Imp Sprite Sheet_776
+  - first:
+      213: 6434853688058918272
+    second: Imp Sprite Sheet_777
+  - first:
+      213: -3245056568228618032
+    second: Imp Sprite Sheet_778
+  - first:
+      213: 5181279819149490147
+    second: Imp Sprite Sheet_779
+  - first:
+      213: -9099428563896309775
+    second: Imp Sprite Sheet_780
+  - first:
+      213: 7773280865003727518
+    second: Imp Sprite Sheet_781
+  - first:
+      213: -415302499420491555
+    second: Imp Sprite Sheet_782
+  - first:
+      213: -7444500976674239653
+    second: Imp Sprite Sheet_783
+  - first:
+      213: 1017556373451810354
+    second: Imp Sprite Sheet_784
+  - first:
+      213: 2559988492565745590
+    second: Imp Sprite Sheet_785
+  - first:
+      213: 1698419087087746508
+    second: Imp Sprite Sheet_786
+  - first:
+      213: 8778889642753746850
+    second: Imp Sprite Sheet_787
+  - first:
+      213: -8533232843871847545
+    second: Imp Sprite Sheet_788
+  - first:
+      213: -2980568003271769044
+    second: Imp Sprite Sheet_789
+  - first:
+      213: -7545594284396040454
+    second: Imp Sprite Sheet_790
+  - first:
+      213: 2965290344694201020
+    second: Imp Sprite Sheet_791
+  - first:
+      213: -8477548697925536005
+    second: Imp Sprite Sheet_792
+  - first:
+      213: -7113445991790540736
+    second: Imp Sprite Sheet_793
+  - first:
+      213: 4437235320981913717
+    second: Imp Sprite Sheet_794
+  - first:
+      213: 2961119687936433150
+    second: Imp Sprite Sheet_795
+  - first:
+      213: 7589217925934359217
+    second: Imp Sprite Sheet_796
+  - first:
+      213: 3390005952742218233
+    second: Imp Sprite Sheet_797
+  - first:
+      213: -1038773685532703918
+    second: Imp Sprite Sheet_798
+  - first:
+      213: 5658626090786256632
+    second: Imp Sprite Sheet_799
+  - first:
+      213: -7637994647966495039
+    second: Imp Sprite Sheet_800
+  - first:
+      213: 3747269461038701510
+    second: Imp Sprite Sheet_801
+  - first:
+      213: -7872182806077549816
+    second: Imp Sprite Sheet_802
+  - first:
+      213: -5806695232344261383
+    second: Imp Sprite Sheet_803
+  - first:
+      213: -6289753336578501348
+    second: Imp Sprite Sheet_804
+  - first:
+      213: 8715236711309829559
+    second: Imp Sprite Sheet_805
+  - first:
+      213: -7854137446013602914
+    second: Imp Sprite Sheet_806
+  - first:
+      213: -8833666927047466309
+    second: Imp Sprite Sheet_807
+  - first:
+      213: -1369968724939133681
+    second: Imp Sprite Sheet_808
+  - first:
+      213: 4966861634699911080
+    second: Imp Sprite Sheet_809
+  - first:
+      213: 4526440507708599811
+    second: Imp Sprite Sheet_810
+  - first:
+      213: -2023859927699018121
+    second: Imp Sprite Sheet_811
+  - first:
+      213: 1723062598735115279
+    second: Imp Sprite Sheet_812
+  - first:
+      213: -6845695846749570386
+    second: Imp Sprite Sheet_813
+  - first:
+      213: 1439409364971007452
+    second: Imp Sprite Sheet_814
+  - first:
+      213: 4976230437305943143
+    second: Imp Sprite Sheet_815
+  - first:
+      213: -2904222120091203622
+    second: Imp Sprite Sheet_816
+  - first:
+      213: -4828061928052377400
+    second: Imp Sprite Sheet_817
+  - first:
+      213: -1097968368660339609
+    second: Imp Sprite Sheet_818
+  - first:
+      213: 7115125777465825916
+    second: Imp Sprite Sheet_819
+  - first:
+      213: -5143194205823761474
+    second: Imp Sprite Sheet_820
+  - first:
+      213: -5153002992018302947
+    second: Imp Sprite Sheet_821
+  - first:
+      213: -5574543760601586003
+    second: Imp Sprite Sheet_822
+  - first:
+      213: 8156003167783198625
+    second: Imp Sprite Sheet_823
+  - first:
+      213: 7427752704644934505
+    second: Imp Sprite Sheet_824
+  - first:
+      213: -6391735972733176301
+    second: Imp Sprite Sheet_825
+  - first:
+      213: -7720657054677163919
+    second: Imp Sprite Sheet_826
+  - first:
+      213: 485533101804594206
+    second: Imp Sprite Sheet_827
+  - first:
+      213: 5884365870550388265
+    second: Imp Sprite Sheet_828
+  - first:
+      213: -3613686379919653757
+    second: Imp Sprite Sheet_829
+  - first:
+      213: 555376576956753631
+    second: Imp Sprite Sheet_830
+  - first:
+      213: 5899563797983297331
+    second: Imp Sprite Sheet_831
+  - first:
+      213: 8952208168947516325
+    second: Imp Sprite Sheet_832
+  - first:
+      213: 8687437120558244998
+    second: Imp Sprite Sheet_833
+  - first:
+      213: -8830574823765788673
+    second: Imp Sprite Sheet_834
+  - first:
+      213: 5514610435134951673
+    second: Imp Sprite Sheet_835
+  - first:
+      213: -5606670737647303172
+    second: Imp Sprite Sheet_836
+  - first:
+      213: -2052498908751138595
+    second: Imp Sprite Sheet_837
+  - first:
+      213: -4009192404126479283
+    second: Imp Sprite Sheet_838
+  - first:
+      213: 2408687097903874381
+    second: Imp Sprite Sheet_839
+  - first:
+      213: -4934732175437095104
+    second: Imp Sprite Sheet_840
+  - first:
+      213: -2203109763909899923
+    second: Imp Sprite Sheet_841
+  - first:
+      213: -1064408538712059928
+    second: Imp Sprite Sheet_842
+  - first:
+      213: 3674987279105177128
+    second: Imp Sprite Sheet_843
+  - first:
+      213: 7553417010440557429
+    second: Imp Sprite Sheet_844
+  - first:
+      213: -4614513967087902244
+    second: Imp Sprite Sheet_845
+  - first:
+      213: -3565226599319301822
+    second: Imp Sprite Sheet_846
+  - first:
+      213: -6286250501682261136
+    second: Imp Sprite Sheet_847
+  - first:
+      213: 5709492409291187019
+    second: Imp Sprite Sheet_848
+  - first:
+      213: 2738147859838436603
+    second: Imp Sprite Sheet_849
+  - first:
+      213: -4597004904471858515
+    second: Imp Sprite Sheet_850
+  - first:
+      213: -4599600405028586005
+    second: Imp Sprite Sheet_851
+  - first:
+      213: -7967589362306115671
+    second: Imp Sprite Sheet_852
+  - first:
+      213: 4347739692270850082
+    second: Imp Sprite Sheet_853
+  - first:
+      213: -558291446663508515
+    second: Imp Sprite Sheet_854
+  - first:
+      213: -6584797601677667342
+    second: Imp Sprite Sheet_855
+  - first:
+      213: 8484533244216707582
+    second: Imp Sprite Sheet_856
+  - first:
+      213: 2499485237803018276
+    second: Imp Sprite Sheet_857
+  - first:
+      213: 161517634360407239
+    second: Imp Sprite Sheet_858
+  - first:
+      213: 613952331266432626
+    second: Imp Sprite Sheet_859
+  - first:
+      213: -9001810831680003720
+    second: Imp Sprite Sheet_860
+  - first:
+      213: 7081926722362927340
+    second: Imp Sprite Sheet_861
+  - first:
+      213: 4152923387074063495
+    second: Imp Sprite Sheet_862
+  - first:
+      213: 8327377962790317893
+    second: Imp Sprite Sheet_863
+  - first:
+      213: -271198331469805177
+    second: Imp Sprite Sheet_864
+  - first:
+      213: 1313325215574069109
+    second: Imp Sprite Sheet_865
+  - first:
+      213: 8397909027744830482
+    second: Imp Sprite Sheet_866
+  - first:
+      213: 5385122885444226548
+    second: Imp Sprite Sheet_867
+  - first:
+      213: 6791774660844093495
+    second: Imp Sprite Sheet_868
+  - first:
+      213: -3779597073170709240
+    second: Imp Sprite Sheet_869
+  - first:
+      213: 6135356162720720184
+    second: Imp Sprite Sheet_870
+  - first:
+      213: -1565380858524456035
+    second: Imp Sprite Sheet_871
+  - first:
+      213: 1658254798598079110
+    second: Imp Sprite Sheet_872
+  - first:
+      213: -1593349452566879663
+    second: Imp Sprite Sheet_873
+  - first:
+      213: -773769330018514682
+    second: Imp Sprite Sheet_874
+  - first:
+      213: 9077686458194194147
+    second: Imp Sprite Sheet_875
+  - first:
+      213: -6789127429359113371
+    second: Imp Sprite Sheet_876
+  - first:
+      213: -4331899831200851375
+    second: Imp Sprite Sheet_877
+  - first:
+      213: -4549075765091551661
+    second: Imp Sprite Sheet_878
+  - first:
+      213: -1636496807788674496
+    second: Imp Sprite Sheet_879
+  - first:
+      213: -4186232927105593673
+    second: Imp Sprite Sheet_880
+  - first:
+      213: -6869898258151091031
+    second: Imp Sprite Sheet_881
+  - first:
+      213: -3545335955113789881
+    second: Imp Sprite Sheet_882
+  - first:
+      213: 2920123010012457833
+    second: Imp Sprite Sheet_883
+  - first:
+      213: -5418360494366239442
+    second: Imp Sprite Sheet_884
+  - first:
+      213: 3154980656956746198
+    second: Imp Sprite Sheet_885
+  - first:
+      213: -1570345930464411849
+    second: Imp Sprite Sheet_886
+  - first:
+      213: 7563771252942805023
+    second: Imp Sprite Sheet_887
+  - first:
+      213: 2601879073156316820
+    second: Imp Sprite Sheet_888
+  - first:
+      213: -3640625378792154656
+    second: Imp Sprite Sheet_889
+  - first:
+      213: -6030714522546684323
+    second: Imp Sprite Sheet_890
+  - first:
+      213: -5816324463122230864
+    second: Imp Sprite Sheet_891
+  - first:
+      213: 819451532371236832
+    second: Imp Sprite Sheet_892
+  - first:
+      213: -243507112833801785
+    second: Imp Sprite Sheet_893
+  - first:
+      213: 6263928347398413561
+    second: Imp Sprite Sheet_894
+  - first:
+      213: 1004107116157094268
+    second: Imp Sprite Sheet_895
+  - first:
+      213: -6386038056343594450
+    second: Imp Sprite Sheet_896
+  - first:
+      213: 9020021449011310007
+    second: Imp Sprite Sheet_897
+  - first:
+      213: -4851804653207410247
+    second: Imp Sprite Sheet_898
+  - first:
+      213: -1711566667668702667
+    second: Imp Sprite Sheet_899
+  - first:
+      213: 7637241094106375492
+    second: Imp Sprite Sheet_900
+  - first:
+      213: 4928690782725282134
+    second: Imp Sprite Sheet_901
+  - first:
+      213: -5439054962876380293
+    second: Imp Sprite Sheet_902
+  - first:
+      213: 4397884190076668444
+    second: Imp Sprite Sheet_903
+  - first:
+      213: 1807491378131728183
+    second: Imp Sprite Sheet_904
+  - first:
+      213: 7194026159809253878
+    second: Imp Sprite Sheet_905
+  - first:
+      213: 537916714360858722
+    second: Imp Sprite Sheet_906
+  - first:
+      213: -7838333088624732276
+    second: Imp Sprite Sheet_907
+  - first:
+      213: 8691714984417257396
+    second: Imp Sprite Sheet_908
+  - first:
+      213: 2215711852135262275
+    second: Imp Sprite Sheet_909
+  - first:
+      213: 5371885305004747885
+    second: Imp Sprite Sheet_910
+  - first:
+      213: 5787441263141477358
+    second: Imp Sprite Sheet_911
+  - first:
+      213: -5478227086607528963
+    second: Imp Sprite Sheet_912
+  - first:
+      213: 7302961265584464856
+    second: Imp Sprite Sheet_913
+  - first:
+      213: 4353315993442847646
+    second: Imp Sprite Sheet_914
+  - first:
+      213: -9038765290369789143
+    second: Imp Sprite Sheet_915
+  - first:
+      213: -889712405221180950
+    second: Imp Sprite Sheet_916
+  - first:
+      213: 7631167542882331085
+    second: Imp Sprite Sheet_917
+  - first:
+      213: -3235715131645828359
+    second: Imp Sprite Sheet_918
+  - first:
+      213: 1288859772126470179
+    second: Imp Sprite Sheet_919
+  - first:
+      213: -3439810844809814868
+    second: Imp Sprite Sheet_920
+  - first:
+      213: 5236013532681698776
+    second: Imp Sprite Sheet_921
+  - first:
+      213: -2197415563939662296
+    second: Imp Sprite Sheet_922
+  - first:
+      213: 2975304638159026192
+    second: Imp Sprite Sheet_923
+  - first:
+      213: 3021547703949425906
+    second: Imp Sprite Sheet_924
+  - first:
+      213: 2054330991386920942
+    second: Imp Sprite Sheet_925
+  - first:
+      213: -6914108119822817090
+    second: Imp Sprite Sheet_926
+  - first:
+      213: -4270938874717398720
+    second: Imp Sprite Sheet_927
+  - first:
+      213: -3437737612442007912
+    second: Imp Sprite Sheet_928
+  - first:
+      213: 7132136906801522352
+    second: Imp Sprite Sheet_929
+  - first:
+      213: 8636651648049731987
+    second: Imp Sprite Sheet_930
+  - first:
+      213: 6153531342516107718
+    second: Imp Sprite Sheet_931
+  - first:
+      213: -238333395457594947
+    second: Imp Sprite Sheet_932
+  - first:
+      213: 4396807495506586964
+    second: Imp Sprite Sheet_933
+  - first:
+      213: -6800650108037133709
+    second: Imp Sprite Sheet_934
+  - first:
+      213: 2401200403346275118
+    second: Imp Sprite Sheet_935
+  - first:
+      213: -8327457071497462783
+    second: Imp Sprite Sheet_936
+  - first:
+      213: 7909783286077278868
+    second: Imp Sprite Sheet_937
+  - first:
+      213: 8711686964052310524
+    second: Imp Sprite Sheet_938
+  - first:
+      213: -7634292414903982501
+    second: Imp Sprite Sheet_939
+  - first:
+      213: 1131688458149814622
+    second: Imp Sprite Sheet_940
+  - first:
+      213: 5110803647923985092
+    second: Imp Sprite Sheet_941
+  - first:
+      213: -3367475939425101181
+    second: Imp Sprite Sheet_942
+  - first:
+      213: -3036162891771623261
+    second: Imp Sprite Sheet_943
+  - first:
+      213: -6247520868447551090
+    second: Imp Sprite Sheet_944
+  - first:
+      213: 7349821369125055073
+    second: Imp Sprite Sheet_945
+  - first:
+      213: 570299277486285095
+    second: Imp Sprite Sheet_946
+  - first:
+      213: 2612906671745111111
+    second: Imp Sprite Sheet_947
+  - first:
+      213: 9066963901859427327
+    second: Imp Sprite Sheet_948
+  - first:
+      213: 330926391770200571
+    second: Imp Sprite Sheet_949
+  - first:
+      213: 2373056325161271699
+    second: Imp Sprite Sheet_950
+  - first:
+      213: 5595074841569775628
+    second: Imp Sprite Sheet_951
+  - first:
+      213: 33615940825123311
+    second: Imp Sprite Sheet_952
+  - first:
+      213: 2789376673273023732
+    second: Imp Sprite Sheet_953
+  - first:
+      213: -5763539918001643622
+    second: Imp Sprite Sheet_954
+  - first:
+      213: -7776752330801463479
+    second: Imp Sprite Sheet_955
+  - first:
+      213: -4560752481755103246
+    second: Imp Sprite Sheet_956
+  - first:
+      213: 683064904136907345
+    second: Imp Sprite Sheet_957
+  - first:
+      213: 2971543605933687758
+    second: Imp Sprite Sheet_958
+  - first:
+      213: 1174576286120022994
+    second: Imp Sprite Sheet_959
+  - first:
+      213: 8017611999215556294
+    second: Imp Sprite Sheet_960
+  - first:
+      213: 3596394276534011215
+    second: Imp Sprite Sheet_961
+  - first:
+      213: -1245799016648790206
+    second: Imp Sprite Sheet_962
+  - first:
+      213: -8069093806630142695
+    second: Imp Sprite Sheet_963
+  - first:
+      213: -112408596009517177
+    second: Imp Sprite Sheet_964
+  - first:
+      213: -8377025916237960854
+    second: Imp Sprite Sheet_965
+  - first:
+      213: -750485923801604840
+    second: Imp Sprite Sheet_966
+  - first:
+      213: -3826934053492429025
+    second: Imp Sprite Sheet_967
+  - first:
+      213: 5302642315546636665
+    second: Imp Sprite Sheet_968
+  - first:
+      213: 6573013794798125244
+    second: Imp Sprite Sheet_969
+  - first:
+      213: -5515542773043091591
+    second: Imp Sprite Sheet_970
+  - first:
+      213: 2257608646136258904
+    second: Imp Sprite Sheet_971
+  - first:
+      213: -2713220117675581606
+    second: Imp Sprite Sheet_972
+  - first:
+      213: 2532596922975791488
+    second: Imp Sprite Sheet_973
+  - first:
+      213: -8596716407197023774
+    second: Imp Sprite Sheet_974
+  - first:
+      213: 8481345480660256528
+    second: Imp Sprite Sheet_975
+  - first:
+      213: 3086128424654876976
+    second: Imp Sprite Sheet_976
+  - first:
+      213: -1979684007303956039
+    second: Imp Sprite Sheet_977
+  - first:
+      213: 4108046051563099241
+    second: Imp Sprite Sheet_978
+  - first:
+      213: 2719158929629872228
+    second: Imp Sprite Sheet_979
+  - first:
+      213: 4940270991256957190
+    second: Imp Sprite Sheet_980
+  - first:
+      213: 7420994655794989191
+    second: Imp Sprite Sheet_981
+  - first:
+      213: 3123632377304010898
+    second: Imp Sprite Sheet_982
+  - first:
+      213: -5237549454743480418
+    second: Imp Sprite Sheet_983
+  - first:
+      213: 4158162761128011895
+    second: Imp Sprite Sheet_984
+  - first:
+      213: -511614008691750483
+    second: Imp Sprite Sheet_985
+  - first:
+      213: 5510598050201965160
+    second: Imp Sprite Sheet_986
+  - first:
+      213: -1224547432641405279
+    second: Imp Sprite Sheet_987
+  - first:
+      213: 387063480653866314
+    second: Imp Sprite Sheet_988
+  - first:
+      213: -8123925581251287657
+    second: Imp Sprite Sheet_989
+  - first:
+      213: -8010954164451172952
+    second: Imp Sprite Sheet_990
+  - first:
+      213: -6563217669871154139
+    second: Imp Sprite Sheet_991
+  - first:
+      213: -3014917551033544795
+    second: Imp Sprite Sheet_992
+  - first:
+      213: 7816234136560103655
+    second: Imp Sprite Sheet_993
+  - first:
+      213: 195112898806175229
+    second: Imp Sprite Sheet_994
+  - first:
+      213: -2696622453530583460
+    second: Imp Sprite Sheet_995
+  - first:
+      213: 7915552366987459674
+    second: Imp Sprite Sheet_996
+  - first:
+      213: -5567629392810425934
+    second: Imp Sprite Sheet_997
+  - first:
+      213: 906182164291882769
+    second: Imp Sprite Sheet_998
+  - first:
+      213: -8006606796496385515
+    second: Imp Sprite Sheet_999
+  - first:
+      213: -355241811040361367
+    second: Imp Sprite Sheet_1000
+  - first:
+      213: 4529286165958907093
+    second: Imp Sprite Sheet_1001
+  - first:
+      213: 2731412344652385368
+    second: Imp Sprite Sheet_1002
+  - first:
+      213: -5701429287401590869
+    second: Imp Sprite Sheet_1003
+  - first:
+      213: -4457835010074236816
+    second: Imp Sprite Sheet_1004
+  - first:
+      213: 1228900947545700174
+    second: Imp Sprite Sheet_1005
+  - first:
+      213: 3037816060893500690
+    second: Imp Sprite Sheet_1006
+  - first:
+      213: 1273150208867540405
+    second: Imp Sprite Sheet_1007
+  - first:
+      213: 6908992785694234759
+    second: Imp Sprite Sheet_1008
+  - first:
+      213: 6773164800297355776
+    second: Imp Sprite Sheet_1009
+  - first:
+      213: -1708456721888224116
+    second: Imp Sprite Sheet_1010
+  - first:
+      213: -6026637118133466699
+    second: Imp Sprite Sheet_1011
+  - first:
+      213: -110690547038776398
+    second: Imp Sprite Sheet_1012
+  - first:
+      213: 7796859831037642804
+    second: Imp Sprite Sheet_1013
+  - first:
+      213: -7417513083097190466
+    second: Imp Sprite Sheet_1014
+  - first:
+      213: 4819881653721536080
+    second: Imp Sprite Sheet_1015
+  - first:
+      213: -7537487993034945004
+    second: Imp Sprite Sheet_1016
+  - first:
+      213: -4727788409602766488
+    second: Imp Sprite Sheet_1017
+  - first:
+      213: -8202952337607661034
+    second: Imp Sprite Sheet_1018
+  - first:
+      213: -2203165355515729931
+    second: Imp Sprite Sheet_1019
+  - first:
+      213: -1099899086106958157
+    second: Imp Sprite Sheet_1020
+  - first:
+      213: -7047188898938638993
+    second: Imp Sprite Sheet_1021
+  - first:
+      213: -4299491980205550220
+    second: Imp Sprite Sheet_1022
+  - first:
+      213: -8870770481056392578
+    second: Imp Sprite Sheet_1023
+  - first:
+      213: 2497578498080904664
+    second: Imp Sprite Sheet_1024
+  - first:
+      213: -3240016687409871200
+    second: Imp Sprite Sheet_1025
+  - first:
+      213: -6206678726041372036
+    second: Imp Sprite Sheet_1026
+  - first:
+      213: 4779413569056215635
+    second: Imp Sprite Sheet_1027
+  - first:
+      213: -8094260756824343397
+    second: Imp Sprite Sheet_1028
+  - first:
+      213: -1790747488972247544
+    second: Imp Sprite Sheet_1029
+  - first:
+      213: 282052690591543243
+    second: Imp Sprite Sheet_1030
+  - first:
+      213: 5007706661536984075
+    second: Imp Sprite Sheet_1031
+  - first:
+      213: 6097072657315887141
+    second: Imp Sprite Sheet_1032
+  - first:
+      213: -3826431253231528981
+    second: Imp Sprite Sheet_1033
+  - first:
+      213: 3120811148199676302
+    second: Imp Sprite Sheet_1034
+  - first:
+      213: -7133047600873464653
+    second: Imp Sprite Sheet_1035
+  - first:
+      213: 8065790354764360791
+    second: Imp Sprite Sheet_1036
+  - first:
+      213: 4489417227813181983
+    second: Imp Sprite Sheet_1037
+  - first:
+      213: 873883496675225568
+    second: Imp Sprite Sheet_1038
+  - first:
+      213: -3745391524396928249
+    second: Imp Sprite Sheet_1039
+  - first:
+      213: 2433608953342237658
+    second: Imp Sprite Sheet_1040
+  - first:
+      213: 4088047123389648889
+    second: Imp Sprite Sheet_1041
+  - first:
+      213: 6006879822437863780
+    second: Imp Sprite Sheet_1042
+  - first:
+      213: 5371190198498082508
+    second: Imp Sprite Sheet_1043
+  - first:
+      213: -1305739743892363028
+    second: Imp Sprite Sheet_1044
+  - first:
+      213: -1706676196621705081
+    second: Imp Sprite Sheet_1045
+  - first:
+      213: -1657273869085496368
+    second: Imp Sprite Sheet_1046
+  - first:
+      213: 6797803008173670591
+    second: Imp Sprite Sheet_1047
+  - first:
+      213: -1013475825735311767
+    second: Imp Sprite Sheet_1048
+  - first:
+      213: 8628045383022798786
+    second: Imp Sprite Sheet_1049
+  - first:
+      213: -591867092635123472
+    second: Imp Sprite Sheet_1050
+  - first:
+      213: -6475235686362843107
+    second: Imp Sprite Sheet_1051
+  - first:
+      213: -7216021459285391848
+    second: Imp Sprite Sheet_1052
+  - first:
+      213: 1472968540221752574
+    second: Imp Sprite Sheet_1053
+  - first:
+      213: 8022679385682429675
+    second: Imp Sprite Sheet_1054
+  - first:
+      213: -2142682321110177374
+    second: Imp Sprite Sheet_1055
+  - first:
+      213: 8622264761536757179
+    second: Imp Sprite Sheet_1056
+  - first:
+      213: -7333216584757638885
+    second: Imp Sprite Sheet_1057
+  - first:
+      213: 5000868395230791573
+    second: Imp Sprite Sheet_1058
+  - first:
+      213: 2401396448332252076
+    second: Imp Sprite Sheet_1059
+  - first:
+      213: 6217218706688033485
+    second: Imp Sprite Sheet_1060
+  - first:
+      213: -2627423970005318086
+    second: Imp Sprite Sheet_1061
+  - first:
+      213: -5476202149070469248
+    second: Imp Sprite Sheet_1062
+  - first:
+      213: 248982653593564255
+    second: Imp Sprite Sheet_1063
+  - first:
+      213: 8545682742226570809
+    second: Imp Sprite Sheet_1064
+  - first:
+      213: 3640382599660614392
+    second: Imp Sprite Sheet_1065
+  - first:
+      213: 2188823678078393959
+    second: Imp Sprite Sheet_1066
+  - first:
+      213: 757445878696020642
+    second: Imp Sprite Sheet_1067
+  - first:
+      213: -322994195677425497
+    second: Imp Sprite Sheet_1068
+  - first:
+      213: -3708193576691743032
+    second: Imp Sprite Sheet_1069
+  - first:
+      213: 4341795160002356769
+    second: Imp Sprite Sheet_1070
+  - first:
+      213: 5406007267709589405
+    second: Imp Sprite Sheet_1071
+  - first:
+      213: 1974787619731087280
+    second: Imp Sprite Sheet_1072
+  - first:
+      213: -7967494657590510158
+    second: Imp Sprite Sheet_1073
+  - first:
+      213: 4197227446197826672
+    second: Imp Sprite Sheet_1074
+  - first:
+      213: 8413364447348395884
+    second: Imp Sprite Sheet_1075
+  - first:
+      213: -9117146960747204534
+    second: Imp Sprite Sheet_1076
+  - first:
+      213: 8095084798836076258
+    second: Imp Sprite Sheet_1077
+  - first:
+      213: -8689965701767469086
+    second: Imp Sprite Sheet_1078
+  - first:
+      213: -1645755518255939716
+    second: Imp Sprite Sheet_1079
+  - first:
+      213: 2409402434954951099
+    second: Imp Sprite Sheet_1080
+  - first:
+      213: -2359725709452942047
+    second: Imp Sprite Sheet_1081
+  - first:
+      213: -6383661089530346801
+    second: Imp Sprite Sheet_1082
+  - first:
+      213: 169584006342864439
+    second: Imp Sprite Sheet_1083
+  - first:
+      213: 2860493148818597200
+    second: Imp Sprite Sheet_1084
+  - first:
+      213: -4003881416775670206
+    second: Imp Sprite Sheet_1085
+  - first:
+      213: 8513792853398032346
+    second: Imp Sprite Sheet_1086
+  - first:
+      213: 1449769346739902555
+    second: Imp Sprite Sheet_1087
+  - first:
+      213: 4030491764635245618
+    second: Imp Sprite Sheet_1088
+  - first:
+      213: -3055232556170825792
+    second: Imp Sprite Sheet_1089
+  - first:
+      213: 9027079738565090760
+    second: Imp Sprite Sheet_1090
+  - first:
+      213: -2845560885862670114
+    second: Imp Sprite Sheet_1091
+  - first:
+      213: 6150382492153282602
+    second: Imp Sprite Sheet_1092
+  - first:
+      213: -4755658175156985201
+    second: Imp Sprite Sheet_1093
+  - first:
+      213: 1805104278824243416
+    second: Imp Sprite Sheet_1094
+  - first:
+      213: 8807874859858347908
+    second: Imp Sprite Sheet_1095
+  - first:
+      213: -817116107764081162
+    second: Imp Sprite Sheet_1096
+  - first:
+      213: 9134484722772980029
+    second: Imp Sprite Sheet_1097
+  - first:
+      213: 7179714696035529695
+    second: Imp Sprite Sheet_1098
+  - first:
+      213: 8063755529297465264
+    second: Imp Sprite Sheet_1099
+  - first:
+      213: -6139711378493882997
+    second: Imp Sprite Sheet_1100
+  - first:
+      213: -7763885539655878360
+    second: Imp Sprite Sheet_1101
+  - first:
+      213: 8388162964262052084
+    second: Imp Sprite Sheet_1102
+  - first:
+      213: -9017191180668103075
+    second: Imp Sprite Sheet_1103
+  - first:
+      213: -857286649960502434
+    second: Imp Sprite Sheet_1104
+  - first:
+      213: -2732363696250768310
+    second: Imp Sprite Sheet_1105
+  - first:
+      213: -260683335409023924
+    second: Imp Sprite Sheet_1106
+  - first:
+      213: 2030398528994221923
+    second: Imp Sprite Sheet_1107
+  - first:
+      213: 7860717604742256967
+    second: Imp Sprite Sheet_1108
+  - first:
+      213: -3045797507277116168
+    second: Imp Sprite Sheet_1109
+  - first:
+      213: 5951160630478788229
+    second: Imp Sprite Sheet_1110
+  - first:
+      213: 167553438944305218
+    second: Imp Sprite Sheet_1111
+  - first:
+      213: -7026259811784492988
+    second: Imp Sprite Sheet_1112
+  - first:
+      213: 581282172417746835
+    second: Imp Sprite Sheet_1113
+  - first:
+      213: -9159375339447505363
+    second: Imp Sprite Sheet_1114
+  - first:
+      213: -1644934226763234032
+    second: Imp Sprite Sheet_1115
+  - first:
+      213: 5661518929538947043
+    second: Imp Sprite Sheet_1116
+  - first:
+      213: -706529254387300436
+    second: Imp Sprite Sheet_1117
+  - first:
+      213: -3807892097029116385
+    second: Imp Sprite Sheet_1118
+  - first:
+      213: -7933392465643352769
+    second: Imp Sprite Sheet_1119
+  - first:
+      213: -4711328477144507718
+    second: Imp Sprite Sheet_1120
+  - first:
+      213: 8679689578008116811
+    second: Imp Sprite Sheet_1121
+  - first:
+      213: -5791552726770927247
+    second: Imp Sprite Sheet_1122
+  - first:
+      213: 5660224653523488905
+    second: Imp Sprite Sheet_1123
+  - first:
+      213: -6291893622354701623
+    second: Imp Sprite Sheet_1124
+  - first:
+      213: -530427116865668300
+    second: Imp Sprite Sheet_1125
+  - first:
+      213: -1845536796615283240
+    second: Imp Sprite Sheet_1126
+  - first:
+      213: 757328629668556717
+    second: Imp Sprite Sheet_1127
+  - first:
+      213: 604309845295467190
+    second: Imp Sprite Sheet_1128
+  - first:
+      213: 4056846516532462432
+    second: Imp Sprite Sheet_1129
+  - first:
+      213: -7200961258943562510
+    second: Imp Sprite Sheet_1130
+  - first:
+      213: -1221250925904600148
+    second: Imp Sprite Sheet_1131
+  - first:
+      213: 125861276202281127
+    second: Imp Sprite Sheet_1132
+  - first:
+      213: 8332769865918795475
+    second: Imp Sprite Sheet_1133
+  - first:
+      213: 156727698415664213
+    second: Imp Sprite Sheet_1134
+  - first:
+      213: -2679685424724663406
+    second: Imp Sprite Sheet_1135
+  - first:
+      213: -7785233345537838350
+    second: Imp Sprite Sheet_1136
+  - first:
+      213: -2840666380946021111
+    second: Imp Sprite Sheet_1137
+  - first:
+      213: -7916940124468156879
+    second: Imp Sprite Sheet_1138
+  - first:
+      213: 1685869718303426710
+    second: Imp Sprite Sheet_1139
+  - first:
+      213: -7828640244370839046
+    second: Imp Sprite Sheet_1140
+  - first:
+      213: 3676211742509730471
+    second: Imp Sprite Sheet_1141
+  - first:
+      213: -2552739749595841302
+    second: Imp Sprite Sheet_1142
+  - first:
+      213: 8095830510640762788
+    second: Imp Sprite Sheet_1143
+  - first:
+      213: -655946190230701544
+    second: Imp Sprite Sheet_1144
+  - first:
+      213: -176160793179483703
+    second: Imp Sprite Sheet_1145
+  - first:
+      213: 8177784922845052251
+    second: Imp Sprite Sheet_1146
+  - first:
+      213: -3444883230764590083
+    second: Imp Sprite Sheet_1147
+  - first:
+      213: -5557406164543228013
+    second: Imp Sprite Sheet_1148
+  - first:
+      213: 5410523431358974404
+    second: Imp Sprite Sheet_1149
+  - first:
+      213: 5664876426894283847
+    second: Imp Sprite Sheet_1150
+  - first:
+      213: 4110218793848758494
+    second: Imp Sprite Sheet_1151
+  - first:
+      213: 4708935242295637927
+    second: Imp Sprite Sheet_1152
+  - first:
+      213: 5315905766968139835
+    second: Imp Sprite Sheet_1153
+  - first:
+      213: -8021535756896416494
+    second: Imp Sprite Sheet_1154
+  - first:
+      213: -2615302838839702482
+    second: Imp Sprite Sheet_1155
+  - first:
+      213: -4786385514414200449
+    second: Imp Sprite Sheet_1156
+  - first:
+      213: -6903722910349738221
+    second: Imp Sprite Sheet_1157
+  - first:
+      213: -9064341439084549933
+    second: Imp Sprite Sheet_1158
+  - first:
+      213: 4760970451456724436
+    second: Imp Sprite Sheet_1159
+  - first:
+      213: 2779055731009099520
+    second: Imp Sprite Sheet_1160
+  - first:
+      213: 6084066920915313287
+    second: Imp Sprite Sheet_1161
+  - first:
+      213: 8209244340292652552
+    second: Imp Sprite Sheet_1162
+  - first:
+      213: 7196978212583253434
+    second: Imp Sprite Sheet_1163
+  - first:
+      213: 8103399306274133721
+    second: Imp Sprite Sheet_1164
+  - first:
+      213: 8431339557792936084
+    second: Imp Sprite Sheet_1165
+  - first:
+      213: -2106327717049694368
+    second: Imp Sprite Sheet_1166
+  - first:
+      213: -8079715912918482831
+    second: Imp Sprite Sheet_1167
+  - first:
+      213: 1508382454492368127
+    second: Imp Sprite Sheet_1168
+  - first:
+      213: -2716989248083235735
+    second: Imp Sprite Sheet_1169
+  - first:
+      213: -3704384583047012846
+    second: Imp Sprite Sheet_1170
+  - first:
+      213: 8618628252224459281
+    second: Imp Sprite Sheet_1171
+  - first:
+      213: -2066064893792940638
+    second: Imp Sprite Sheet_1172
+  - first:
+      213: 4865200825711880572
+    second: Imp Sprite Sheet_1173
+  - first:
+      213: -4143514437824586856
+    second: Imp Sprite Sheet_1174
+  - first:
+      213: -7308694065211923904
+    second: Imp Sprite Sheet_1175
+  - first:
+      213: -4347217375058628965
+    second: Imp Sprite Sheet_1176
+  - first:
+      213: 7198530888461122328
+    second: Imp Sprite Sheet_1177
+  - first:
+      213: 5344686419304531306
+    second: Imp Sprite Sheet_1178
+  - first:
+      213: 3870892002532375913
+    second: Imp Sprite Sheet_1179
+  - first:
+      213: 770508157507767003
+    second: Imp Sprite Sheet_1180
+  - first:
+      213: 1382325325887213197
+    second: Imp Sprite Sheet_1181
+  - first:
+      213: -2146251840943763552
+    second: Imp Sprite Sheet_1182
+  - first:
+      213: 4996968772238768364
+    second: Imp Sprite Sheet_1183
+  - first:
+      213: -6112316412003900934
+    second: Imp Sprite Sheet_1184
+  - first:
+      213: -3465062161939211970
+    second: Imp Sprite Sheet_1185
+  - first:
+      213: -8405001365998527876
+    second: Imp Sprite Sheet_1186
+  - first:
+      213: -3841404548474609308
+    second: Imp Sprite Sheet_1187
+  - first:
+      213: 3557548077631448089
+    second: Imp Sprite Sheet_1188
+  - first:
+      213: -1648203870515852012
+    second: Imp Sprite Sheet_1189
+  - first:
+      213: -3799614238000446803
+    second: Imp Sprite Sheet_1190
+  - first:
+      213: 5912942628651798110
+    second: Imp Sprite Sheet_1191
+  - first:
+      213: 3860096593268329981
+    second: Imp Sprite Sheet_1192
+  - first:
+      213: 1615163020675148040
+    second: Imp Sprite Sheet_1193
+  - first:
+      213: -8147444517367937254
+    second: Imp Sprite Sheet_1194
+  - first:
+      213: 8070894681663871505
+    second: Imp Sprite Sheet_1195
+  - first:
+      213: 7637218421492892387
+    second: Imp Sprite Sheet_1196
+  - first:
+      213: -3355880190244825929
+    second: Imp Sprite Sheet_1197
+  - first:
+      213: -6816975394816400428
+    second: Imp Sprite Sheet_1198
+  - first:
+      213: 3434873465820866432
+    second: Imp Sprite Sheet_1199
+  - first:
+      213: 1494579687089625628
+    second: Imp Sprite Sheet_1200
+  - first:
+      213: 3068385522561379916
+    second: Imp Sprite Sheet_1201
+  - first:
+      213: -7846535388911518618
+    second: Imp Sprite Sheet_1202
+  - first:
+      213: -633069075838593663
+    second: Imp Sprite Sheet_1203
+  - first:
+      213: -775974113238843309
+    second: Imp Sprite Sheet_1204
+  - first:
+      213: 8475376532557394374
+    second: Imp Sprite Sheet_1205
+  - first:
+      213: 5393388431278255161
+    second: Imp Sprite Sheet_1206
+  - first:
+      213: 65231160997561776
+    second: Imp Sprite Sheet_1207
+  - first:
+      213: 146207839705023899
+    second: Imp Sprite Sheet_1208
+  - first:
+      213: 8717393293389020380
+    second: Imp Sprite Sheet_1209
+  - first:
+      213: -8979019644209252095
+    second: Imp Sprite Sheet_1210
+  - first:
+      213: 67051751968458485
+    second: Imp Sprite Sheet_1211
+  - first:
+      213: -5264002509814336037
+    second: Imp Sprite Sheet_1212
+  - first:
+      213: 4146990084628055191
+    second: Imp Sprite Sheet_1213
+  - first:
+      213: -2983702948479772916
+    second: Imp Sprite Sheet_1214
+  - first:
+      213: 362076297529767157
+    second: Imp Sprite Sheet_1215
+  - first:
+      213: -1131338548088560289
+    second: Imp Sprite Sheet_1216
+  - first:
+      213: -6221926904000960986
+    second: Imp Sprite Sheet_1217
+  - first:
+      213: -6230002701139479792
+    second: Imp Sprite Sheet_1218
+  - first:
+      213: 40486056120033628
+    second: Imp Sprite Sheet_1219
+  - first:
+      213: 22441874064379761
+    second: Imp Sprite Sheet_1220
+  - first:
+      213: -9208148831021895586
+    second: Imp Sprite Sheet_1221
+  - first:
+      213: 8683036422381462352
+    second: Imp Sprite Sheet_1222
+  - first:
+      213: -6114045986372715163
+    second: Imp Sprite Sheet_1223
+  - first:
+      213: 6317588028988028097
+    second: Imp Sprite Sheet_1224
+  - first:
+      213: 8897000512268293102
+    second: Imp Sprite Sheet_1225
+  - first:
+      213: -5516834871368664597
+    second: Imp Sprite Sheet_1226
+  - first:
+      213: -2271641722149773852
+    second: Imp Sprite Sheet_1227
+  - first:
+      213: -1730197657356630309
+    second: Imp Sprite Sheet_1228
+  - first:
+      213: 8583070228852567163
+    second: Imp Sprite Sheet_1229
+  - first:
+      213: -8087571372346517536
+    second: Imp Sprite Sheet_1230
+  - first:
+      213: 7931953858622542364
+    second: Imp Sprite Sheet_1231
+  - first:
+      213: 3003256121612696685
+    second: Imp Sprite Sheet_1232
+  - first:
+      213: 4075774085218564449
+    second: Imp Sprite Sheet_1233
+  - first:
+      213: -6465034011219788173
+    second: Imp Sprite Sheet_1234
+  - first:
+      213: 8388616104936184429
+    second: Imp Sprite Sheet_1235
+  - first:
+      213: 2142905262289461605
+    second: Imp Sprite Sheet_1236
+  - first:
+      213: -6278125702032671439
+    second: Imp Sprite Sheet_1237
+  - first:
+      213: -7345252119372050229
+    second: Imp Sprite Sheet_1238
+  - first:
+      213: -4641396568432048993
+    second: Imp Sprite Sheet_1239
+  - first:
+      213: 2609275172304900254
+    second: Imp Sprite Sheet_1240
+  - first:
+      213: 5773534743684932683
+    second: Imp Sprite Sheet_1241
+  - first:
+      213: -5832263701261641232
+    second: Imp Sprite Sheet_1242
+  - first:
+      213: -1022714868935630467
+    second: Imp Sprite Sheet_1243
+  - first:
+      213: 5733723974826729014
+    second: Imp Sprite Sheet_1244
+  - first:
+      213: 3315432608466908324
+    second: Imp Sprite Sheet_1245
+  - first:
+      213: -5490103542720423850
+    second: Imp Sprite Sheet_1246
+  - first:
+      213: 1751178352833881179
+    second: Imp Sprite Sheet_1247
+  - first:
+      213: -2734409024138948508
+    second: Imp Sprite Sheet_1248
+  - first:
+      213: 4729360252209852515
+    second: Imp Sprite Sheet_1249
+  - first:
+      213: -5180180158360582601
+    second: Imp Sprite Sheet_1250
+  - first:
+      213: -3843346967476509166
+    second: Imp Sprite Sheet_1251
+  - first:
+      213: -7713017354740189585
+    second: Imp Sprite Sheet_1252
+  - first:
+      213: 6214503590960041562
+    second: Imp Sprite Sheet_1253
+  - first:
+      213: -340129196255823406
+    second: Imp Sprite Sheet_1254
+  - first:
+      213: 1989352751164179128
+    second: Imp Sprite Sheet_1255
+  - first:
+      213: 5505348657745776056
+    second: Imp Sprite Sheet_1256
+  - first:
+      213: -8881885791978642715
+    second: Imp Sprite Sheet_1257
+  - first:
+      213: 2426915550239456191
+    second: Imp Sprite Sheet_1258
+  - first:
+      213: -988984993350675011
+    second: Imp Sprite Sheet_1259
+  - first:
+      213: -3199115111249786886
+    second: Imp Sprite Sheet_1260
+  - first:
+      213: 8617022813102916010
+    second: Imp Sprite Sheet_1261
+  - first:
+      213: -7816355336978241618
+    second: Imp Sprite Sheet_1262
+  - first:
+      213: 534102449872780582
+    second: Imp Sprite Sheet_1263
+  - first:
+      213: 8563318101646929320
+    second: Imp Sprite Sheet_1264
+  - first:
+      213: -801678142453237182
+    second: Imp Sprite Sheet_1265
+  - first:
+      213: 4386341703367049322
+    second: Imp Sprite Sheet_1266
+  - first:
+      213: -2005421998398876548
+    second: Imp Sprite Sheet_1267
+  - first:
+      213: 8554177440275798514
+    second: Imp Sprite Sheet_1268
+  - first:
+      213: -6999887075634844343
+    second: Imp Sprite Sheet_1269
+  - first:
+      213: -2117612426953091424
+    second: Imp Sprite Sheet_1270
+  - first:
+      213: -1072619610436521768
+    second: Imp Sprite Sheet_1271
+  - first:
+      213: -4012231574263464795
+    second: Imp Sprite Sheet_1272
+  - first:
+      213: -159136496755289944
+    second: Imp Sprite Sheet_1273
+  - first:
+      213: -4047897837193626740
+    second: Imp Sprite Sheet_1274
+  - first:
+      213: -3616804490512081163
+    second: Imp Sprite Sheet_1275
+  - first:
+      213: -3201314309781894396
+    second: Imp Sprite Sheet_1276
+  - first:
+      213: 7256060007251871591
+    second: Imp Sprite Sheet_1277
+  - first:
+      213: -6813757029853297552
+    second: Imp Sprite Sheet_1278
+  - first:
+      213: 1730004113291287119
+    second: Imp Sprite Sheet_1279
+  - first:
+      213: 5896164662787392400
+    second: Imp Sprite Sheet_1280
+  - first:
+      213: 22244828599597866
+    second: Imp Sprite Sheet_1281
+  - first:
+      213: 3986498043329347928
+    second: Imp Sprite Sheet_1282
+  - first:
+      213: -1787392613697602728
+    second: Imp Sprite Sheet_1283
+  - first:
+      213: 4563698483002922763
+    second: Imp Sprite Sheet_1284
+  - first:
+      213: 5058350824125128634
+    second: Imp Sprite Sheet_1285
+  - first:
+      213: -436937656546604263
+    second: Imp Sprite Sheet_1286
+  - first:
+      213: -3501428253417752939
+    second: Imp Sprite Sheet_1287
+  - first:
+      213: -6913603052135501674
+    second: Imp Sprite Sheet_1288
+  - first:
+      213: 2925141501698864814
+    second: Imp Sprite Sheet_1289
+  - first:
+      213: 7237667315994822401
+    second: Imp Sprite Sheet_1290
+  - first:
+      213: -4057118794134627135
+    second: Imp Sprite Sheet_1291
+  - first:
+      213: 1188517108783250777
+    second: Imp Sprite Sheet_1292
+  - first:
+      213: -1752814483160604120
+    second: Imp Sprite Sheet_1293
+  - first:
+      213: -1312984567081610810
+    second: Imp Sprite Sheet_1294
+  - first:
+      213: 3848872279321113362
+    second: Imp Sprite Sheet_1295
+  - first:
+      213: 3921859087976893024
+    second: Imp Sprite Sheet_1296
+  - first:
+      213: 114776980941643541
+    second: Imp Sprite Sheet_1297
+  - first:
+      213: -7898491261653385372
+    second: Imp Sprite Sheet_1298
+  - first:
+      213: 1801157740210342160
+    second: Imp Sprite Sheet_1299
+  - first:
+      213: 8986606792708244474
+    second: Imp Sprite Sheet_1300
+  - first:
+      213: -4101072524337367825
+    second: Imp Sprite Sheet_1301
+  - first:
+      213: 7470168288666266478
+    second: Imp Sprite Sheet_1302
+  - first:
+      213: -957400013845760384
+    second: Imp Sprite Sheet_1303
+  - first:
+      213: -252862069756189906
+    second: Imp Sprite Sheet_1304
+  - first:
+      213: 7816986294685996174
+    second: Imp Sprite Sheet_1305
+  - first:
+      213: -8806223623574942661
+    second: Imp Sprite Sheet_1306
+  - first:
+      213: 3263229473880823659
+    second: Imp Sprite Sheet_1307
+  - first:
+      213: -1101499896149707803
+    second: Imp Sprite Sheet_1308
+  - first:
+      213: -5660270736320287989
+    second: Imp Sprite Sheet_1309
+  - first:
+      213: 3922287769572505627
+    second: Imp Sprite Sheet_1310
+  - first:
+      213: -8937826452732374160
+    second: Imp Sprite Sheet_1311
+  - first:
+      213: 8202205972239277924
+    second: Imp Sprite Sheet_1312
+  - first:
+      213: 7092646253089563669
+    second: Imp Sprite Sheet_1313
+  - first:
+      213: 6280617179833769364
+    second: Imp Sprite Sheet_1314
+  - first:
+      213: -9110665655296283436
+    second: Imp Sprite Sheet_1315
+  - first:
+      213: -7010637886622789872
+    second: Imp Sprite Sheet_1316
+  - first:
+      213: 4975749028866545110
+    second: Imp Sprite Sheet_1317
+  - first:
+      213: -1099893663360297930
+    second: Imp Sprite Sheet_1318
+  - first:
+      213: -3421281764518167795
+    second: Imp Sprite Sheet_1319
+  - first:
+      213: -6906288677352994987
+    second: Imp Sprite Sheet_1320
+  - first:
+      213: 7960679004983427712
+    second: Imp Sprite Sheet_1321
+  - first:
+      213: 7512836846767317570
+    second: Imp Sprite Sheet_1322
+  - first:
+      213: -5128069976561962830
+    second: Imp Sprite Sheet_1323
+  - first:
+      213: -9129299476881550108
+    second: Imp Sprite Sheet_1324
+  - first:
+      213: -1890809519022133710
+    second: Imp Sprite Sheet_1325
+  - first:
+      213: -2455592346506421325
+    second: Imp Sprite Sheet_1326
+  - first:
+      213: -3129493046730800619
+    second: Imp Sprite Sheet_1327
+  - first:
+      213: -4123888035701362298
+    second: Imp Sprite Sheet_1328
+  - first:
+      213: 5291901837384057596
+    second: Imp Sprite Sheet_1329
+  - first:
+      213: 2934406710164481381
+    second: Imp Sprite Sheet_1330
+  - first:
+      213: 5725741066114270074
+    second: Imp Sprite Sheet_1331
+  - first:
+      213: 5301033445223583826
+    second: Imp Sprite Sheet_1332
+  - first:
+      213: -5487661150838439541
+    second: Imp Sprite Sheet_1333
+  - first:
+      213: 5611173420472996907
+    second: Imp Sprite Sheet_1334
+  - first:
+      213: -8065020208731491171
+    second: Imp Sprite Sheet_1335
+  - first:
+      213: -1734342051805125716
+    second: Imp Sprite Sheet_1336
+  - first:
+      213: -5853709144382302823
+    second: Imp Sprite Sheet_1337
+  - first:
+      213: 3083287053405591808
+    second: Imp Sprite Sheet_1338
+  - first:
+      213: 5816942928604393625
+    second: Imp Sprite Sheet_1339
+  - first:
+      213: -1596564877692824929
+    second: Imp Sprite Sheet_1340
+  - first:
+      213: -7619734377243029165
+    second: Imp Sprite Sheet_1341
+  - first:
+      213: -5794357666266630868
+    second: Imp Sprite Sheet_1342
+  - first:
+      213: 6351076712189266901
+    second: Imp Sprite Sheet_1343
+  - first:
+      213: -2575626612980592761
+    second: Imp Sprite Sheet_1344
+  - first:
+      213: -6636262806072823170
+    second: Imp Sprite Sheet_1345
+  - first:
+      213: 6544651184248467078
+    second: Imp Sprite Sheet_1346
+  - first:
+      213: -3123208492159445470
+    second: Imp Sprite Sheet_1347
+  - first:
+      213: -2320211709852145884
+    second: Imp Sprite Sheet_1348
+  - first:
+      213: 2233435251396753412
+    second: Imp Sprite Sheet_1349
+  - first:
+      213: -7049262565329655859
+    second: Imp Sprite Sheet_1350
+  - first:
+      213: -8714379156023239676
+    second: Imp Sprite Sheet_1351
+  - first:
+      213: 1380345395952188254
+    second: Imp Sprite Sheet_1352
+  - first:
+      213: 8651420128192839358
+    second: Imp Sprite Sheet_1353
+  - first:
+      213: -452804295676376904
+    second: Imp Sprite Sheet_1354
+  - first:
+      213: -473345923961315869
+    second: Imp Sprite Sheet_1355
+  - first:
+      213: 3883988871340453479
+    second: Imp Sprite Sheet_1356
+  - first:
+      213: -5111385169135361706
+    second: Imp Sprite Sheet_1357
+  - first:
+      213: 6457229066962795471
+    second: Imp Sprite Sheet_1358
+  - first:
+      213: 7819209374809713594
+    second: Imp Sprite Sheet_1359
+  - first:
+      213: 5118523289104087061
+    second: Imp Sprite Sheet_1360
+  - first:
+      213: 612436313947650589
+    second: Imp Sprite Sheet_1361
+  - first:
+      213: -1396670677742862222
+    second: Imp Sprite Sheet_1362
+  - first:
+      213: 6058124549895998904
+    second: Imp Sprite Sheet_1363
+  - first:
+      213: -3792473749291941001
+    second: Imp Sprite Sheet_1364
+  - first:
+      213: 2829575331463311678
+    second: Imp Sprite Sheet_1365
+  - first:
+      213: -5520986076535116016
+    second: Imp Sprite Sheet_1366
+  - first:
+      213: -6513086748908616011
+    second: Imp Sprite Sheet_1367
+  - first:
+      213: 3802889704720323960
+    second: Imp Sprite Sheet_1368
+  - first:
+      213: 2353596918300436425
+    second: Imp Sprite Sheet_1369
+  - first:
+      213: 3514559979984475891
+    second: Imp Sprite Sheet_1370
+  - first:
+      213: 7143779912456337436
+    second: Imp Sprite Sheet_1371
+  - first:
+      213: 2826939808007655329
+    second: Imp Sprite Sheet_1372
+  - first:
+      213: -8478572499714567147
+    second: Imp Sprite Sheet_1373
+  - first:
+      213: 4220422244632419296
+    second: Imp Sprite Sheet_1374
+  - first:
+      213: 3695783388862833595
+    second: Imp Sprite Sheet_1375
+  - first:
+      213: -1030635596302269538
+    second: Imp Sprite Sheet_1376
+  - first:
+      213: -1297822404819075502
+    second: Imp Sprite Sheet_1377
+  - first:
+      213: -426329569261637276
+    second: Imp Sprite Sheet_1378
+  - first:
+      213: -675353142268799768
+    second: Imp Sprite Sheet_1379
+  - first:
+      213: -1401007968568965812
+    second: Imp Sprite Sheet_1380
+  - first:
+      213: -2398753993191826379
+    second: Imp Sprite Sheet_1381
+  - first:
+      213: -8264071807449191166
+    second: Imp Sprite Sheet_1382
+  - first:
+      213: -5702706453854105030
+    second: Imp Sprite Sheet_1383
+  - first:
+      213: 6570832927791738465
+    second: Imp Sprite Sheet_1384
+  - first:
+      213: -1530783429380098766
+    second: Imp Sprite Sheet_1385
+  - first:
+      213: 7076414955877918291
+    second: Imp Sprite Sheet_1386
+  - first:
+      213: 650225040077360426
+    second: Imp Sprite Sheet_1387
+  - first:
+      213: -6882301594475631473
+    second: Imp Sprite Sheet_1388
+  - first:
+      213: 880516684735524372
+    second: Imp Sprite Sheet_1389
+  - first:
+      213: -5067378157191452510
+    second: Imp Sprite Sheet_1390
+  - first:
+      213: -5877090955945956684
+    second: Imp Sprite Sheet_1391
+  - first:
+      213: -4606033554921596118
+    second: Imp Sprite Sheet_1392
+  - first:
+      213: -2906143535619276238
+    second: Imp Sprite Sheet_1393
+  - first:
+      213: -4981285777859298148
+    second: Imp Sprite Sheet_1394
+  - first:
+      213: -998326330719770272
+    second: Imp Sprite Sheet_1395
+  - first:
+      213: -6250382894012086717
+    second: Imp Sprite Sheet_1396
+  - first:
+      213: 3056537617470492534
+    second: Imp Sprite Sheet_1397
+  - first:
+      213: 7340126980236150116
+    second: Imp Sprite Sheet_1398
+  - first:
+      213: 6495098508587860297
+    second: Imp Sprite Sheet_1399
+  - first:
+      213: -599976704385162872
+    second: Imp Sprite Sheet_1400
+  - first:
+      213: -1213155430990339983
+    second: Imp Sprite Sheet_1401
+  - first:
+      213: -6964233015251331586
+    second: Imp Sprite Sheet_1402
+  - first:
+      213: 9084486410637498590
+    second: Imp Sprite Sheet_1403
+  - first:
+      213: -3642426260629457911
+    second: Imp Sprite Sheet_1404
+  - first:
+      213: 8893692165218497807
+    second: Imp Sprite Sheet_1405
+  - first:
+      213: -7480620589187215169
+    second: Imp Sprite Sheet_1406
+  - first:
+      213: 988124266622674444
+    second: Imp Sprite Sheet_1407
+  - first:
+      213: -1176454574581439153
+    second: Imp Sprite Sheet_1408
+  - first:
+      213: 6216331583713886447
+    second: Imp Sprite Sheet_1409
+  - first:
+      213: -4426762618666518931
+    second: Imp Sprite Sheet_1410
+  - first:
+      213: 3523408030587289022
+    second: Imp Sprite Sheet_1411
+  - first:
+      213: 7211528143268684672
+    second: Imp Sprite Sheet_1412
+  - first:
+      213: -104515494765526124
+    second: Imp Sprite Sheet_1413
+  - first:
+      213: -1532094914875604379
+    second: Imp Sprite Sheet_1414
+  - first:
+      213: 5739545240072790107
+    second: Imp Sprite Sheet_1415
+  - first:
+      213: -1190510263489519843
+    second: Imp Sprite Sheet_1416
+  - first:
+      213: -5110183057885578396
+    second: Imp Sprite Sheet_1417
+  - first:
+      213: -245526604719370972
+    second: Imp Sprite Sheet_1418
+  - first:
+      213: -7604388303549834086
+    second: Imp Sprite Sheet_1419
+  - first:
+      213: 2094512573303476865
+    second: Imp Sprite Sheet_1420
+  - first:
+      213: -8208397539386481764
+    second: Imp Sprite Sheet_1421
+  - first:
+      213: 4225385715686500522
+    second: Imp Sprite Sheet_1422
+  - first:
+      213: 4199467006431788248
+    second: Imp Sprite Sheet_1423
+  - first:
+      213: -5998975729481075504
+    second: Imp Sprite Sheet_1424
+  - first:
+      213: 6205086723539735419
+    second: Imp Sprite Sheet_1425
+  - first:
+      213: 173850745001833565
+    second: Imp Sprite Sheet_1426
+  - first:
+      213: -8768564131028467579
+    second: Imp Sprite Sheet_1427
+  - first:
+      213: -2758131307844346799
+    second: Imp Sprite Sheet_1428
+  - first:
+      213: 6721481274795305988
+    second: Imp Sprite Sheet_1429
+  - first:
+      213: 4788267797179352129
+    second: Imp Sprite Sheet_1430
+  - first:
+      213: -3505089695686809402
+    second: Imp Sprite Sheet_1431
+  - first:
+      213: 2067251012490835920
+    second: Imp Sprite Sheet_1432
+  - first:
+      213: 6722165988785275168
+    second: Imp Sprite Sheet_1433
+  - first:
+      213: -2265442980060936318
+    second: Imp Sprite Sheet_1434
+  - first:
+      213: -2465255151629652074
+    second: Imp Sprite Sheet_1435
+  - first:
+      213: -7936915206368327383
+    second: Imp Sprite Sheet_1436
+  - first:
+      213: 8099286304178762816
+    second: Imp Sprite Sheet_1437
+  - first:
+      213: 6515649601007986610
+    second: Imp Sprite Sheet_1438
+  - first:
+      213: -3661362055389857082
+    second: Imp Sprite Sheet_1439
+  - first:
+      213: 9212262604085444433
+    second: Imp Sprite Sheet_1440
+  - first:
+      213: -5201697470978437471
+    second: Imp Sprite Sheet_1441
+  - first:
+      213: 2217985738854727657
+    second: Imp Sprite Sheet_1442
+  - first:
+      213: -564197068392853765
+    second: Imp Sprite Sheet_1443
+  - first:
+      213: 3324996086958487408
+    second: Imp Sprite Sheet_1444
+  - first:
+      213: -5139070961374890039
+    second: Imp Sprite Sheet_1445
+  - first:
+      213: -2040105826569721142
+    second: Imp Sprite Sheet_1446
+  - first:
+      213: 334827328523329848
+    second: Imp Sprite Sheet_1447
+  - first:
+      213: 2083281590798499035
+    second: Imp Sprite Sheet_1448
+  - first:
+      213: -2447520942899096695
+    second: Imp Sprite Sheet_1449
+  - first:
+      213: 2023107043800572438
+    second: Imp Sprite Sheet_1450
+  - first:
+      213: 5531906871495898932
+    second: Imp Sprite Sheet_1451
+  - first:
+      213: 5081123321088642319
+    second: Imp Sprite Sheet_1452
+  - first:
+      213: 5484967383066480571
+    second: Imp Sprite Sheet_1453
+  - first:
+      213: 3258056414511285438
+    second: Imp Sprite Sheet_1454
+  - first:
+      213: 585808703519164943
+    second: Imp Sprite Sheet_1455
+  - first:
+      213: -8088661449817989526
+    second: Imp Sprite Sheet_1456
+  - first:
+      213: 2294009277236403509
+    second: Imp Sprite Sheet_1457
+  - first:
+      213: 904845433760772076
+    second: Imp Sprite Sheet_1458
+  - first:
+      213: 5347380459020971512
+    second: Imp Sprite Sheet_1459
+  - first:
+      213: -6160585476223916075
+    second: Imp Sprite Sheet_1460
+  - first:
+      213: 5386965795158507087
+    second: Imp Sprite Sheet_1461
+  - first:
+      213: -3650882497607005596
+    second: Imp Sprite Sheet_1462
+  - first:
+      213: 494026060810100182
+    second: Imp Sprite Sheet_1463
+  - first:
+      213: 8959034123045003105
+    second: Imp Sprite Sheet_1464
+  - first:
+      213: 7793723622322854549
+    second: Imp Sprite Sheet_1465
+  - first:
+      213: 6821688182262352739
+    second: Imp Sprite Sheet_1466
+  - first:
+      213: 849596741153945065
+    second: Imp Sprite Sheet_1467
+  - first:
+      213: 8312959597531845606
+    second: Imp Sprite Sheet_1468
+  - first:
+      213: 6940228782191429555
+    second: Imp Sprite Sheet_1469
+  - first:
+      213: -4231174492265312043
+    second: Imp Sprite Sheet_1470
+  - first:
+      213: -7634189263791736596
+    second: Imp Sprite Sheet_1471
+  - first:
+      213: 4508259489663213938
+    second: Imp Sprite Sheet_1472
+  - first:
+      213: 1565278574973708789
+    second: Imp Sprite Sheet_1473
+  - first:
+      213: 5308717794841555894
+    second: Imp Sprite Sheet_1474
+  - first:
+      213: -1421767234002146508
+    second: Imp Sprite Sheet_1475
+  - first:
+      213: -6957095413428634352
+    second: Imp Sprite Sheet_1476
+  - first:
+      213: 5920130673505237559
+    second: Imp Sprite Sheet_1477
+  - first:
+      213: 7370553795309880515
+    second: Imp Sprite Sheet_1478
+  - first:
+      213: -8198753719685861732
+    second: Imp Sprite Sheet_1479
+  - first:
+      213: -7378991860870677977
+    second: Imp Sprite Sheet_1480
+  - first:
+      213: 7248224622859654329
+    second: Imp Sprite Sheet_1481
+  - first:
+      213: 8630072614382465393
+    second: Imp Sprite Sheet_1482
+  - first:
+      213: -1480494484645438766
+    second: Imp Sprite Sheet_1483
+  - first:
+      213: 8206154652848663280
+    second: Imp Sprite Sheet_1484
+  - first:
+      213: -6512873748766491793
+    second: Imp Sprite Sheet_1485
+  - first:
+      213: -7480110955542110370
+    second: Imp Sprite Sheet_1486
+  - first:
+      213: 2152969445593985930
+    second: Imp Sprite Sheet_1487
+  - first:
+      213: 565992154840883384
+    second: Imp Sprite Sheet_1488
+  - first:
+      213: 4955416224206769716
+    second: Imp Sprite Sheet_1489
+  - first:
+      213: 1576070765601317221
+    second: Imp Sprite Sheet_1490
+  - first:
+      213: 5283817165117330878
+    second: Imp Sprite Sheet_1491
+  - first:
+      213: -7139887454989479188
+    second: Imp Sprite Sheet_1492
+  - first:
+      213: 7970542025797379942
+    second: Imp Sprite Sheet_1493
+  - first:
+      213: 4208902837830223775
+    second: Imp Sprite Sheet_1494
+  - first:
+      213: -8765341476685575733
+    second: Imp Sprite Sheet_1495
+  - first:
+      213: 3785532117442064363
+    second: Imp Sprite Sheet_1496
+  - first:
+      213: 669186772541173776
+    second: Imp Sprite Sheet_1497
+  - first:
+      213: -3605250816939327037
+    second: Imp Sprite Sheet_1498
+  - first:
+      213: 6693757613956664286
+    second: Imp Sprite Sheet_1499
+  - first:
+      213: 6649030067574479704
+    second: Imp Sprite Sheet_1500
+  - first:
+      213: -4436121266847683946
+    second: Imp Sprite Sheet_1501
+  - first:
+      213: 8868974892461354545
+    second: Imp Sprite Sheet_1502
+  - first:
+      213: -8220676297948051213
+    second: Imp Sprite Sheet_1503
+  - first:
+      213: -1123129849063273067
+    second: Imp Sprite Sheet_1504
+  - first:
+      213: -3556760756363422469
+    second: Imp Sprite Sheet_1505
+  - first:
+      213: -3909819538359269522
+    second: Imp Sprite Sheet_1506
+  - first:
+      213: 7305980921824937237
+    second: Imp Sprite Sheet_1507
+  - first:
+      213: 3616849499142304622
+    second: Imp Sprite Sheet_1508
+  - first:
+      213: -2502020407216534263
+    second: Imp Sprite Sheet_1509
+  - first:
+      213: -4875059629560629626
+    second: Imp Sprite Sheet_1510
+  - first:
+      213: -4082765097368383334
+    second: Imp Sprite Sheet_1511
+  - first:
+      213: -2842154271042512124
+    second: Imp Sprite Sheet_1512
+  - first:
+      213: -5036576818602152713
+    second: Imp Sprite Sheet_1513
+  - first:
+      213: 6019804444544370173
+    second: Imp Sprite Sheet_1514
+  - first:
+      213: -3482080556721076897
+    second: Imp Sprite Sheet_1515
+  - first:
+      213: -5450876673987496155
+    second: Imp Sprite Sheet_1516
+  - first:
+      213: -2984290671645329053
+    second: Imp Sprite Sheet_1517
+  - first:
+      213: -3744476102320406094
+    second: Imp Sprite Sheet_1518
+  - first:
+      213: -3386891914065451615
+    second: Imp Sprite Sheet_1519
+  - first:
+      213: 102229910059439719
+    second: Imp Sprite Sheet_1520
+  - first:
+      213: -3476354998031676007
+    second: Imp Sprite Sheet_1521
+  - first:
+      213: 7484107063103571755
+    second: Imp Sprite Sheet_1522
+  - first:
+      213: 3897217654307109579
+    second: Imp Sprite Sheet_1523
+  - first:
+      213: 5478950816675371248
+    second: Imp Sprite Sheet_1524
+  - first:
+      213: 6431807073179731961
+    second: Imp Sprite Sheet_1525
+  - first:
+      213: 6581573167051214229
+    second: Imp Sprite Sheet_1526
+  - first:
+      213: -5376038772982313565
+    second: Imp Sprite Sheet_1527
+  - first:
+      213: 5634053043321240897
+    second: Imp Sprite Sheet_1528
+  - first:
+      213: 4765144217699891099
+    second: Imp Sprite Sheet_1529
+  - first:
+      213: -1588791401011310233
+    second: Imp Sprite Sheet_1530
+  - first:
+      213: -2049859005827104027
+    second: Imp Sprite Sheet_1531
+  - first:
+      213: 7019709174342014051
+    second: Imp Sprite Sheet_1532
+  - first:
+      213: 7598973961799348353
+    second: Imp Sprite Sheet_1533
+  - first:
+      213: -6174677355133115651
+    second: Imp Sprite Sheet_1534
+  - first:
+      213: 8604182631508834853
+    second: Imp Sprite Sheet_1535
+  - first:
+      213: -1074785193273491559
+    second: Imp Sprite Sheet_1536
+  - first:
+      213: 8138357901815544690
+    second: Imp Sprite Sheet_1537
+  - first:
+      213: 7539343777496805998
+    second: Imp Sprite Sheet_1538
+  - first:
+      213: -995209331330529525
+    second: Imp Sprite Sheet_1539
+  - first:
+      213: -8765724723320938251
+    second: Imp Sprite Sheet_1540
+  - first:
+      213: 1681006293039052215
+    second: Imp Sprite Sheet_1541
+  - first:
+      213: 2036252888050948047
+    second: Imp Sprite Sheet_1542
+  - first:
+      213: -6378352920583347190
+    second: Imp Sprite Sheet_1543
+  - first:
+      213: -6028188530843543838
+    second: Imp Sprite Sheet_1544
+  - first:
+      213: -7986381353879141658
+    second: Imp Sprite Sheet_1545
+  - first:
+      213: -2312742092268617586
+    second: Imp Sprite Sheet_1546
+  - first:
+      213: 5070913926528492098
+    second: Imp Sprite Sheet_1547
+  - first:
+      213: 5551571204282860251
+    second: Imp Sprite Sheet_1548
+  - first:
+      213: 1438705904609511657
+    second: Imp Sprite Sheet_1549
+  - first:
+      213: 1597182139928691328
+    second: Imp Sprite Sheet_1550
+  - first:
+      213: 7017523811317947058
+    second: Imp Sprite Sheet_1551
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2d87acbb95f8e90800000000000000
+      internalID: -7021294630956641602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cccdfcc11f30f70800000000000000
+      internalID: 9152423973795712107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797f6ccb05bd621a0800000000000000
+      internalID: -6834534244677126249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b271ca028a38320800000000000000
+      internalID: 2559073871556193069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ce7173e75987b50800000000000000
+      internalID: 6591182423979453482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a71b3e92974330800000000000000
+      internalID: 3695083227574673442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3394094d361df9cd0800000000000000
+      internalID: -2549088637370218189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861d6547879e980f0800000000000000
+      internalID: -1114102729240293016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187a3a150414356a0800000000000000
+      internalID: -6461749295843137663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0331e694dad986b00800000000000000
+      internalID: 822080299581969200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7093e20d0aea4b050800000000000000
+      internalID: 5815465024552843527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b36282f088ac2360800000000000000
+      internalID: 7146271980508046259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 322
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f59cf694124696f0800000000000000
+      internalID: -678282037672765964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 321
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cc4d8380dab0c60800000000000000
+      internalID: 7785506631664847917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b819759542a64ac0800000000000000
+      internalID: -3871228409934178121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af41efc6f6fec850800000000000000
+      internalID: 6399323660450090918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbdb5964b2d3f840800000000000000
+      internalID: 5256776862375074738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bdb94a7c07c90c0800000000000000
+      internalID: -4567651919298045073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd3dd744769d400800000000000000
+      internalID: 349423989964397893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e37b6b027d81f0800000000000000
+      internalID: -1041050545479752391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7669f8acad6ace20800000000000000
+      internalID: 3371627859376957050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0246f3d3849751490800000000000000
+      internalID: -7776175830413122528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300d254fd5e4b4fb0800000000000000
+      internalID: -4662546823774023677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5753f2bf4e3e34ff0800000000000000
+      internalID: -52948197992090251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de3c5101c458a2d0800000000000000
+      internalID: -3267268341729050927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d63e49f9e2da490800000000000000
+      internalID: -7733473722192663148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c3f2fa2ebfb4810800000000000000
+      internalID: 1750769831183858808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34133c2db0562fc0800000000000000
+      internalID: -3520037285322877892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6afce04873a9130800000000000000
+      internalID: 3574230294595610358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed883125b04d8e0800000000000000
+      internalID: -1669697114704650523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imp Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d01adb475cf4240800000000000000
+      internalID: 4778254834851712368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

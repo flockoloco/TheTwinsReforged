@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Pathfinding;
 
 public class Boss1Ai : MonoBehaviour
 {
@@ -17,10 +18,34 @@ public class Boss1Ai : MonoBehaviour
     public bool duringAttack = false;
     private bool attackFired = false;
 
+    private Animator animator;
+
+    public AIPath aiPath;
+
     private void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
+        animator = GetComponent<Animator>();
+    }
+    private void Update()
+    {
+        if (gameObject.GetComponent<AIDestinationSetter>().enabled == true)
+        {
+            animator.SetBool("moving", true);
+            if (aiPath.desiredVelocity.x >= 0.01f)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (aiPath.desiredVelocity.x <= 0.01f)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+        }
+        else
+        {
+            animator.SetBool("moving", false);
+        }
     }
 
     private void FixedUpdate()

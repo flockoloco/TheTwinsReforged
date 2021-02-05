@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: -6931548985351455821}
   - component: {fileID: -80469770755130923}
   - component: {fileID: 32967489930038556}
+  - component: {fileID: 2822577333445903340}
   m_Layer: 0
   m_Name: Normal
   m_TagString: Enemy
@@ -323,7 +324,9 @@ MonoBehaviour:
   BulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
   stats: {fileID: 6073432497351779841}
   FirePoint: {fileID: 3644251340419860910}
+  Pivot: {fileID: 3510780400460477081}
   triggered: 0
+  aiPath: {fileID: 32967489930038556}
 --- !u!114 &5135949165888453450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,6 +353,7 @@ MonoBehaviour:
   baseTimer: 0
   currentAtkIndex: 0
   firePoint: {fileID: 4587684312038253209}
+  animator: {fileID: 2822577333445903340}
 --- !u!114 &-6931548985351455821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,3 +432,22 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+--- !u!95 &2822577333445903340
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073432497351779870}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 86d41d47cdd44c741ab8944d26f3c434, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

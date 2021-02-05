@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: 3617717993012415139}
   - component: {fileID: 3090528388895730494}
   - component: {fileID: -6934393558941969294}
+  - component: {fileID: 3946400165872368612}
   m_Layer: 0
   m_Name: Shotty
   m_TagString: Enemy
@@ -162,8 +163,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: -8657648756768421543, guid: acd3eecc4bf0ae74eac5cea7199d6972, type: 3}
-  m_Color: {r: 0.8867924, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -7241491235832059615, guid: 33afe9ad482cdd74cb0b299f68edc6e0, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -234,8 +235,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
   stats: {fileID: 294041783013881471}
-  FirePoint: {fileID: 0}
+  FirePoint: {fileID: 9210801768480084736}
+  Pivot: {fileID: 562602367480598880}
   triggered: 0
+  aiPath: {fileID: 3617717993012415139}
 --- !u!114 &-8703426952496083268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +257,7 @@ MonoBehaviour:
     allBullets:
     - angleDiff: 0
       shotTimer: 0.4
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d9c4426ee4ed85841a5677f616c7599c, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
@@ -285,7 +288,8 @@ MonoBehaviour:
   UpdateCheck: 0
   baseTimer: 0
   currentAtkIndex: 0
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 117260001016228688}
+  animator: {fileID: 3946400165872368612}
 --- !u!114 &7898972944061033153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,6 +384,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!95 &3946400165872368612
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294041783013881470}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 816592004a76fd540962be050ad62707, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8397763698921861032
 GameObject:
   m_ObjectHideFlags: 0

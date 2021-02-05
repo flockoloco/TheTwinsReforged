@@ -72947,6 +72947,8 @@ MonoBehaviour:
   enchantCanvas: {fileID: 0}
   stairsCanvas: {fileID: 0}
   altarCanvas: {fileID: 0}
+  npcCanvas: {fileID: 0}
+  fountainCanvas: {fileID: 0}
 --- !u!1 &1680236735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 189359499334434990, guid: e81fbe11db3f5504cb71510574b88f2a, type: 3}

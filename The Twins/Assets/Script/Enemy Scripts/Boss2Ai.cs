@@ -10,6 +10,7 @@ public class Boss2Ai : MonoBehaviour
     public StatsHolder stats;
     private float bulletTimer;
     public Transform FirePoint;
+    public Transform Pivot;
     public bool triggered;
 
     private float currentAttackDuration;
@@ -17,10 +18,13 @@ public class Boss2Ai : MonoBehaviour
     public bool duringAttack = false;
     private bool attackFired = false;
 
+    private Animator animator;
+
     private void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
+        animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -31,8 +35,11 @@ public class Boss2Ai : MonoBehaviour
 
             Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
             Vector2 direction = playerDir;
+            Quaternion rotatoBoss = Quaternion.Euler(0, 0, Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg);
+            Pivot.transform.rotation = rotatoBoss;
             if (bulletTimer > currentAttackDuration)
             {
+                animator.SetBool("rest", false);
                 bulletTimer = 0;
                 duringAttack = false;
             }
@@ -58,7 +65,7 @@ public class Boss2Ai : MonoBehaviour
                 if (attack == 4) //"atk" 4 (the boss rests for 3 secs)
                 {
                     bulletTimer += Time.deltaTime;
-
+                    animator.SetBool("rest", true);
                     if (attackFired == false) //atk part
                     {
                         attackFired = true;

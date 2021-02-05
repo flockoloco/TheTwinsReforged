@@ -18,8 +18,14 @@ public class StatsHolder : MonoBehaviour
     public bool ableToAttack = true;
     public int enemyID;
 
+    private Animator animator;
 
     public GameObject roomIn;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -29,16 +35,17 @@ public class StatsHolder : MonoBehaviour
             {
                 GameObject.FindWithTag("UICanvas").GetComponent<UITextManager>().BossDied();
             }
-            SpawnDrops(lootTier, gameObject.transform);
+            animator.SetBool("dead", true);
             roomIn.GetComponent<RoomDoorScript>().RemoveEnemy(gameObject);
-            Destroy(gameObject);
         }
         if (hit == true)
         {
+            animator.SetBool("hit", true);
             invunerable = true;
             vunerableTimer += Time.deltaTime;
             if (vunerableTimer > 1)
             {
+                animator.SetBool("hit", false);
                 hit = false;
                 invunerable = false;
                 vunerableTimer = 0;
@@ -71,5 +78,11 @@ public class StatsHolder : MonoBehaviour
             nuggetsDrop.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-10f, 10f), Random.Range(-10f, 10f)), ForceMode2D.Impulse);
             nuggetsDrop.GetComponent<DropableScript>().Value(randomNumberNuggets);
         }
+    }
+
+    public void destroyObject()
+    {
+        SpawnDrops(lootTier, gameObject.transform);
+        Destroy(gameObject);
     }
 }

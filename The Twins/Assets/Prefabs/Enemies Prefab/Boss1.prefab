@@ -80,6 +80,7 @@ GameObject:
   - component: {fileID: 2754340171539737679}
   - component: {fileID: 4941846744704906049}
   - component: {fileID: 4664607529221763372}
+  - component: {fileID: 2227247201391447006}
   m_Layer: 0
   m_Name: Boss1
   m_TagString: Enemy
@@ -142,7 +143,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5654021441126682947, guid: c8efa902863600f458f0629fa1a092bc, type: 3}
+  m_Sprite: {fileID: -4400762545873030342, guid: 36b3a382409bfa54aace57f266460f10, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -197,6 +198,7 @@ MonoBehaviour:
   triggered: 0
   attack: 0
   duringAttack: 0
+  aiPath: {fileID: 4941846744704906049}
 --- !u!50 &5084240140657196116
 Rigidbody2D:
   serializedVersion: 4
@@ -481,6 +483,7 @@ MonoBehaviour:
   baseTimer: 0
   currentAtkIndex: 0
   firePoint: {fileID: 8838256815430191562}
+  animator: {fileID: 2227247201391447006}
 --- !u!58 &6656615735053687946
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -575,6 +578,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!95 &2227247201391447006
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441802829401593414}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 69bf75ff6add7094dbabb40cf8f1b4bd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8838256815430191562
 GameObject:
   m_ObjectHideFlags: 0

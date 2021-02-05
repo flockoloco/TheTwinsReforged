@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class NormalAI : MonoBehaviour
 {
@@ -11,14 +12,20 @@ public class NormalAI : MonoBehaviour
     public StatsHolder stats;
     private float bulletTimer;
     public Transform FirePoint;
+    public Transform Pivot;
     public bool triggered;
     private float currentAttackDuration = 0.5f;
+
+    private Animator animator;
+
+    public AIPath aiPath;
+
 
     void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
-
+        animator = GetComponent<Animator>();
         //updating the level the enemy is in, and changing some values due to it
         ScaleEnemyStats(player.GetComponent<PlayerStats>().currentLevel, stats.enemyID);
     }
@@ -63,6 +70,26 @@ public class NormalAI : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (gameObject.GetComponent<AIDestinationSetter>().enabled == true)
+        {
+            animator.SetBool("moving", true);
+            if (aiPath.desiredVelocity.x >= 0.01f)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (aiPath.desiredVelocity.x <= 0.01f)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+        }
+        else
+        {
+            animator.SetBool("moving", false);
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -73,10 +100,12 @@ public class NormalAI : MonoBehaviour
 
             Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
 
+
             //rigidbody.velocity = new Vector2(-playerDir.x, -playerDir.y) * stats.moveSpeed;
 
-            Vector2 direction = -playerDir;
-            rigidbody.rotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            Vector2 direction = playerDir;
+            Quaternion rotato = Quaternion.Euler(0, 0, Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg);
+            Pivot.transform.rotation = rotato;
 
             if (bulletTimer > currentAttackDuration && stats.ableToAttack == true)
             {

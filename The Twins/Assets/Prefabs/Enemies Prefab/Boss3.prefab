@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 4471483272877589498}
   - component: {fileID: 2488906539091161857}
   - component: {fileID: 6422300954917123725}
+  - component: {fileID: 4825657910159113717}
   m_Layer: 0
   m_Name: Boss3
   m_TagString: Enemy
@@ -105,12 +106,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7188518308371329206, guid: acd3eecc4bf0ae74eac5cea7199d6972, type: 3}
+  m_Sprite: {fileID: -2991773290986861209, guid: 360d30be6191f034fb3b413836d11d5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 3.25, y: 2.5625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -129,8 +130,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Offset: {x: -0.5008869, y: -0.054445267}
+  m_Size: {x: 2.0017738, y: 2.5897713}
   m_Direction: 0
 --- !u!114 &2488906539091161857
 MonoBehaviour:
@@ -179,3 +180,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &4825657910159113717
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161973174252510776}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 362bcb06c69ee954fa9eb8c956a37ebd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

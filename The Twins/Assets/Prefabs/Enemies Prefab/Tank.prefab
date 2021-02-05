@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 4834758692899921782}
   - component: {fileID: 7875353132045957140}
   - component: {fileID: 5208163504380138170}
+  - component: {fileID: 5215567178889502840}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Enemy
@@ -194,8 +195,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: -8657648756768421543, guid: acd3eecc4bf0ae74eac5cea7199d6972, type: 3}
-  m_Color: {r: 0, g: 0.8773585, b: 0.7307515, a: 1}
+  m_Sprite: {fileID: -1596999484918499234, guid: 6f0b9f79b5f04914295fb75ee733620c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -265,8 +266,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stats: {fileID: 4722209276096482469}
-  FirePoint: {fileID: 0}
+  FirePoint: {fileID: 7593311121627637290}
+  Pivot: {fileID: 4501442623345920609}
   triggered: 0
+  aiPath: {fileID: 4834758692899921782}
 --- !u!114 &1950955885316389884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,7 +288,7 @@ MonoBehaviour:
     allBullets:
     - angleDiff: 0
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
@@ -334,7 +337,8 @@ MonoBehaviour:
   UpdateCheck: 0
   baseTimer: 0
   currentAtkIndex: 0
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 4333097235114691488}
+  animator: {fileID: 5215567178889502840}
 --- !u!114 &5305903133453282309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -429,6 +433,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!95 &5215567178889502840
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4722209276096482468}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cdf80a37c6e760544a77193dc7764fbc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6182492070293050213
 GameObject:
   m_ObjectHideFlags: 0
