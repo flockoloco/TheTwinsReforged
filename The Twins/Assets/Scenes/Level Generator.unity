@@ -2566,6 +2566,8 @@ MonoBehaviour:
   UpdateCheck: 0
   baseTimer: 0
   currentAtkIndex: 0
+  firePoint: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &65543131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2580,7 +2582,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 65543134}
   FirePoint: {fileID: 1024946557}
+  Pivot: {fileID: 0}
   triggered: 0
+  aiPath: {fileID: 0}
 --- !u!61 &65543132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6979,11 +6983,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You Can rest at the throne to regain half of your max hp.
+  m_text: 'You can rest at the throne to heal up to full health.
 
 
-    you can
-    do this once per level, dont waste it!'
+    you can do
+    this once per level, dont waste it!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -60364,6 +60368,8 @@ MonoBehaviour:
   UpdateCheck: 0
   baseTimer: 0
   currentAtkIndex: 0
+  firePoint: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &739623019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60379,7 +60385,9 @@ MonoBehaviour:
   BulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
   stats: {fileID: 739623022}
   FirePoint: {fileID: 93348674}
+  Pivot: {fileID: 0}
   triggered: 0
+  aiPath: {fileID: 0}
 --- !u!61 &739623020
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -79259,6 +79267,8 @@ MonoBehaviour:
   UpdateCheck: 0
   baseTimer: 0
   currentAtkIndex: 0
+  firePoint: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &1304152968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79274,7 +79284,9 @@ MonoBehaviour:
   BulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
   stats: {fileID: 1304152971}
   FirePoint: {fileID: 1785377220}
+  Pivot: {fileID: 0}
   triggered: 0
+  aiPath: {fileID: 0}
 --- !u!61 &1304152969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -80452,6 +80464,8 @@ MonoBehaviour:
   UpdateCheck: 0
   baseTimer: 0
   currentAtkIndex: 0
+  firePoint: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!61 &1380374563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -80540,6 +80554,7 @@ MonoBehaviour:
   BulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
   stats: {fileID: 1380374565}
   FirePoint: {fileID: 669801255}
+  Pivot: {fileID: 0}
   triggered: 0
 --- !u!212 &1380374567
 SpriteRenderer:
@@ -104186,6 +104201,8 @@ MonoBehaviour:
   UpdateCheck: 0
   baseTimer: 0
   currentAtkIndex: 0
+  firePoint: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &2101443857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104201,7 +104218,9 @@ MonoBehaviour:
   BulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
   stats: {fileID: 2101443860}
   FirePoint: {fileID: 1330143082}
+  Pivot: {fileID: 0}
   triggered: 0
+  aiPath: {fileID: 0}
 --- !u!61 &2101443858
 BoxCollider2D:
   m_ObjectHideFlags: 0
