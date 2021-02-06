@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 2488906539091161857}
   - component: {fileID: 6422300954917123725}
   - component: {fileID: 4825657910159113717}
+  - component: {fileID: 8075389353810543474}
   m_Layer: 0
   m_Name: Boss3
   m_TagString: Enemy
@@ -59,7 +60,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161973174252510776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.03226, y: 18.485432, z: -1340.1375}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4685322216772306253}
@@ -145,17 +146,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e74d3015bcc8a4cb117cf20656e1e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 300
   armor: 0
-  damage: 0
-  moveSpeed: 0
-  bulletSpd: 0
+  damage: 20
+  moveSpeed: 2
+  bulletSpd: 1
   invunerable: 0
   hit: 0
   lootTier: 10
-  agroRange: 0
-  goldPrefab: {fileID: 0}
-  nuggetsPrefab: {fileID: 0}
+  agroRange: 3
+  goldPrefab: {fileID: 3974753108313818560, guid: e47326b11a82c5a4087a16cc9676a02c, type: 3}
+  nuggetsPrefab: {fileID: 3364890441730547243, guid: f494d076d2ab08246aca53f9f357dceb, type: 3}
   ableToAttack: 1
   enemyID: 8
   roomIn: {fileID: 0}
@@ -174,12 +175,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!95 &4825657910159113717
 Animator:
   serializedVersion: 3
@@ -199,3 +200,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8075389353810543474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161973174252510776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8bf69e52105c9488c8c45997954347, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats: {fileID: 2488906539091161857}
+  bulletTimer: 0
+  FirePoint: {fileID: 4685322216772306253}
+  triggered: 0
+  currentAttackDuration: 0
+  attack: 0
+  duringAttack: 0
+  attackFired: 0
+  charging: 0
+  duringSwing: 0
+  chargeDirection: {x: 0, y: 0}
+  dodgeSpeed: 10

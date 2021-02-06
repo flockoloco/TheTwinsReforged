@@ -295,43 +295,43 @@ MonoBehaviour:
       randomSpeed: 0
     - angleDiff: 45
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
     - angleDiff: 90
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
     - angleDiff: 135
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
     - angleDiff: 180
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
     - angleDiff: 225
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
     - angleDiff: 270
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0
     - angleDiff: 315
       shotTimer: 0
-      bulletPrefab: {fileID: 218398660483767826, guid: ed699d81779612744a7e0b900e363b12, type: 3}
+      bulletPrefab: {fileID: 218398660483767826, guid: d5fb05c2d8f8d1a4c934f5277e405a9b, type: 3}
       fired: 0
       accuracy: 0
       randomSpeed: 0

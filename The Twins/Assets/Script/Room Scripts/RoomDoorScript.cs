@@ -78,7 +78,12 @@ public class RoomDoorScript : MonoBehaviour
                     {
                         enemy.GetComponent<Boss2Ai>().triggered = true;
                     }
-                    GameObject.FindWithTag("UICanvas").GetComponent<UITextManager>().EnteredABossRoom(enemy);
+                    if (enemy.name == "Boss3")
+                    {
+                        enemy.GetComponent<Boss3Ai>().triggered = true;
+                  
+                    }
+                        GameObject.FindWithTag("UICanvas").GetComponent<UITextManager>().EnteredABossRoom(enemy);
                 }
             }
         }

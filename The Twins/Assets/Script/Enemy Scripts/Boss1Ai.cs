@@ -21,6 +21,7 @@ public class Boss1Ai : MonoBehaviour
     private Animator animator;
 
     public AIPath aiPath;
+    public AIDestinationSetter destinationSetter;
 
     private void Start()
     {
@@ -30,7 +31,7 @@ public class Boss1Ai : MonoBehaviour
     }
     private void Update()
     {
-        if (gameObject.GetComponent<AIDestinationSetter>().enabled == true)
+        if (destinationSetter.enabled == true)
         {
             animator.SetBool("moving", true);
             if (aiPath.desiredVelocity.x >= 0.01f)

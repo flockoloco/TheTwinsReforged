@@ -30,7 +30,6 @@ public class AtkPatterns : MonoBehaviour
     {
         if (UpdateCheck == true)
         {
-            Debug.Log("ayaayayayyaayya");
             //Debug.Break();
             if (gameObject.GetComponent<StatsHolder>().enemyID == 5)
             {
@@ -107,7 +106,7 @@ public class AtkPatterns : MonoBehaviour
             }
             else if (gameObject.GetComponent<StatsHolder>().enemyID == 4)
             {
-                Debug.Log("oyoyoyoyoyoyoyyo");
+
                 //Debug.Break();
                 animator.SetBool("attack2", false);
             }

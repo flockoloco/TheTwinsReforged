@@ -199,6 +199,7 @@ MonoBehaviour:
   attack: 0
   duringAttack: 0
   aiPath: {fileID: 4941846744704906049}
+  destinationSetter: {fileID: 4664607529221763372}
 --- !u!50 &5084240140657196116
 Rigidbody2D:
   serializedVersion: 4

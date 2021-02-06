@@ -31,7 +31,8 @@ public class TankAI : MonoBehaviour
 
     private void Update()
     {
-        if (destinationsettler.enabled == true)
+        
+        if (destinationsettler.isActiveAndEnabled == true)
         {
             animator.SetBool("moving", true);
             if (aiPath.desiredVelocity.x >= 0.01f)
