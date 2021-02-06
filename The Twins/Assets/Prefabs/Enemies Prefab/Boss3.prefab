@@ -152,7 +152,7 @@ MonoBehaviour:
   bulletSpd: 0
   invunerable: 0
   hit: 0
-  lootTier: 0
+  lootTier: 10
   agroRange: 0
   goldPrefab: {fileID: 0}
   nuggetsPrefab: {fileID: 0}
