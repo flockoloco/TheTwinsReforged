@@ -14,7 +14,7 @@ class ShopFragment : Fragment(R.layout.fragment_shop) {
             Items("Ore", "Ores are gathered every hour inside the mine", R.drawable.ic_gold_ingot),
             Items("Ingot", "Ingots are forged in the anvil, it can be traded in the shop or sent to the player", R.drawable.ic_ingot),
             Items("Mine Speed", "Temporary speed upgrade, the ores are gathered every 1/2 hour", R.drawable.ic_upgrade),
-            Items("Mine Harvest", "Temporary harvest upgrade, the amount of ores gathered are x2", R.drawable.ic_upgrade),
+            Items("Mine Gatherer", "Temporary Gatherer upgrade, the amount of ores gathered are x2", R.drawable.ic_upgrade),
             Items("Mine Ores", "Permanent ores upgrade, the amount of ores gathered are +1", R.drawable.ic_upgrade)
         )
 

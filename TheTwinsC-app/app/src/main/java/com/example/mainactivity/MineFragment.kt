@@ -78,7 +78,7 @@ class MineFragment : Fragment(R.layout.fragment_mine) {
 
         OrePBtxt.text = "Mine: +${Resources.PermUpgrade} ores $txtTime"
         MineSpdtxt.text = "Mine speed upgrade: ${String.format("%.1f" ,(Resources.Minespd.toDouble() / 60))} hours left"
-        MineHarvesttxt.text = "Mine harvest upgrade: ${String.format("%.1f" ,(Resources.MineHarvest.toDouble() / 60))} hours left"
+        MineHarvesttxt.text = "Mine Gatherer upgrade: ${String.format("%.1f" ,(Resources.MineHarvest.toDouble() / 60))} hours left"
 
     }
 }

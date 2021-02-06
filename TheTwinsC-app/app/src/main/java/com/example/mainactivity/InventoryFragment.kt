@@ -65,7 +65,7 @@ class InventoryFragment : Fragment(R.layout.fragment_inventory) {
                 R.drawable.ic_upgrade
             ),
             Items(
-                "Mine Harvest Upgrade",
+                "Mine Gatherer Upgrade",
                 "approximately ${
                     String.format(
                         "%.1f",
