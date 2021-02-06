@@ -18,13 +18,16 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (gameIsPaused)
+            if (GameObject.FindWithTag("Player").GetComponent<PlayerStats>().health > 0)
             {
-                resumeGame();
-            }
-            else
-            {
-                pauseGame();
+                if (gameIsPaused)
+                {
+                    resumeGame();
+                }
+                else
+                {
+                    pauseGame();
+                }
             }
         }
     }

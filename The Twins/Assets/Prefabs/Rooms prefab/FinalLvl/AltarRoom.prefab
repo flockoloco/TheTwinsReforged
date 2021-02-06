@@ -1370,20 +1370,6 @@ MonoBehaviour:
   enemiesInside: []
   playerInside: 0
   DoorList: []
---- !u!114 &153279233714245828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2164197767813686705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 471dcaf219a56974787d038ddc7992ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerInside: 0
-  AltarCanvas: {fileID: 0}
 --- !u!1 &2760737916019741680
 GameObject:
   m_ObjectHideFlags: 0
@@ -5180,25 +5166,13 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 4175082037356272683, guid: 3cbf4d87fbb47764d8c6bc029db69619, type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4175082037356272683, guid: 3cbf4d87fbb47764d8c6bc029db69619, type: 3}
-      propertyPath: m_Radius
-      value: 2.0397599
-      objectReference: {fileID: 0}
     - target: {fileID: 5872235095375109717, guid: 3cbf4d87fbb47764d8c6bc029db69619, type: 3}
       propertyPath: m_Name
       value: EndingAltar
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8376911285388138567, guid: 3cbf4d87fbb47764d8c6bc029db69619, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3cbf4d87fbb47764d8c6bc029db69619, type: 3}
---- !u!1 &2164197767813686705 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5872235095375109717, guid: 3cbf4d87fbb47764d8c6bc029db69619, type: 3}
-  m_PrefabInstance: {fileID: 5725932011329174500}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6394849756682313832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1714051952517241740, guid: 3cbf4d87fbb47764d8c6bc029db69619, type: 3}

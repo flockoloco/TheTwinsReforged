@@ -28,6 +28,7 @@ public class PlayerStats : MonoBehaviour
     private PauseMenu pauseMenu;
     public bool shopOpen = false;
     public int currentLevel;
+    public bool deadonetimer = false;
     private void Awake()
     {
         pauseMenu = GameObject.FindWithTag("PauseUI").GetComponent<PauseMenu>();
@@ -42,7 +43,13 @@ public class PlayerStats : MonoBehaviour
     {
         if (health <= 0)
         {
-            pauseMenu.ResetGame();
+            health = 0;
+            if (deadonetimer == false)
+            {
+                deadonetimer = true;
+                GameObject.Find("GameManager").GetComponent<StartGameScript>().deadCanvas.SetActive(true);
+                GameObject.Find("GameManager").GetComponent<StartGameScript>().deadCanvas.GetComponent<DeadUIScript>().Activate();
+            }
         }
         if (health > maxHealth)
         {
