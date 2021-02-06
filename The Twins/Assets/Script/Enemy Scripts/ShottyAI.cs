@@ -21,6 +21,8 @@ public class ShottyAI : MonoBehaviour
 
     public AIPath aiPath;
 
+    public AIDestinationSetter destinationsettler;
+
     void Start()
     {
         rigidbodya = gameObject.GetComponent<Rigidbody2D>();
@@ -29,7 +31,7 @@ public class ShottyAI : MonoBehaviour
     }
     private void Update()
     {
-        if (gameObject.GetComponent<AIDestinationSetter>().enabled == true)
+        if (destinationsettler.enabled == true)
         {
             animator.SetBool("moving", true);
             if (aiPath.desiredVelocity.x >= 0.01f)

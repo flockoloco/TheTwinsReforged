@@ -270,6 +270,7 @@ MonoBehaviour:
   Pivot: {fileID: 4501442623345920609}
   triggered: 0
   aiPath: {fileID: 4834758692899921782}
+  destinationsettler: {fileID: 7875353132045957140}
 --- !u!114 &1950955885316389884
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -25,11 +25,12 @@ public class StatsHolder : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        ScaleEnemyStats(GameObject.FindWithTag("Player").GetComponent<PlayerStats>().currentLevel, enemyID);
     }
 
     private void Update()
     {
-        if (health < 0)
+        if (health <= 0)
         {
             if (enemyID > 5)
             {
@@ -85,4 +86,27 @@ public class StatsHolder : MonoBehaviour
         SpawnDrops(lootTier, gameObject.transform);
         Destroy(gameObject);
     }
+    public void ScaleEnemyStats(int currentlvl, int enemyid)
+    {
+        
+        if (currentlvl == 2)
+        {
+            //stats scaling independent on the enemy
+            if (enemyid < 6)
+            {
+                health += 5;
+                damage += 2;
+            }
+            
+        }
+        else if (currentlvl == 3) //doesnt exist rn
+        {
+            if (enemyid < 6)
+            {
+                health += 10;
+                damage += 4;
+            }
+        }
+    }
+
 }

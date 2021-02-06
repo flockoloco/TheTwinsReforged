@@ -19,60 +19,19 @@ public class NormalAI : MonoBehaviour
     private Animator animator;
 
     public AIPath aiPath;
-
+    public AIDestinationSetter destinationsettler;
 
     void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
-        //updating the level the enemy is in, and changing some values due to it
-        ScaleEnemyStats(player.GetComponent<PlayerStats>().currentLevel, stats.enemyID);
     }
-    private void ScaleEnemyStats(int currentlvl,int enemyid)
-    {
-        if (currentlvl == 0)
-        {
-            //leave the stats the same
-        }
-        else if (currentlvl == 1)
-        {
-            //stats scaling independent on the enemy
-            stats.health += 5;
-            stats.damage += 2;
-
-             // if we want to make stats scaling dependent on the enemies
-            /*if (enemyid == 1)
-            {
-                stats.health += 5;
-            }
-            else if (enemyid == 2)
-            {
-                stats.health += 5;
-            }
-            else if (enemyid == 3)
-            {
-
-            }
-            else if (enemyid == 4)
-            {
-
-            }
-            else if (enemyid == 5)
-            {
-
-            }*/
-        }
-        else if (currentlvl == 2) //doesnt exist rn
-        {
-            stats.health += 10;
-            stats.damage += 4;
-        }
-    }
+    
 
     private void Update()
     {
-        if (gameObject.GetComponent<AIDestinationSetter>().enabled == true)
+        if (destinationsettler.enabled == true)
         {
             animator.SetBool("moving", true);
             if (aiPath.desiredVelocity.x >= 0.01f)

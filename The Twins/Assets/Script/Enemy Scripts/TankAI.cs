@@ -19,17 +19,19 @@ public class TankAI : MonoBehaviour
     private Animator animator;
 
     public AIPath aiPath;
+    public AIDestinationSetter destinationsettler;
 
     void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
+
     }
 
     private void Update()
     {
-        if (gameObject.GetComponent<AIDestinationSetter>().enabled == true)
+        if (destinationsettler.enabled == true)
         {
             animator.SetBool("moving", true);
             if (aiPath.desiredVelocity.x >= 0.01f)
