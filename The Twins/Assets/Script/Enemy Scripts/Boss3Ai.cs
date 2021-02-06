@@ -21,11 +21,25 @@ public class Boss3Ai : MonoBehaviour
     public Vector2 chargeDirection = new Vector2(0,0);
 
     public float dodgeSpeed = 10f;
+    private Animator animator;
 
     private void Start()
     {
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
+        animator = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        if(stats.health <= 0)
+        {
+            animator.SetBool("dead", true);
+            animator.SetBool("moving", false);
+            animator.SetBool("attack", false);
+            animator.SetBool("charge", false);
+            animator.SetBool("hit", false);
+        }
     }
 
     private void FixedUpdate()
@@ -34,7 +48,6 @@ public class Boss3Ai : MonoBehaviour
         {
             playerPos = player.GetComponent<Transform>().position;
 
-            
             if (duringSwing == false)
             {
                 if (bulletTimer > currentAttackDuration)
@@ -51,11 +64,13 @@ public class Boss3Ai : MonoBehaviour
                 attackFired = false;
                 charging = false;
                 duringSwing = false;
+                bulletTimer = 0;
             }
             else if (duringAttack == true)
             {
                 if (attack == 0 || attack == 1)  //atk 0 is a charge towards the player after charging for a bit
                 {
+                    animator.SetBool("moving", false);
                     bulletTimer += Time.deltaTime;
                     if (attackFired == false) // atk part
                     {
@@ -67,14 +82,17 @@ public class Boss3Ai : MonoBehaviour
                         dodgeSpeed = 10f;
                     }
 
-                    if (bulletTimer < 0.2f) // few frames of getting ready
+                    if (bulletTimer < 0.5f) // few frames of getting ready
                     {
                         Debug.Log("angry");
                         rigidbody.velocity = new Vector2(0, 0);
                         gameObject.GetComponent<SpriteRenderer>().color =new Color(255, 0, 0);
+                        animator.SetBool("charge", true);
                     }
-                    if (bulletTimer > 0.2f && bulletTimer < 2f) //charge towards the player
+                    if (bulletTimer > 0.5f && bulletTimer < 2f) //charge towards the player
                     {
+                        animator.SetBool("charge", false);
+                        animator.SetBool("moving", true);
                         Debug.Log("devia tar a atackar");
                         gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255);
                         charging = true;
@@ -94,6 +112,7 @@ public class Boss3Ai : MonoBehaviour
                 }
                 if (attack == 2) //being "stunned" for 5 secs
                 {
+                    animator.SetBool("moving", false);
                     bulletTimer += Time.deltaTime;
                     if (attackFired == false)
                     {
@@ -114,19 +133,21 @@ public class Boss3Ai : MonoBehaviour
 
                     if (duringSwing == false) //walking towards the player
                     {
+                        animator.SetBool("moving", true);
                         Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
-                        rigidbody.velocity = new Vector2(playerDir.x, playerDir.y) * stats.moveSpeed;
+                        rigidbody.velocity = - new Vector2(playerDir.x, playerDir.y) * stats.moveSpeed;
                     }
                     else if (duringSwing == true) //not moving due to swinging
                     {
+                        animator.SetBool("moving", false);
+                        animator.SetBool("attack", true);
                         rigidbody.velocity = new Vector2(0, 0);
                     }
                     
-                    if ( Vector2.Distance(player.transform.position,gameObject.transform.position) < gameObject.GetComponent<StatsHolder>().agroRange){
-
+                    if ( Vector2.Distance(player.transform.position,gameObject.transform.position) < gameObject.GetComponent<StatsHolder>().agroRange)
+                    {
                         duringSwing = true;
-
-                           //do swing
+                        //do swing
                     }
                 }
             }
@@ -158,17 +179,19 @@ public class Boss3Ai : MonoBehaviour
         attack = PickAttack(attack);
         duringAttack = true;
         attackFired = false;
-
         charging = false;
+        bulletTimer = 0;
         duringSwing = false;
+        animator.SetBool("attack", false);
     }
     public void StopCharging()
     {
         rigidbody.velocity = new Vector2(0,0);
         duringAttack = false;
-    
         charging = false;
+        bulletTimer = 0;
         duringSwing = false;
+        animator.SetBool("moving", false);
     }
 
     private int PickAttack(int currentAttack)
