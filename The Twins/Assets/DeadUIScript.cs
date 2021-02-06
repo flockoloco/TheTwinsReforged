@@ -64,6 +64,7 @@ public class DeadUIScript : MonoBehaviour
     }
     public void ReturnToMenu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Main Menu");
     }
 }
