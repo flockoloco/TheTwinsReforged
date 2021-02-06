@@ -39,8 +39,8 @@ public class ShopMenuScript : MonoBehaviour
         sButton5.onClick.AddListener(delegate { BuyEquipment(7, 1); });
 
         sButton6.onClick.AddListener(delegate { BuyEquipment(0, 0); });
-        sButton7.onClick.AddListener(delegate { BuyEquipment(1, 0); });
-        sButton8.onClick.AddListener(delegate { BuyEquipment(2, 0); });
+        sButton7.onClick.AddListener(delegate { BuyEquipment(2, 0); }); 
+        sButton8.onClick.AddListener(delegate { BuyEquipment(1, 0); }); 
 
         //canvasChanger.GetComponent<UIPopUpScript>().CanvasSwitcher(0);
         shopMenu.SetActive(false);
