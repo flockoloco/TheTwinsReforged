@@ -14,6 +14,9 @@ public class StairsUIScript : MonoBehaviour
 
     public Animator transition;
 
+    public AudioClip stairssound;
+
+
     private void Start()
     {
         Debug.Log("Inside of the start, " + stairsMenu);
@@ -42,6 +45,8 @@ public class StairsUIScript : MonoBehaviour
 
     public void Continue()
     {
+
+        gameObject.GetComponent<CameraSoundChanger>().changeAudio(stairssound);
         StartCoroutine(LoadTransition());
     }
     public void SaveAndExit()

@@ -30,6 +30,10 @@ public class swordscript : MonoBehaviour
         { 
             if (Input.GetKey(KeyCode.Mouse0) && (swordTimer > player.GetComponent<PlayerStats>().equippedSword.atkSpeed))
             {
+                if (swordAnimator.GetBool("Attack") == false)
+                {
+                    player.GetComponent<CameraSoundChanger>().changeAudio(player.GetComponent<PlayerMovement>().swordSwing);
+                }
                 swordAnimator.SetBool("Attack", true);
                 rotatoFrezeto = true;
             }
