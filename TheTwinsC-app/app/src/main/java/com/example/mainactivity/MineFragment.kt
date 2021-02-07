@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -14,10 +15,10 @@ class MineFragment : Fragment(R.layout.fragment_mine) {
     val looper = Handler(Looper.getMainLooper())
     var time: Long = 0
     var txtTime: String = ""
-
+    private lateinit var mp: MediaPlayer
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        mp = MediaPlayer.create(view.context, R.raw.mining)
         //do as same in the onResume but once the player opens it
         UPtoDate()
         MineHarvest.max = Resources.MineHarvest
@@ -28,6 +29,7 @@ class MineFragment : Fragment(R.layout.fragment_mine) {
             override fun run() {
                 if (getView() != null) {
                     miningOre()
+                    mp.start()
                     if (Resources.Minespd == 0) {
                         time = 1000
                         txtTime = "per hour"

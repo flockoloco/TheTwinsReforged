@@ -3,43 +3,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/black_forge">
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/teal_700"
-        android:padding="5dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logowhite"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:src="@drawable/logo_game" />
-
-    </LinearLayout>
 
     <ImageView
         android:layout_width="250dp"
-        android:layout_height="0dp"
+        android:layout_height="60dp"
         android:paddingBottom="10dp"
         android:scaleType="fitEnd"
-        android:src="@drawable/logo_iade"
+        android:src="@drawable/logo_iade_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/lgnUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
+        android:outlineSpotShadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,12 +49,18 @@
 
     <EditText
         android:id="@+id/lgnPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:outlineSpotShadowColor="@color/white"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,10 +70,15 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/white"
+        android:outlineSpotShadowColor="@color/white"
         android:text="Login"
-        android:backgroundTint="@color/black_forge"
+        android:textColor="@color/black_forge"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lgnPassword" />
@@ -74,10 +87,15 @@
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginRight="50dp"
+        android:backgroundTint="@color/white"
+        android:outlineSpotShadowColor="@color/white"
         android:text="Register"
-        android:backgroundTint="@color/black_forge"
+        android:textColor="@color/black_forge"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/lgnPassword" />
@@ -86,14 +104,15 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="48dp"
         android:gravity="center"
         android:text="Welcome to The Twins companion app"
+        android:textColor="@color/white"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

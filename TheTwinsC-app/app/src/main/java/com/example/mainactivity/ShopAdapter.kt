@@ -1,5 +1,6 @@
 package com.example.mainactivity
 
+import android.media.MediaPlayer
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,9 +12,10 @@ import kotlinx.android.synthetic.main.shopdialog.*
 class ShopAdapter(var itemInv: List<Items>) : RecyclerView.Adapter<ShopAdapter.ShopViewHolder>() {
 
     inner class ShopViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
-
+    private lateinit var mp: MediaPlayer
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ShopViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.items_layout, parent, false)
+
         return ShopViewHolder(view)
     }
 
@@ -27,6 +29,9 @@ class ShopAdapter(var itemInv: List<Items>) : RecyclerView.Adapter<ShopAdapter.S
             itemDescription.text = itemInv[position].details
             itemIcon.setImageResource(itemInv[position].icon)
         }
+
+        mp = MediaPlayer.create(holder.itemView.context, R.raw.purchase)
+
         holder.itemView.setOnClickListener { view ->
             val dialogBox = LayoutInflater.from(view.context).inflate(R.layout.shopdialog, null)
             val builder = AlertDialog.Builder(view.context)
@@ -64,15 +69,18 @@ class ShopAdapter(var itemInv: List<Items>) : RecyclerView.Adapter<ShopAdapter.S
                     if (Resources.Gold - count < 0) {
                         //do something in the future
                     } else {
+                        mp.start()
                         Resources.Nuggets += count
                         Resources.Gold -= count
                         builder.dismiss()
+
                     }
                 }
                 builder.shopSell.setOnClickListener {
                     if (Resources.Nuggets - count < 0) {
                         //do something in the future
                     } else {
+                        mp.start()
                         Resources.Nuggets -= count
                         Resources.Gold += count
                         builder.dismiss()
@@ -107,6 +115,7 @@ class ShopAdapter(var itemInv: List<Items>) : RecyclerView.Adapter<ShopAdapter.S
                     if (count > Resources.Bars) {
                         //do something in the future
                     } else {
+                        mp.start()
                         Resources.Bars -= count
                         Resources.Gold += (count * 4)
                         builder.dismiss()
@@ -149,6 +158,7 @@ class ShopAdapter(var itemInv: List<Items>) : RecyclerView.Adapter<ShopAdapter.S
                         //do something
                     }
                     else {
+                        mp.start()
                         Resources.Minespd += count * 60
                         Resources.Gold -= (count * 5)
                         builder.dismiss()
@@ -191,6 +201,7 @@ class ShopAdapter(var itemInv: List<Items>) : RecyclerView.Adapter<ShopAdapter.S
                         //do something
                     }
                     else{
+                        mp.start()
                         Resources.MineHarvest += count * 60
                         Resources.Gold -= (count * 5)
                         builder.dismiss()
@@ -233,6 +244,7 @@ class ShopAdapter(var itemInv: List<Items>) : RecyclerView.Adapter<ShopAdapter.S
                         // do something
                     }
                     else {
+                        mp.start()
                         Resources.PermUpgrade += count
                         Resources.Gold -= (count * 10)
                         builder.dismiss()
