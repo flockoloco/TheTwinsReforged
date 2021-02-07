@@ -235,6 +235,9 @@ GameObject:
   - component: {fileID: 6687403023518315389}
   - component: {fileID: 5510964965212659342}
   - component: {fileID: 8009616850224763974}
+  - component: {fileID: 1390279532943985813}
+  - component: {fileID: 5575524102625639523}
+  - component: {fileID: 1679988381179103706}
   m_Layer: 9
   m_Name: Retin
   m_TagString: Player
@@ -351,6 +354,8 @@ MonoBehaviour:
   bowScript: {fileID: 6687403023602151119}
   UICanvas: {fileID: 0}
   RoomSpawn: {fileID: 0}
+  unsheatheSword: {fileID: 8300000, guid: ca235a531f5774d4a8e4a38456540514, type: 3}
+  swordSwing: {fileID: 8300000, guid: 470cc8f9e4efcb94c87ce9e63689392e, type: 3}
   state: 0
 --- !u!114 &6687403023518315389
 MonoBehaviour:
@@ -373,11 +378,11 @@ MonoBehaviour:
   selectedArrow: 0
   hit: 0
   invunerable: 0
-  gold: 0
-  bars: 0
+  gold: 122
+  bars: 403
   nuggets: 0
   healthPotions: 0
-  playerSword: {fileID: 0}
+  playerSword: {fileID: 6687403023126719153}
   equippedSword:
     name: 
     type: 
@@ -400,6 +405,7 @@ MonoBehaviour:
     id: 0
   shopOpen: 0
   currentLevel: 0
+  deadonetimer: 0
 --- !u!70 &5510964965212659342
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -426,7 +432,7 @@ Animator:
   m_GameObject: {fileID: 6687403023518315387}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 59dcca42d3992ff4c80bcd507928cf72, type: 2}
+  m_Controller: {fileID: 9100000, guid: f099fb17f3ab60d49928cfe45441f322, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -435,6 +441,128 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1390279532943985813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6687403023518315387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e654b8abbf5e9f946b67139841f6d7a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerstas: {fileID: 0}
+--- !u!82 &5575524102625639523
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6687403023518315387}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1679988381179103706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6687403023518315387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c708068e4635b4740a72a8a86813e2fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audio: {fileID: 5575524102625639523}
 --- !u!1 &6687403023602151114
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,8 +660,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotatoFrezeto: 0
-  ArrowNormal: {fileID: 21300000, guid: 554bde03e380ace4fa1954f83dee1fde, type: 3}
-  ArrowOre: {fileID: 21300000, guid: 98c781e302418424e8802d6934258959, type: 3}
   bowTimer: 0
   arrowPrefab: {fileID: 2849815800482941593, guid: 570938687f3846846af3e99b3345ea19, type: 3}
   selectedArrow: 0

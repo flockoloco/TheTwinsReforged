@@ -21,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
     public GameObject UICanvas;
     public SpawnPoint RoomSpawn;
 
+    public AudioClip unsheatheSword;
+    public AudioClip swordSwing;
+    public AudioClip drinkpotion;
+
+
     public enum weaponState
     {
         sword,
@@ -62,7 +67,11 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.R))
             {
                 if ((gameObject.GetComponent<PlayerStats>().health < gameObject.GetComponent<PlayerStats>().maxHealth) && gameObject.GetComponent<PlayerStats>().healthPotions >= 1)
-                gameObject.GetComponent<PlayerStats>().UseHealthPotion();
+                {
+                    gameObject.GetComponent<PlayerStats>().UseHealthPotion();
+                    gameObject.GetComponent<CameraSoundChanger>().changeAudio(drinkpotion);
+                }
+                
             }
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
@@ -88,6 +97,8 @@ public class PlayerMovement : MonoBehaviour
                     weapon = weaponState.sword;
                     playersword.SetActive(true);
                     playerbow.SetActive(false);
+
+                    gameObject.GetComponent<CameraSoundChanger>().changeAudio(unsheatheSword);
                     gameObject.GetComponent<PlayerStats>().EquipItem("Sword", gameObject.GetComponent<PlayerStats>().equippedSword.id);
                 }
             }
