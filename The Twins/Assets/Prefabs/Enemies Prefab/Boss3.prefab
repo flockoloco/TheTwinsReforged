@@ -236,9 +236,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 300
-  armor: 0
+  armor: 4
   damage: 20
-  moveSpeed: 2
+  moveSpeed: 3
   bulletSpd: 1
   invunerable: 0
   hit: 0
