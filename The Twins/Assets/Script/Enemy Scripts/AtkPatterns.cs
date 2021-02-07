@@ -14,9 +14,9 @@ public class AtkPatterns : MonoBehaviour
 
     public Animator animator;
 
- 
     public float Attack(int indexdoataque)
     {
+        
         currentAtkIndex = indexdoataque;
         UpdateCheck = true;
         foreach (BulletInfo bullet in atkInfos[indexdoataque].allBullets)
@@ -30,37 +30,6 @@ public class AtkPatterns : MonoBehaviour
     {
         if (UpdateCheck == true)
         {
-            //Debug.Break();
-            if (gameObject.GetComponent<StatsHolder>().enemyID == 5)
-            {
-                animator.SetBool("attack", true);
-            }
-            else if(gameObject.GetComponent<StatsHolder>().enemyID == 1)
-            {
-                animator.SetBool("attack", true);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 2)
-            {
-                animator.SetBool("attack", true);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 3)
-            {
-                animator.SetBool("attack", true);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 4)
-            {
-
-                animator.SetBool("attack2", true);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 6)
-            {
-                animator.SetBool("attack", true);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 7)
-            {
-                animator.SetBool("attack", true);
-            }
-
             baseTimer += Time.deltaTime;
 
             foreach (BulletInfo bullet in atkInfos[currentAtkIndex].allBullets)
@@ -86,39 +55,6 @@ public class AtkPatterns : MonoBehaviour
                 gameObject.GetComponent<StatsHolder>().ableToAttack = true;
             }
         }
-        else if (UpdateCheck == false)
-        {
-            if (gameObject.GetComponent<StatsHolder>().enemyID == 5)
-            {
-                animator.SetBool("attack", false);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 1)
-            {
-                animator.SetBool("attack", false);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 2)
-            {
-                animator.SetBool("attack", false);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 3)
-            {
-                animator.SetBool("attack", false);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 4)
-            {
-
-                //Debug.Break();
-                animator.SetBool("attack2", false);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 6)
-            {
-                animator.SetBool("attack", false);
-            }
-            else if (gameObject.GetComponent<StatsHolder>().enemyID == 7)
-            {
-                animator.SetBool("attack", false);
-            }
-        }
     }
 
     public void EnemyFire(GameObject BulletPrefab, Transform firepoint, float angleDiff, float accuracy, float speed)//put normal or uni
@@ -138,5 +74,37 @@ public class AtkPatterns : MonoBehaviour
 
         bullet.GetComponent<BulletScript>().EnemyDamage(gameObject.GetComponent<StatsHolder>().damage);
         rb.velocity = bullet.transform.right * gameObject.GetComponent<StatsHolder>().bulletSpd * randomSpeed;
+    }
+
+    public void cancelAttack()
+    {
+        if (gameObject.GetComponent<StatsHolder>().enemyID == 4)
+        {
+            animator.SetBool("attack2", false);
+        }
+        if (gameObject.GetComponent<StatsHolder>().enemyID == 5)
+        {
+            animator.SetBool("attack", false);
+        }
+        else if (gameObject.GetComponent<StatsHolder>().enemyID == 1)
+        {
+            animator.SetBool("attack", false);
+        }
+        else if (gameObject.GetComponent<StatsHolder>().enemyID == 2)
+        {
+            animator.SetBool("attack", false);
+        }
+        else if (gameObject.GetComponent<StatsHolder>().enemyID == 3)
+        {
+            animator.SetBool("attack", false);
+        }
+        else if (gameObject.GetComponent<StatsHolder>().enemyID == 6)
+        {
+            animator.SetBool("attack", false);
+        }
+        else if (gameObject.GetComponent<StatsHolder>().enemyID == 7)
+        {
+            animator.SetBool("attack", false);
+        }
     }
 }

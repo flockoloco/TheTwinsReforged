@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Pathfinding;
 using UnityEngine;
-using Pathfinding;
 
 public class TankAI : MonoBehaviour
 {
     private GameObject player;
     private Vector3 playerPos;
-    private Rigidbody2D rigidbody; 
+    private Rigidbody2D rigidbody;
     public StatsHolder stats;
     private readonly float agroDist;
     private float bulletTimer;
@@ -26,38 +24,26 @@ public class TankAI : MonoBehaviour
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
-
-    }
-
-    private void Update()
-    {
-        
-        if (destinationsettler.isActiveAndEnabled == true)
-        {
-            animator.SetBool("moving", true);
-            if (aiPath.desiredVelocity.x >= 0.01f)
-            {
-                gameObject.GetComponent<SpriteRenderer>().flipX = false;
-            }
-            else if (aiPath.desiredVelocity.x <= 0.01f)
-            {
-                gameObject.GetComponent<SpriteRenderer>().flipX = true;
-            }
-        }
-        else
-        {
-            animator.SetBool("moving", false);
-        }
     }
 
     void FixedUpdate()
     {
         if (triggered)
         {
+            if (aiPath.desiredVelocity.x >= 0.01f)
+            {
+                animator.SetBool("moving", true);
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (aiPath.desiredVelocity.x <= 0.01f)
+            {
+                animator.SetBool("moving", true);
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+
             bulletTimer += Time.deltaTime;
             playerPos = player.GetComponent<Transform>().position;
             Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
-
             //rigidbody.velocity = new Vector2(-playerDir.x * stats.moveSpeed, -playerDir.y * stats.moveSpeed);
 
             Vector2 direction = -playerDir;
@@ -68,7 +54,7 @@ public class TankAI : MonoBehaviour
                 gameObject.GetComponent<StatsHolder>().ableToAttack = false;
                 bulletTimer = 0;
                 currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
-
+                animator.SetBool("attack2", true);
             }
         }
     }
@@ -82,10 +68,11 @@ public class TankAI : MonoBehaviour
 
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(gameObject.GetComponent<Rigidbody2D>().velocity.normalized * 5, ForceMode2D.Impulse); //knocking the target towards the enemy velocity
         }
-        else
-        {
-            animator.SetBool("attack", false);
-        }
+    }
+
+    void removeAnimation()
+    {
+        animator.SetBool("attack", false);
     }
 }
 

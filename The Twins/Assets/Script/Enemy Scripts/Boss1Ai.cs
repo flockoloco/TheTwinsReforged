@@ -20,8 +20,8 @@ public class Boss1Ai : MonoBehaviour
 
     private Animator animator;
 
-    public AIPath aiPath;
-    public AIDestinationSetter destinationSetter;
+    //public AIPath aiPath;
+    //public AIDestinationSetter destinationSetter;
 
     private void Start()
     {
@@ -30,7 +30,12 @@ public class Boss1Ai : MonoBehaviour
         animator = GetComponent<Animator>();
     }
     private void Update()
-    {
+    {  
+        if(stats.health <= 0)
+        {
+            gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        }
+        /*
         if (destinationSetter.enabled == true)
         {
             animator.SetBool("moving", true);
@@ -46,7 +51,7 @@ public class Boss1Ai : MonoBehaviour
         else
         {
             animator.SetBool("moving", false);
-        }
+        }   */
     }
 
     private void FixedUpdate()
@@ -76,6 +81,8 @@ public class Boss1Ai : MonoBehaviour
                     bulletTimer += Time.deltaTime;
                     if (attackFired == false) // atk part
                     {
+                        animator.SetBool("moving", false);
+                        animator.SetBool("attack", true);
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
                     }
@@ -83,12 +90,12 @@ public class Boss1Ai : MonoBehaviour
                     Pivot.transform.rotation = rotatoBoss;
                     if (UsefulllFs.Dist(playerPos, transform.position) < agroDist) // movement part
                     {
-                        
+                        animator.SetBool("moving", true);
                         rigidbody.velocity = new Vector2(playerDir.x, playerDir.y) * stats.moveSpeed;
-                        
                     }
                     else
                     {
+                    
                         rigidbody.velocity = new Vector2(0, 0);
                     }
                 }
@@ -98,6 +105,8 @@ public class Boss1Ai : MonoBehaviour
 
                     if (attackFired == false) //atk part
                     {
+                        animator.SetBool("moving", false);
+                        animator.SetBool("attack", true);
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(1);
                     }
@@ -106,11 +115,12 @@ public class Boss1Ai : MonoBehaviour
 
                     if (UsefulllFs.Dist(playerPos, transform.position) > agroDist/1.5)//movement part
                     {
-                       
+                        animator.SetBool("moving", true);
                         rigidbody.velocity = new Vector2(playerDir.x, playerDir.y) * -stats.moveSpeed;
                     }
                     else
                     {
+                       
                         rigidbody.velocity = new Vector2(0, 0);
                     }
                 }

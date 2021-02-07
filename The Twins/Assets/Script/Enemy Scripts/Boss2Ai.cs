@@ -50,24 +50,26 @@ public class Boss2Ai : MonoBehaviour
                 attackFired = false;
             }
 
-            if (duringAttack == true) //moving towards the player using big machine gun
+            if (duringAttack == true && stats.health > 0) //moving towards the player using big machine gun
             {
                 if (attack >= 0 && attack <= 3) //atk 0 to 3 (all shooting atacks where the boss runs towards the player)
                 {
                     bulletTimer += Time.deltaTime;
                     if (attackFired == false) // atk part
                     {
+                        animator.SetBool("attack", true);
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(attack);
                     }
                     rigidbody.velocity = Vector2.down * stats.moveSpeed;
                 }
-                if (attack == 4) //"atk" 4 (the boss rests for 3 secs)
+                if (attack == 4 && stats.health > 0) //"atk" 4 (the boss rests for 3 secs)
                 {
                     bulletTimer += Time.deltaTime;
                     animator.SetBool("rest", true);
                     if (attackFired == false) //atk part
                     {
+                        animator.SetBool("attack", true);
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(attack);
                     }

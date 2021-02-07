@@ -29,31 +29,23 @@ public class ShottyAI : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
     }
-    private void Update()
-    {
-        if (destinationsettler.enabled == true)
-        {
-            animator.SetBool("moving", true);
-            if (aiPath.desiredVelocity.x >= 0.01f)
-            {
-                gameObject.GetComponent<SpriteRenderer>().flipX = false;
-            }
-            else if (aiPath.desiredVelocity.x <= 0.01f)
-            {
-                gameObject.GetComponent<SpriteRenderer>().flipX = true;
-            }
-        }
-        else
-        {
-            animator.SetBool("moving", false);
-        }
-    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         if (triggered)
         {
+            if (aiPath.desiredVelocity.x >= 0.01f)
+            {
+                animator.SetBool("moving", true);
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (aiPath.desiredVelocity.x <= 0.01f)
+            {
+                animator.SetBool("moving", true);
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+
             bulletTimer += Time.deltaTime;
             playerPos = player.GetComponent<Transform>().position;
 
@@ -66,10 +58,11 @@ public class ShottyAI : MonoBehaviour
             Pivot.transform.rotation = rotato;
             if (bulletTimer > currentAttackDuration && gameObject.GetComponent<StatsHolder>().ableToAttack == true)
             {
+                animator.SetBool("moving", false);
                 gameObject.GetComponent<StatsHolder>().ableToAttack = false;
                 bulletTimer = 0;
                 currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
-                
+                animator.SetBool("attack", true);
             }
         }
     }

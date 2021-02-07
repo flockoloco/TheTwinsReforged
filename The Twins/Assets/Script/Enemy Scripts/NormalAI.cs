@@ -27,33 +27,23 @@ public class NormalAI : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         animator = GetComponent<Animator>();
     }
-    
-
-    private void Update()
-    {
-        if (destinationsettler.enabled == true)
-        {
-            animator.SetBool("moving", true);
-            if (aiPath.desiredVelocity.x >= 0.01f)
-            {
-                gameObject.GetComponent<SpriteRenderer>().flipX = false;
-            }
-            else if (aiPath.desiredVelocity.x <= 0.01f)
-            {
-                gameObject.GetComponent<SpriteRenderer>().flipX = true;
-            }
-        }
-        else
-        {
-            animator.SetBool("moving", false);
-        }
-    }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         if (triggered)
         {
+            if (aiPath.desiredVelocity.x >= 0.01f)
+            {
+                animator.SetBool("moving", true);
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (aiPath.desiredVelocity.x <= 0.01f)
+            {
+                animator.SetBool("moving", true);
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+
             bulletTimer += Time.deltaTime;
             playerPos = player.GetComponent<Transform>().position;
 
@@ -68,9 +58,10 @@ public class NormalAI : MonoBehaviour
 
             if (bulletTimer > currentAttackDuration && stats.ableToAttack == true)
             {
+                animator.SetBool("moving", false);
+                animator.SetBool("attack", true);
                 bulletTimer = 0;
                 currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
-
             }
         }
     }

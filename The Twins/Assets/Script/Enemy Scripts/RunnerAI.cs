@@ -49,10 +49,10 @@ public class RunnerAI : MonoBehaviour
             {
                 rigidbody.velocity = new Vector2(0, 0);
 
-               
                 animator.SetBool("moving", false);
                 if (bulletTimer > currentAttackDuration && gameObject.GetComponent<StatsHolder>().ableToAttack == true)
                 {
+                    animator.SetBool("attack", true);
                     bulletTimer = 0;
                     currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
 

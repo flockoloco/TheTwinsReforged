@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Pathfinding;
 
 public class StatsHolder : MonoBehaviour
 {
@@ -19,7 +20,6 @@ public class StatsHolder : MonoBehaviour
     public int enemyID;
 
     private Animator animator;
-
     public GameObject roomIn;
 
     private void Start()
@@ -32,21 +32,38 @@ public class StatsHolder : MonoBehaviour
     {
         if (health <= 0)
         {
+            if(gameObject.GetComponent<StatsHolder>().enemyID == 6 || gameObject.GetComponent<StatsHolder>().enemyID == 7 || gameObject.GetComponent<StatsHolder>().enemyID == 8 || gameObject.GetComponent<StatsHolder>().enemyID == 2)
+            {
+                gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            }
+            else if(gameObject.GetComponent<StatsHolder>().enemyID == 5 || gameObject.GetComponent<StatsHolder>().enemyID == 1 || gameObject.GetComponent<StatsHolder>().enemyID == 3 || gameObject.GetComponent<StatsHolder>().enemyID == 4)
+            {
+                gameObject.GetComponent<AIPath>().maxSpeed = 0f;
+            }
+
+            animator.SetBool("hit", false);
+            if (gameObject.GetComponent<StatsHolder>().enemyID == 4)
+            {
+                animator.SetBool("attack2", false);
+            }
+            animator.SetBool("dead", true);
             if (enemyID > 5)
             {
                 GameObject.FindWithTag("UICanvas").GetComponent<UITextManager>().BossDied();
             }
-            animator.SetBool("dead", true);
             roomIn.GetComponent<RoomDoorScript>().RemoveEnemy(gameObject);
         }
         if (hit == true)
         {
+            gameObject.GetComponent<SpriteRenderer>().color = new Color(155, 0, 0);
+                
             animator.SetBool("hit", true);
             invunerable = true;
             vunerableTimer += Time.deltaTime;
             if (vunerableTimer > 1)
             {
                 animator.SetBool("hit", false);
+                gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255);
                 hit = false;
                 invunerable = false;
                 vunerableTimer = 0;
