@@ -171,7 +171,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 12096a73fd26e204bb4df23ca71df5f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -220,7 +220,6 @@ MonoBehaviour:
   FirePoint: {fileID: 167115812054733719}
   Pivot: {fileID: 6000846864622417170}
   triggered: 0
-  aiPath: {fileID: 0}
 --- !u!114 &6118019588450721612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,6 +246,8 @@ MonoBehaviour:
   ableToAttack: 1
   enemyID: 2
   roomIn: {fileID: 0}
+  sound: {fileID: 0}
+  defaultMusic: {fileID: 0}
 --- !u!50 &6118019588450721607
 Rigidbody2D:
   serializedVersion: 4

@@ -93,7 +93,7 @@ public class ShopMenuScript : MonoBehaviour
             }
             else if(number == 1)
             {
-                if (UsefulllFs.BuySomething(player, "gold", 5) == true)
+                if (UsefulllFs.BuySomething(player, "bars", 1) == true)
                 {
                     EquipmentClass.Quiver[0].amount += 1;
                   
@@ -108,7 +108,7 @@ public class ShopMenuScript : MonoBehaviour
             }
             else if (number == 2)
             {
-                if (UsefulllFs.BuySomething(player, "bars", 1) == true)
+                if (UsefulllFs.BuySomething(player, "gold", 5) == true)
                 {
                     EquipmentClass.Quiver[1].amount += 1;
 

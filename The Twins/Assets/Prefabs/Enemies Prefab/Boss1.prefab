@@ -120,7 +120,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 12096a73fd26e204bb4df23ca71df5f2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -533,7 +533,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boss: {fileID: 8441802829401593414}
   musicFight: {fileID: 8300000, guid: d1b31458adcf9cf4ea60f5c4e8cda5de, type: 3}
-  lastFight: {fileID: 0}
   sound: {fileID: 0}
 --- !u!1 &8838256815430191562
 GameObject:

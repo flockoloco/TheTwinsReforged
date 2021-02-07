@@ -16,6 +16,7 @@ public class cameramovement : MonoBehaviour
 
     void Start()
     {
+        QualitySettings.SetQualityLevel(5);
         cam = gameObject.GetComponent<Camera>();
         player = GameObject.FindWithTag("Player");
     }
