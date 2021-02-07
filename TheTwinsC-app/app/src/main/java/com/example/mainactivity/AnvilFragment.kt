@@ -5,6 +5,7 @@ import android.content.ClipDescription
 import android.content.Context
 import android.graphics.Color.*
 import android.hardware.*
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -32,10 +33,13 @@ class AnvilFragment : Fragment(R.layout.fragment_anvil), SensorEventListener {
     val looper = Handler(Looper.getMainLooper())
 
     private var anvilInOre: Int = 0
-
+    private lateinit var mp: MediaPlayer
+    private lateinit var finisheBar: MediaPlayer
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        mp = MediaPlayer.create(view.context, R.raw.bing1)
+        finisheBar = MediaPlayer.create(view.context, R.raw.accept)
 
         bagOretxt.text = Resources.Nuggets.toString()
         anvilOretxt.text = anvilInOre.toString()
@@ -77,6 +81,7 @@ class AnvilFragment : Fragment(R.layout.fragment_anvil), SensorEventListener {
         //Progress bar
         clickablearea.setOnClickListener {
             if (dragged == 1) {
+                mp.start()
                 ProgressBar.incrementProgressBy(2)
                 //ProgressBar.progressTintList = ColorStateList.valueOf(RED) -> assim que troca de cor da barra de progresso, mas nao é tao bom quanto um gradiant
             }
@@ -186,6 +191,7 @@ class AnvilFragment : Fragment(R.layout.fragment_anvil), SensorEventListener {
     private fun CheckForged(){
         if(ProgressBar.progress > 75){
             if(forge >= 3 && dragged == 1){
+                finisheBar.start()
                 dragBot.removeView(AnvilIngot)
                 dragTop.addView(AnvilIngot)
                 Resources.Bars += 1
