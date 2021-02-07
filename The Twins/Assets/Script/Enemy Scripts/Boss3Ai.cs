@@ -40,6 +40,7 @@ public class Boss3Ai : MonoBehaviour
             animator.SetBool("charge", false);
             animator.SetBool("hit", false);
         }
+       
     }
 
     private void FixedUpdate()
@@ -80,6 +81,14 @@ public class Boss3Ai : MonoBehaviour
 
                         chargeDirection = playerDir;
                         dodgeSpeed = 10f;
+                        if (playerPos.x > gameObject.transform.position.x)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                        }
+                        else if (playerPos.x < gameObject.transform.position.x)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                        }
                     }
 
                     if (bulletTimer < 0.5f) // few frames of getting ready
@@ -96,7 +105,7 @@ public class Boss3Ai : MonoBehaviour
                         Debug.Log("devia tar a atackar");
                         gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255);
                         charging = true;
-                        
+
                         float dodgeSpeedDropper = 4f;
                         dodgeSpeed -=  dodgeSpeedDropper * Time.deltaTime;
 
@@ -136,6 +145,14 @@ public class Boss3Ai : MonoBehaviour
                         animator.SetBool("moving", true);
                         Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
                         rigidbody.velocity = - new Vector2(playerDir.x, playerDir.y) * stats.moveSpeed;
+                        if (playerPos.x > gameObject.transform.position.x)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                        }
+                        else if (playerPos.x < gameObject.transform.position.x)
+                        {
+                            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                        }
                     }
                     else if (duringSwing == true) //not moving due to swinging
                     {
