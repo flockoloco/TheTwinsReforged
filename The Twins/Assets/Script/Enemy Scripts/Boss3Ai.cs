@@ -61,6 +61,7 @@ public class Boss3Ai : MonoBehaviour
 
             if (duringAttack == false)
             {
+                //gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255);
                 attack = PickAttack(attack); // choosing next attack
                 duringAttack = true;
                 attackFired = false;
@@ -85,10 +86,12 @@ public class Boss3Ai : MonoBehaviour
                         if (playerPos.x > gameObject.transform.position.x)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                            gameObject.GetComponent<CapsuleCollider2D>().offset = new Vector2(-0.5008869f, -0.05444527f);
                         }
                         else if (playerPos.x < gameObject.transform.position.x)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                            gameObject.GetComponent<CapsuleCollider2D>().offset = new Vector2(0.44f, 0.05444527f) ;
                         }
                     }
 
@@ -96,7 +99,7 @@ public class Boss3Ai : MonoBehaviour
                     {
                         Debug.Log("angry");
                         rigidbody.velocity = new Vector2(0, 0);
-                        gameObject.GetComponent<SpriteRenderer>().color =new Color(255, 0, 0);
+                        gameObject.GetComponent<SpriteRenderer>().color = new Color(255, 0, 0);
                         animator.SetBool("charge", true);
                     }
                     if (bulletTimer > 0.5f && bulletTimer < 2f) //charge towards the player
@@ -110,7 +113,7 @@ public class Boss3Ai : MonoBehaviour
                         float dodgeSpeedDropper = 4f;
                         dodgeSpeed -=  dodgeSpeedDropper * Time.deltaTime;
 
-                        float dodgeSpeedMin = 5f;
+                        float dodgeSpeedMin = 6.5f;
 
                         if (dodgeSpeed < dodgeSpeedMin)
                         {
@@ -124,15 +127,16 @@ public class Boss3Ai : MonoBehaviour
                 {
                     animator.SetBool("moving", false);
                     bulletTimer += Time.deltaTime;
+                    gameObject.GetComponent<SpriteRenderer>().color = new Color (255, 255, 0);
                     if (attackFired == false)
                     {
                         attackFired = true;
-                        currentAttackDuration = 5;
+                        currentAttackDuration = 3;
                     }
                     //player stun anim
                     rigidbody.velocity = new Vector2(0, 0);
                 }
-                if (attack == 3) //walking towards the player and swinging the axe when in range
+                if (attack == 3 || attack == 4) //walking towards the player and swinging the axe when in range
                 {
                     bulletTimer += Time.deltaTime;
                     if (attackFired == false)
@@ -149,10 +153,12 @@ public class Boss3Ai : MonoBehaviour
                         if (playerPos.x > gameObject.transform.position.x)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                            gameObject.GetComponent<CapsuleCollider2D>().offset = new Vector2(-0.5008869f, -0.05444527f);
                         }
                         else if (playerPos.x < gameObject.transform.position.x)
                         {
                             gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                            gameObject.GetComponent<CapsuleCollider2D>().offset = new Vector2(0.44f, 0.05444527f);
                         }
                     }
                     else if (duringSwing == true) //not moving due to swinging
@@ -173,11 +179,15 @@ public class Boss3Ai : MonoBehaviour
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player" && collision.gameObject.GetComponent<PlayerStats>().invunerable == false)
+        if (attack != 2)
         {
-            collision.gameObject.GetComponent<PlayerStats>().invunerable = true;
-            UsefulllFs.TakeDamage(collision.gameObject, stats.damage);
+            if (collision.gameObject.tag == "Player" && collision.gameObject.GetComponent<PlayerStats>().invunerable == false)
+            {
+                collision.gameObject.GetComponent<PlayerStats>().invunerable = true;
+                UsefulllFs.TakeDamage(collision.gameObject, stats.damage);
+            }
         }
+        
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -218,9 +228,13 @@ public class Boss3Ai : MonoBehaviour
         {
             return 1;
         }
-        if (currentAttack == 1)
+        else if (currentAttack == 1)
         {
             return 3;
+        }
+        else if (currentAttack == 3)
+        {
+            return 4;
         }
         return (0);
     }

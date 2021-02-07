@@ -60,7 +60,7 @@ public class DeadUIScript : MonoBehaviour
         swordImage.sprite = equipSprites[player.GetComponent<PlayerStats>().equippedSword.id];
         armorImage.sprite = equipSprites[player.GetComponent<PlayerStats>().equippedArmor.id];
 
-        player.GetComponent<PlayerStats>().currentLevel = 0; //making sure the player doesnt alt f4 to keep the stats
+        player.GetComponent<PlayerStats>().currentLevel = 0; 
     }
     public void ReturnToMenu()
     {
