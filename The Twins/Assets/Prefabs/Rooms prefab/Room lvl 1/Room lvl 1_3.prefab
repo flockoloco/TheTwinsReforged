@@ -192,6 +192,14 @@ MonoBehaviour:
     To: {x: -3, y: 3, z: 0}
   - From: {x: -2, y: 3, z: 0}
     To: {x: -2, y: 3, z: 0}
+  - From: {x: 12, y: 7, z: 0}
+    To: {x: 12, y: 7, z: 0}
+  - From: {x: 12, y: 6, z: 0}
+    To: {x: 12, y: 6, z: 0}
+  - From: {x: 1, y: 7, z: 0}
+    To: {x: 1, y: 7, z: 0}
+  - From: {x: 1, y: 6, z: 0}
+    To: {x: 1, y: 6, z: 0}
   SelectedMode: 1
 --- !u!61 &7563279597048609841
 BoxCollider2D:

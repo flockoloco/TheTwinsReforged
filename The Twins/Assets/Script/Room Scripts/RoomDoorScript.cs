@@ -65,14 +65,12 @@ public class RoomDoorScript : MonoBehaviour
                 else if (enemy.name.Contains("Runner"))
                 {
                     enemy.GetComponent<RunnerAI>().triggered = true;
-                    enemy.GetComponent<AIDestinationSetter>().enabled = true;
                 }
                 else if (enemy.name.Contains("Boss"))
                 {
                     if (enemy.name == "Boss1")
                     {
                         enemy.GetComponent<Boss1Ai>().triggered = true;
-                        enemy.GetComponent<AIDestinationSetter>().enabled = true;
                     }
                     if (enemy.name == "Boss2")
                     {

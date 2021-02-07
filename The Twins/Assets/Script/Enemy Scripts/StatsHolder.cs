@@ -49,6 +49,14 @@ public class StatsHolder : MonoBehaviour
             {
                 animator.SetBool("attack2", false);
             }
+            if (gameObject.GetComponent<StatsHolder>().enemyID == 2)
+            {
+                animator.SetBool("moving", false);
+            }
+            if (gameObject.GetComponent<StatsHolder>().enemyID == 7)
+            {
+                animator.SetBool("rest", false);
+            }
             animator.SetBool("dead", true);
             if (enemyID > 5)
             {

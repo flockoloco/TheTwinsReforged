@@ -87,6 +87,34 @@ MonoBehaviour:
     To: {x: 3, y: -6, z: 0}
   - From: {x: 4, y: -6, z: 0}
     To: {x: 4, y: -6, z: 0}
+  - From: {x: 8, y: 5, z: 0}
+    To: {x: 8, y: 5, z: 0}
+  - From: {x: 8, y: 4, z: 0}
+    To: {x: 8, y: 4, z: 0}
+  - From: {x: 8, y: 3, z: 0}
+    To: {x: 8, y: 3, z: 0}
+  - From: {x: 8, y: 2, z: 0}
+    To: {x: 8, y: 2, z: 0}
+  - From: {x: 8, y: 1, z: 0}
+    To: {x: 8, y: 1, z: 0}
+  - From: {x: 8, y: 0, z: 0}
+    To: {x: 8, y: 0, z: 0}
+  - From: {x: 8, y: -1, z: 0}
+    To: {x: 8, y: -1, z: 0}
+  - From: {x: -9, y: 5, z: 0}
+    To: {x: -9, y: 5, z: 0}
+  - From: {x: -9, y: 3, z: 0}
+    To: {x: -9, y: 3, z: 0}
+  - From: {x: -9, y: 4, z: 0}
+    To: {x: -9, y: 4, z: 0}
+  - From: {x: -9, y: 2, z: 0}
+    To: {x: -9, y: 2, z: 0}
+  - From: {x: -9, y: 1, z: 0}
+    To: {x: -9, y: 1, z: 0}
+  - From: {x: -9, y: 0, z: 0}
+    To: {x: -9, y: 0, z: 0}
+  - From: {x: -9, y: -1, z: 0}
+    To: {x: -9, y: -1, z: 0}
   SelectedMode: 1
 --- !u!61 &7904310353284289587
 BoxCollider2D:

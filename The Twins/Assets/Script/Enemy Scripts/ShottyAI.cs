@@ -35,34 +35,44 @@ public class ShottyAI : MonoBehaviour
     {
         if (triggered)
         {
-            if (aiPath.desiredVelocity.x >= 0.01f)
+            if (stats.health <= 0)
             {
-                animator.SetBool("moving", true);
-                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                animator.SetBool("dead", true);
+                
+                animator.SetBool("attack", false);
+                animator.SetBool("hit", false);
             }
-            else if (aiPath.desiredVelocity.x <= 0.01f)
+            if (animator.GetBool("dead") == false)
             {
-                animator.SetBool("moving", true);
-                gameObject.GetComponent<SpriteRenderer>().flipX = true;
-            }
+                if (aiPath.desiredVelocity.x >= 0.01f)
+                {
+                    animator.SetBool("moving", true);
+                    gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                }
+                else if (aiPath.desiredVelocity.x <= 0.01f)
+                {
+                    animator.SetBool("moving", true);
+                    gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                }
 
-            bulletTimer += Time.deltaTime;
-            playerPos = player.GetComponent<Transform>().position;
+                bulletTimer += Time.deltaTime;
+                playerPos = player.GetComponent<Transform>().position;
 
-            Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
+                Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
 
-            //rigidbodya.velocity = new Vector2(-playerDir.x, -playerDir.y) * stats.moveSpeed;
+                //rigidbodya.velocity = new Vector2(-playerDir.x, -playerDir.y) * stats.moveSpeed;
 
-            Vector2 direction = playerDir;
-            Quaternion rotato = Quaternion.Euler(0, 0, Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg);
-            Pivot.transform.rotation = rotato;
-            if (bulletTimer > currentAttackDuration && gameObject.GetComponent<StatsHolder>().ableToAttack == true)
-            {
-                animator.SetBool("moving", false);
-                gameObject.GetComponent<StatsHolder>().ableToAttack = false;
-                bulletTimer = 0;
-                currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
-                animator.SetBool("attack", true);
+                Vector2 direction = playerDir;
+                Quaternion rotato = Quaternion.Euler(0, 0, Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg);
+                Pivot.transform.rotation = rotato;
+                if (bulletTimer > currentAttackDuration && gameObject.GetComponent<StatsHolder>().ableToAttack == true)
+                {
+                    animator.SetBool("moving", false);
+                    gameObject.GetComponent<StatsHolder>().ableToAttack = false;
+                    bulletTimer = 0;
+                    currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
+                    animator.SetBool("attack", true);
+                }
             }
         }
     }

@@ -64,8 +64,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c4bdbbf5a3651f498b2114a8a7bb97b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DistanceFromCorners: 1
-  DoorLength: 2
+  DistanceFromCorners: 3
+  DoorLength: 1
   DoorsList:
   - From: {x: -5, y: -6, z: 0}
     To: {x: -5, y: -6, z: 0}
@@ -87,6 +87,42 @@ MonoBehaviour:
     To: {x: 3, y: -6, z: 0}
   - From: {x: 4, y: -6, z: 0}
     To: {x: 4, y: -6, z: 0}
+  - From: {x: 8, y: -3, z: 0}
+    To: {x: 8, y: -3, z: 0}
+  - From: {x: 8, y: -2, z: 0}
+    To: {x: 8, y: -2, z: 0}
+  - From: {x: 8, y: -1, z: 0}
+    To: {x: 8, y: -1, z: 0}
+  - From: {x: 8, y: 0, z: 0}
+    To: {x: 8, y: 0, z: 0}
+  - From: {x: 8, y: 1, z: 0}
+    To: {x: 8, y: 1, z: 0}
+  - From: {x: 8, y: 2, z: 0}
+    To: {x: 8, y: 2, z: 0}
+  - From: {x: 8, y: 3, z: 0}
+    To: {x: 8, y: 3, z: 0}
+  - From: {x: -9, y: -3, z: 0}
+    To: {x: -9, y: -3, z: 0}
+  - From: {x: -9, y: -2, z: 0}
+    To: {x: -9, y: -2, z: 0}
+  - From: {x: -9, y: -1, z: 0}
+    To: {x: -9, y: -1, z: 0}
+  - From: {x: -9, y: 0, z: 0}
+    To: {x: -9, y: 0, z: 0}
+  - From: {x: -9, y: 1, z: 0}
+    To: {x: -9, y: 1, z: 0}
+  - From: {x: -9, y: 2, z: 0}
+    To: {x: -9, y: 2, z: 0}
+  - From: {x: -9, y: 3, z: 0}
+    To: {x: -9, y: 3, z: 0}
+  - From: {x: 8, y: 4, z: 0}
+    To: {x: 8, y: 4, z: 0}
+  - From: {x: 8, y: 5, z: 0}
+    To: {x: 8, y: 5, z: 0}
+  - From: {x: -9, y: 4, z: 0}
+    To: {x: -9, y: 4, z: 0}
+  - From: {x: -9, y: 5, z: 0}
+    To: {x: -9, y: 5, z: 0}
   SelectedMode: 1
 --- !u!61 &7904310353284289587
 BoxCollider2D:
