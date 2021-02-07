@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4292dc6e04a26334ea65c8b3f7431f2b, type: 3}
   m_Name: MyCustomPostProcess
   m_EditorClassIdentifier: 
+  lvl0: {fileID: 0}

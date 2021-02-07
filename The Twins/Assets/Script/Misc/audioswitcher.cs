@@ -10,7 +10,7 @@ public class audioswitcher : MonoBehaviour
     // Update is called once per frame
     private void Start()
     {
-        sound = FindObjectOfType<CameraSoundChanger>();
+        sound = GameObject.FindWithTag("MainCamera").GetComponent<CameraSoundChanger>();
     }
     void Update()
     {
