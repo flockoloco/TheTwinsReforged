@@ -12,6 +12,7 @@ public class Boss2Ai : MonoBehaviour
     public Transform FirePoint;
     public Transform Pivot;
     public bool triggered;
+    public float fightDuration;
 
     private float currentAttackDuration;
     public int attack = 0;
@@ -31,6 +32,8 @@ public class Boss2Ai : MonoBehaviour
     {
         if (triggered)
         {
+            fightDuration = 0;
+            fightDuration += Time.deltaTime;
             playerPos = player.GetComponent<Transform>().position;
 
             Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);

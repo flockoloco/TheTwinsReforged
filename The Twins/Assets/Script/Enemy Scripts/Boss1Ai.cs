@@ -12,7 +12,7 @@ public class Boss1Ai : MonoBehaviour
     public Transform FirePoint;
     public Transform Pivot;
     public bool triggered;
-
+    public float fightDuration = 0;
     private float currentAttackDuration;
     public int attack = 0;
     public bool duringAttack = false;
@@ -58,6 +58,15 @@ public class Boss1Ai : MonoBehaviour
     {
         if (triggered)
         {
+            if (playerPos.x > gameObject.transform.position.x)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (playerPos.x < gameObject.transform.position.x)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            fightDuration += Time.deltaTime;
             playerPos = player.GetComponent<Transform>().position;
 
             Vector2 playerDir = UsefulllFs.Dir(playerPos, transform.position, true);
@@ -81,7 +90,6 @@ public class Boss1Ai : MonoBehaviour
                     bulletTimer += Time.deltaTime;
                     if (attackFired == false) // atk part
                     {
-                        animator.SetBool("moving", false);
                         animator.SetBool("attack", true);
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(0);
@@ -105,7 +113,6 @@ public class Boss1Ai : MonoBehaviour
 
                     if (attackFired == false) //atk part
                     {
-                        animator.SetBool("moving", false);
                         animator.SetBool("attack", true);
                         attackFired = true;
                         currentAttackDuration = gameObject.GetComponent<AtkPatterns>().Attack(1);

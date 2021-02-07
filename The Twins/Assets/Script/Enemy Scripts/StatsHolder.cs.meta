@@ -3,7 +3,12 @@ guid: 59e74d3015bcc8a4cb117cf20656e1e7
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - goldPrefab: {instanceID: 0}
+  - nuggetsPrefab: {instanceID: 0}
+  - roomIn: {instanceID: 0}
+  - sound: {instanceID: 0}
+  - defaultMusic: {fileID: 8300000, guid: d2ef23360e659704e932fc633d22d595, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -33,8 +33,10 @@ public class UIPopUpScript : MonoBehaviour
 
     public void CanvasSwitcher(int CanvasNumber) //0 MainMenu 1 Login 2 Register for the main menu,
     {
+
         if (CanvasNumber == 0)
         {
+            
             Canvas1.SetActive(false);
             Canvas2.SetActive(false);
             Canvas0.SetActive(true);

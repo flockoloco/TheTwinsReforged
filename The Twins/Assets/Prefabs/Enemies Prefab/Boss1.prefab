@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 36435816272255024}
   - component: {fileID: 6656615735053687946}
   - component: {fileID: 2227247201391447006}
+  - component: {fileID: 8256999779733926843}
   m_Layer: 0
   m_Name: Boss1
   m_TagString: Enemy
@@ -177,6 +178,8 @@ MonoBehaviour:
   ableToAttack: 1
   enemyID: 6
   roomIn: {fileID: 0}
+  sound: {fileID: 0}
+  defaultMusic: {fileID: 8300000, guid: d2ef23360e659704e932fc633d22d595, type: 3}
 --- !u!114 &1138216083313283033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,10 +196,9 @@ MonoBehaviour:
   FirePoint: {fileID: 7235216452355641207}
   Pivot: {fileID: 1831883545658618210}
   triggered: 0
+  fightDuration: 0
   attack: 0
   duringAttack: 0
-  aiPath: {fileID: 0}
-  destinationSetter: {fileID: 0}
 --- !u!50 &5084240140657196116
 Rigidbody2D:
   serializedVersion: 4
@@ -517,6 +519,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8256999779733926843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8441802829401593414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2f34ff4449c794db0a73c88c3aedf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boss: {fileID: 8441802829401593414}
+  musicFight: {fileID: 8300000, guid: d1b31458adcf9cf4ea60f5c4e8cda5de, type: 3}
+  lastFight: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!1 &8838256815430191562
 GameObject:
   m_ObjectHideFlags: 0

@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 6422300954917123725}
   - component: {fileID: 4825657910159113717}
   - component: {fileID: 8075389353810543474}
+  - component: {fileID: 101625627208897688}
   m_Layer: 0
   m_Name: Boss3
   m_TagString: Enemy
@@ -160,6 +161,8 @@ MonoBehaviour:
   ableToAttack: 1
   enemyID: 8
   roomIn: {fileID: 0}
+  sound: {fileID: 0}
+  defaultMusic: {fileID: 8300000, guid: d2ef23360e659704e932fc633d22d595, type: 3}
 --- !u!50 &6422300954917123725
 Rigidbody2D:
   serializedVersion: 4
@@ -216,6 +219,7 @@ MonoBehaviour:
   bulletTimer: 0
   FirePoint: {fileID: 4685322216772306253}
   triggered: 0
+  fightDuration: 0
   currentAttackDuration: 0
   attack: 0
   duringAttack: 0
@@ -224,3 +228,18 @@ MonoBehaviour:
   duringSwing: 0
   chargeDirection: {x: 0, y: 0}
   dodgeSpeed: 10
+--- !u!114 &101625627208897688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161973174252510776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2f34ff4449c794db0a73c88c3aedf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boss: {fileID: 1161973174252510776}
+  musicFight: {fileID: 8300000, guid: 64c9bf0bd18bfcf47b0489353b7e9e55, type: 3}
+  sound: {fileID: 0}

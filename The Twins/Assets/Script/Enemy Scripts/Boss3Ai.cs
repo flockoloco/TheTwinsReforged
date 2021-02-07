@@ -11,7 +11,7 @@ public class Boss3Ai : MonoBehaviour
     public float bulletTimer;
     public Transform FirePoint;
     public bool triggered;
-
+    public float fightDuration = 0;
     public  float currentAttackDuration;
     public int attack = 0;
     public bool duringAttack = false;
@@ -47,6 +47,7 @@ public class Boss3Ai : MonoBehaviour
     {
         if (triggered)
         {
+            fightDuration += Time.deltaTime;
             playerPos = player.GetComponent<Transform>().position;
 
             if (duringSwing == false)

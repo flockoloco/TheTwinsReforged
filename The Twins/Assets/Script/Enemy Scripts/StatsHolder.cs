@@ -21,10 +21,13 @@ public class StatsHolder : MonoBehaviour
 
     private Animator animator;
     public GameObject roomIn;
+    public CameraSoundChanger sound;
+    public AudioClip defaultMusic;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        sound = FindObjectOfType<CameraSoundChanger>();
         ScaleEnemyStats(GameObject.FindWithTag("Player").GetComponent<PlayerStats>().currentLevel, enemyID);
     }
 
@@ -101,6 +104,7 @@ public class StatsHolder : MonoBehaviour
     public void destroyObject()
     {
         SpawnDrops(lootTier, gameObject.transform);
+        sound.changeAudio(defaultMusic);
         Destroy(gameObject);
     }
     public void ScaleEnemyStats(int currentlvl, int enemyid)
